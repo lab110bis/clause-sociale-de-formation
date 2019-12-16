@@ -1,24 +1,18 @@
-# README
+# Clause Sociale de Formation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+La clause sociale de formation permet à un jeune en situation de décrochage
+scolaire de réaliser un parcours en entreprise pour l'aider à définir un projet
+professionnel. Cette clause repose sur de nombreux acteurs : jeune en situation
+de décrochage, entreprise, acheteurs et personnels de la mission de lutte
+contre le décrochage scolaire (MLDS). Elle peut constituer un tremplin vers
+l’insertion et l’emploi, et permet de développer le rapport École/Entreprise.
 
-Things you may want to cover:
+https://www.education.gouv.fr/pid37517/la-clause-sociale-de-formation-sous-statut-scolaire.html
 
-* Ruby version
+## Installation
 
-* System dependencies
+voir [INSTALL.md](INSTALL.md)
 
-* Configuration
+## Développement
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Nous sommes parti avec le framework [ruby on rails](https://rubyonrails.org/).
