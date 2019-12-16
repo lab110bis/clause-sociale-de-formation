@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_16_150721) do
+ActiveRecord::Schema.define(version: 2019_12_16_160623) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,6 +45,11 @@ ActiveRecord::Schema.define(version: 2019_12_16_150721) do
     t.string "autre_remarque"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "referent_mlds_id"
+  end
+
+  create_table "referents_mlds", force: :cascade do |t|
+    t.string "nom"
   end
 
 end

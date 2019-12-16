@@ -17,4 +17,7 @@
 
 ActiveSupport::Inflector.inflections do |inflect|
   inflect.irregular "parcours", "parcours"
+  inflect.irregular "referent mlds", "referents mlds"
+  inflect.irregular "referent_mlds", "referents_mlds"
+  inflect.irregular "ReferentMlds", "ReferentsMlds"
 end
