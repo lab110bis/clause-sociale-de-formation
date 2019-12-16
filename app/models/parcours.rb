@@ -1,0 +1,2 @@
+class Parcours < ApplicationRecord
+end

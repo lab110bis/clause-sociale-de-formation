@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Parcours</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nom organisme acheteur</th>
+      <th>Type acheteur</th>
+      <th>Adresse acheteur</th>
+      <th>Nom prenom contact acheteur</th>
+      <th>Mail contact acheteur</th>
+      <th>Telephone contact acheteur</th>
+      <th>Objet marche</th>
+      <th>Date notification marche</th>
+      <th>Date fin clause sociale</th>
+      <th>Date fin clause sociale reconduction comprise</th>
+      <th>Nom entreprise</th>
+      <th>Secteur activite entreprise</th>
+      <th>Site web entreprise</th>
+      <th>Nom prenom referent entreprise</th>
+      <th>Telephone referent entreprise</th>
+      <th>Fonction referent entreprise</th>
+      <th>Nom prenom 2eme referent entreprise</th>
+      <th>Telephone 2eme referent entreprise</th>
+      <th>Fonction 2eme referent entreprise</th>
+      <th>Heures parcours</th>
+      <th>Adresse parcours</th>
+      <th>Region parcours</th>
+      <th>Departement parcours</th>
+      <th>Academie parcours</th>
+      <th>Domaine activite parcours</th>
+      <th>Details taches proposees parcours</th>
+      <th>Autre remarque</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @parcours.each do |parcours| %>
+      <tr>
+        <td><%= parcours.nom_organisme_acheteur %></td>
+        <td><%= parcours.type_acheteur %></td>
+        <td><%= parcours.adresse_acheteur %></td>
+        <td><%= parcours.nom_prenom_contact_acheteur %></td>
+        <td><%= parcours.mail_contact_acheteur %></td>
+        <td><%= parcours.telephone_contact_acheteur %></td>
+        <td><%= parcours.objet_marche %></td>
+        <td><%= parcours.date_notification_marche %></td>
+        <td><%= parcours.date_fin_clause_sociale %></td>
+        <td><%= parcours.date_fin_clause_sociale_reconduction_comprise %></td>
+        <td><%= parcours.nom_entreprise %></td>
+        <td><%= parcours.secteur_activite_entreprise %></td>
+        <td><%= parcours.site_web_entreprise %></td>
+        <td><%= parcours.nom_prenom_referent_entreprise %></td>
+        <td><%= parcours.telephone_referent_entreprise %></td>
+        <td><%= parcours.fonction_referent_entreprise %></td>
+        <td><%= parcours.nom_prenom_2eme_referent_entreprise %></td>
+        <td><%= parcours.telephone_2eme_referent_entreprise %></td>
+        <td><%= parcours.fonction_2eme_referent_entreprise %></td>
+        <td><%= parcours.heures_parcours %></td>
+        <td><%= parcours.adresse_parcours %></td>
+        <td><%= parcours.region_parcours %></td>
+        <td><%= parcours.departement_parcours %></td>
+        <td><%= parcours.academie_parcours %></td>
+        <td><%= parcours.domaine_activite_parcours %></td>
+        <td><%= parcours.details_taches_proposees_parcours %></td>
+        <td><%= parcours.autre_remarque %></td>
+        <td><%= link_to 'Show', parcours %></td>
+        <td><%= link_to 'Edit', edit_parcours_path(parcours) %></td>
+        <td><%= link_to 'Destroy', parcours, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Parcours', new_parcours_path %>

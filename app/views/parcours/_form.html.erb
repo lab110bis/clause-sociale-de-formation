@@ -1,0 +1,152 @@
+<%= form_with(model: parcours, local: true) do |form| %>
+  <% if parcours.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(parcours.errors.count, "error") %> prohibited this parcours from being saved:</h2>
+
+      <ul>
+        <% parcours.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nom_organisme_acheteur %>
+    <%= form.text_field :nom_organisme_acheteur %>
+  </div>
+
+  <div class="field">
+    <%= form.label :type_acheteur %>
+    <%= form.text_field :type_acheteur %>
+  </div>
+
+  <div class="field">
+    <%= form.label :adresse_acheteur %>
+    <%= form.text_area :adresse_acheteur %>
+  </div>
+
+  <div class="field">
+    <%= form.label :nom_prenom_contact_acheteur %>
+    <%= form.text_field :nom_prenom_contact_acheteur %>
+  </div>
+
+  <div class="field">
+    <%= form.label :mail_contact_acheteur %>
+    <%= form.text_field :mail_contact_acheteur %>
+  </div>
+
+  <div class="field">
+    <%= form.label :telephone_contact_acheteur %>
+    <%= form.text_field :telephone_contact_acheteur %>
+  </div>
+
+  <div class="field">
+    <%= form.label :objet_marche %>
+    <%= form.text_area :objet_marche %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date_notification_marche %>
+    <%= form.text_field :date_notification_marche %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date_fin_clause_sociale %>
+    <%= form.text_field :date_fin_clause_sociale %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date_fin_clause_sociale_reconduction_comprise %>
+    <%= form.text_field :date_fin_clause_sociale_reconduction_comprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :nom_entreprise %>
+    <%= form.text_field :nom_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :secteur_activite_entreprise %>
+    <%= form.text_field :secteur_activite_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :site_web_entreprise %>
+    <%= form.text_field :site_web_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :nom_prenom_referent_entreprise %>
+    <%= form.text_field :nom_prenom_referent_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :telephone_referent_entreprise %>
+    <%= form.text_field :telephone_referent_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fonction_referent_entreprise %>
+    <%= form.text_field :fonction_referent_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :nom_prenom_2eme_referent_entreprise %>
+    <%= form.text_field :nom_prenom_2eme_referent_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :telephone_2eme_referent_entreprise %>
+    <%= form.text_field :telephone_2eme_referent_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fonction_2eme_referent_entreprise %>
+    <%= form.text_field :fonction_2eme_referent_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :heures_parcours %>
+    <%= form.number_field :heures_parcours %>
+  </div>
+
+  <div class="field">
+    <%= form.label :adresse_parcours %>
+    <%= form.text_area :adresse_parcours %>
+  </div>
+
+  <div class="field">
+    <%= form.label :region_parcours %>
+    <%= form.text_field :region_parcours %>
+  </div>
+
+  <div class="field">
+    <%= form.label :departement_parcours %>
+    <%= form.text_field :departement_parcours %>
+  </div>
+
+  <div class="field">
+    <%= form.label :academie_parcours %>
+    <%= form.text_field :academie_parcours %>
+  </div>
+
+  <div class="field">
+    <%= form.label :domaine_activite_parcours %>
+    <%= form.text_field :domaine_activite_parcours %>
+  </div>
+
+  <div class="field">
+    <%= form.label :details_taches_proposees_parcours %>
+    <%= form.text_field :details_taches_proposees_parcours %>
+  </div>
+
+  <div class="field">
+    <%= form.label :autre_remarque %>
+    <%= form.text_field :autre_remarque %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
