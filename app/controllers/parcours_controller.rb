@@ -1,4 +1,5 @@
 class ParcoursController < ApplicationController
+  http_basic_authenticate_with name: ENV["BASIC_AUTH_LOGIN"], password: ENV["BASIC_AUTH_PASSWORD"], except: [:new, :create]
   before_action :set_parcours, only: [:show, :edit, :update, :destroy]
 
   # GET /parcours
@@ -21,19 +22,12 @@ class ParcoursController < ApplicationController
   def edit
   end
 
-  # POST /parcours
-  # POST /parcours.json
   def create
     @parcours = Parcours.new(parcours_params)
-
-    respond_to do |format|
-      if @parcours.save
-        format.html { redirect_to @parcours, notice: 'Parcours was successfully created.' }
-        format.json { render :show, status: :created, location: @parcours }
-      else
-        format.html { render :new }
-        format.json { render json: @parcours.errors, status: :unprocessable_entity }
-      end
+    if @parcours.save
+      redirect_to root_path, notice: 'Parcours was successfully created.'
+    else
+      render :new
     end
   end
 
