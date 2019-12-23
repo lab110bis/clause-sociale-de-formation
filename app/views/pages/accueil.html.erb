@@ -1,43 +1,38 @@
 <p id="notice"><%= notice %></p>
-<p class="lead-text">Le dispositif Clause Sociale de Formation permet de s'appuyer sur les marchés publics pour offrir des opportunités de parcours en entreprise pour les jeunes en situation de décrochage scolaire.</p>
 
-<section>
-<h1>Vous êtes une entreprise ?</h1>
+  <h1>La Clause Sociale de Formation</h1>
+  <p class="lead-text">Le dispositif Clause Sociale de Formation permet de s'appuyer sur les marchés publics pour offrir des opportunités de parcours en entreprise pour les jeunes en situation de décrochage scolaire.</p>
 
-<p>Ce qu'il faut savoir si vous remportez un appel d'offre avec une clause sociale de formation&nbsp;:</p>
+  <div class="cards">
+    <div class="row">
+      <div class="card">
+        <%= link_to entreprise_path, class: "card__link" do %>
+          <div class="card__cover">
+            <%= image_tag "entreprise.png", alt: "entreprise" %>
+          </div>
+          <div class="card__content">
+            <h3>Vous êtes une entreprise&nbsp;?</h3>
+            <%= link_to "Se préparer à accueillir un jeune", entreprise_path, class: "button" %>
+          </div>
+        <% end %>
+      </div>
+      <div class="card">
+        <div class="card__cover">
+          <%= image_tag "acheteur.png", alt: "acheteur" %>
+        </div>
+        <div class="card__content">
+          <h3>Vous êtes un acheteur&nbsp;?</h3>
+          <%= link_to 'Proposer un parcours', new_parcours_path, class: "button" %>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__cover">
+          <%= image_tag "education_nationale.png", alt: "Education nationale" %>
+        </div>
+        <div class="card__content">
+          <h3>Vous êtes tuteur&nbsp;?</h3>
+          <%= link_to 'Retrouver les parcours', parcours_index_path, class: "button" %>
+        </div>
+      </div>
+    </div>
 
-<h2>L'entretien</h2>
-<ul>
-<li>Vous n'aurez pas à choisir entre plusieurs décrocheurs. Vous serez tenu de prendre le décrocheur qui vous sera présenté.</li>
-<li>Le décrocheur est soigneusement sélectionné par son tuteur en fonction de son appétance avec les tâches indiquées dans le parcours.</li>
-<li>Il est possible d'envisager des tâches différentes si l'entreprise et le décrocheur le souhaite. Par exemple un parcours administratif peut être transformé en un parcours de vente.</li>
-<li>L'entretien lors duquel vous rencontrerez le jeune est un moment pour faire connaissance, pas un entretien d'embauche. Il est possible d'organiser plusieurs rencontres avant le début du stage.</li>
-</ul>
-
-<h2>Le décrocheur</h2>
-
-<p>Il n'y a pas de profil type de décrocheur&nbsp;:</p>
-<ul>
-  <li>Les décrocheurs viennent de tous les milieux sociaux et culturels.</li>
-  <li>La sortie du système scolaire peut être du à une absence de place en Lycée ou dans une formation choisie. Le décrochage peut n'être qu'une parenthèse.</li>
-</ul>
-
-<p>Ce qu'il faut savoir sur la rencontre avec le décrocheur&nbsp;:</p>
-
-<ul>
-<li>Si le jeune est venue à l'entretien c'est qu'il est motivé. Un adolescent ne vient pas à une rencontre s'il n'est pas motivé.</li>
-<li>Le décrocheur ne sera en revanche pas en mesure de décrire précisément ce qui le motive car il n'est pas en capacité de se projeter dans le travail qu'il va réalisé. Le but de ce stage est justement qu'il découvre cet environnement.</li>
-</ul>
-</section>
-
-<section>
-<h1>Vous êtes un acheteur ?</h1>
-
-<%= link_to 'Proposez un parcours', new_parcours_path, class: "button" %>
-</section>
-
-<section>
-<h1>Vous êtes un tuteur ?</h1>
-
-<%= link_to 'Retrouver les parcours', parcours_index_path, class: "button" %>
-</section>

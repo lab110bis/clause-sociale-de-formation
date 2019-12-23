@@ -14,7 +14,11 @@
  *= require_self
  */
 
-body
-{
+.card__link, .card__link:hover, .card__link:visited {
+  color: black; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+body {
   background-color: #f9A600;
 }
