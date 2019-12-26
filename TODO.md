@@ -1,4 +1,5 @@
 
+- documenter ce que nous avons appris
 - organiser la saisie d'un parcours de manière plus fluide et lisible
 - afficher des listes finies sur les champs le nécessitant (dans le formulaire de saisie de parcours)
 - changer le champs de liste des taches pour mettre un `text` plutôt qu'un `string`
