@@ -19,6 +19,25 @@
   text-decoration: inherit; /* no underline */
 }
 
+.card__dates {
+  list-style: none;
+}
+
+.section__parcours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card__parcours {
+  background-color: white;
+  margin: 1em;
+  width: 40em;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 1;
+}
+
 body {
   background-color: #f9A600;
 }
