@@ -1,8 +1,8 @@
 
-
 - organiser la saisie d'un parcours de manière plus fluide et lisible
 - afficher des listes finies sur les champs le nécessitant (dans le formulaire de saisie de parcours)
 - changer le champs de liste des taches pour mettre un `text` plutôt qu'un `string`
+- rendre certains champs obligatoire dans le formulaire
 - présenter les parcours sous forme de cartes, comme dans https://reserve-civique.beta.gouv.fr/missions?domaine_action.name=S%C3%A9curit%C3%A9
 - installer des filtres basiques
 - mettre en place une gestion des comptes (en restant sur http basic auth)
