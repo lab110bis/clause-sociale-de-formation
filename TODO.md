@@ -5,6 +5,8 @@
 - présenter les parcours sous forme de cartes
 - installer des filtres basiques
 - mettre en place une gestion des comptes (en restant sur http basic auth)
+- transférer le contenu du site actuel coté acheteur http://achats.aji-france.com/mission_des_achats/la_clause_sociale_de_formation_sous_statut_scolaire et les pdfs
+- transférer les données
 
 
 Pour l'envoie de mail on pourrait utiliser un mailto tout simple
