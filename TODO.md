@@ -5,7 +5,6 @@
 - présenter les parcours sous forme de cartes
 - installer des filtres basiques
 - mettre en place une gestion des comptes  (en restant sur http basic auth)
-- déployer en production
 
 
 Pour l'envoie de mail on pourrait utiliser un mailto tout simple
