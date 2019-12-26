@@ -1,22 +1,23 @@
 <p id="notice"><%= notice %></p>
 
-  <h1>La Clause Sociale de Formation</h1>
-  <p class="lead-text">Le dispositif Clause Sociale de Formation permet de s'appuyer sur les marchés publics pour offrir des opportunités de parcours en entreprise pour les jeunes en situation de décrochage scolaire.</p>
+<h1>La Clause Sociale de Formation</h1>
+<p class="lead-text">Le dispositif Clause Sociale de Formation permet de s'appuyer sur les marchés publics pour offrir des opportunités de parcours en entreprise pour les jeunes en situation de décrochage scolaire.</p>
 
-  <div class="cards">
-    <div class="row">
-      <div class="card">
-        <%= link_to entreprise_path, class: "card__link" do %>
-          <div class="card__cover">
-            <%= image_tag "entreprise.png", alt: "entreprise" %>
-          </div>
-          <div class="card__content">
-            <h3>Vous êtes une entreprise&nbsp;?</h3>
-            <%= link_to "Se préparer à accueillir un jeune", entreprise_path, class: "button" %>
-          </div>
-        <% end %>
-      </div>
-      <div class="card">
+<div class="cards">
+  <div class="row">
+    <div class="card">
+      <%= link_to entreprise_path, class: "card__link" do %>
+        <div class="card__cover">
+          <%= image_tag "entreprise.png", alt: "entreprise" %>
+        </div>
+        <div class="card__content">
+          <h3>Vous êtes une entreprise&nbsp;?</h3>
+          <%= link_to "Préparez-vous", entreprise_path, class: "button" %>
+        </div>
+      <% end %>
+    </div>
+    <div class="card">
+      <%= link_to new_parcours_path, class: "card__link" do %>
         <div class="card__cover">
           <%= image_tag "acheteur.png", alt: "acheteur" %>
         </div>
@@ -24,8 +25,10 @@
           <h3>Vous êtes un acheteur&nbsp;?</h3>
           <%= link_to 'Proposer un parcours', new_parcours_path, class: "button" %>
         </div>
-      </div>
-      <div class="card">
+      <% end %>
+    </div>
+    <div class="card">
+      <%= link_to parcours_index_path, class: "card__link" do %>
         <div class="card__cover">
           <%= image_tag "education_nationale.png", alt: "Education nationale" %>
         </div>
@@ -33,6 +36,7 @@
           <h3>Vous êtes tuteur&nbsp;?</h3>
           <%= link_to 'Retrouver les parcours', parcours_index_path, class: "button" %>
         </div>
-      </div>
+      <% end %>
     </div>
+  </div>
 

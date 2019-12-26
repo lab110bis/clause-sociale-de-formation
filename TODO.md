@@ -4,7 +4,7 @@
 - afficher des listes finies sur les champs le nécessitant (dans le formulaire de saisie de parcours)
 - présenter les parcours sous forme de cartes
 - installer des filtres basiques
-- mettre en place une gestion des comptes  (en restant sur http basic auth)
+- mettre en place une gestion des comptes (en restant sur http basic auth)
 
 
 Pour l'envoie de mail on pourrait utiliser un mailto tout simple
