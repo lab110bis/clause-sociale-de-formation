@@ -47,23 +47,23 @@
   </div>
 
   <div class="field">
-    <%= form.label :date_notification_marche %>
-    <%= form.date_field :date_notification_marche %>
+    <%= form.label "date_notification_marche %>
+    <%= form.date_field :date_notification_marche, :required => true %>
   </div>
 
   <div class="field">
     <%= form.label :date_fin_clause_sociale %>
-    <%= form.date_field :date_fin_clause_sociale %>
+    <%= form.date_field :date_fin_clause_sociale, :required => true %>
   </div>
 
   <div class="field">
     <%= form.label :date_fin_clause_sociale_reconduction_comprise %>
-    <%= form.date_field :date_fin_clause_sociale_reconduction_comprise %>
+    <%= form.date_field :date_fin_clause_sociale_reconduction_comprise, :required => true %>
   </div>
 
   <div class="field">
     <%= form.label :nom_entreprise %>
-    <%= form.text_field :nom_entreprise %>
+    <%= form.text_field :nom_entreprise, :required => true %>
   </div>
 
   <div class="field">
@@ -107,8 +107,8 @@
   </div>
 
   <div class="field">
-    <%= form.label :heures_parcours %>
-    <%= form.number_field :heures_parcours %>
+    <%= form.label "Heures du parcours *" %>
+    <%= form.number_field :heures_parcours, :required => true %>
   </div>
 
   <div class="field">
@@ -127,18 +127,18 @@
   </div>
 
   <div class="field">
-    <%= form.label :academie_parcours %>
-    <%= form.text_field :academie_parcours %>
+    <%= form.label "Academie du parcours *" %>
+    <%= form.text_field :academie_parcours, :required => true %>
   </div>
 
   <div class="field">
-    <%= form.label :domaine_activite_parcours %>
-    <%= form.text_field :domaine_activite_parcours %>
+    <%= form.label "Domaine d'activité du parcours *" %>
+    <%= form.text_field :domaine_activite_parcours, :required => true %>
   </div>
 
   <div class="field">
     <%= form.label :details_taches_proposees_parcours %>
-    <%= form.text_area :details_taches_proposees_parcours %>
+    <%= form.text_area :details_taches_proposees_parcours, :required => true %>
   </div>
 
   <div class="field">
