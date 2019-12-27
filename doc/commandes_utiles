@@ -1,0 +1,12 @@
+# Créer un bac à sable
+
+rails new bac-a-sable -T --database=postgresql
+Dans config/database.yml ajouter :
+```
+  username: mon_username
+  password: mon_password
+  host:localhost
+```
+
+rails db:create
+rails s

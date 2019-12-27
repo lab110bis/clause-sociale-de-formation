@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_16_160623) do
+ActiveRecord::Schema.define(version: 2019_12_27_094733) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -41,8 +41,8 @@ ActiveRecord::Schema.define(version: 2019_12_16_160623) do
     t.string "departement_parcours"
     t.string "academie_parcours"
     t.string "domaine_activite_parcours"
-    t.string "details_taches_proposees_parcours"
-    t.string "autre_remarque"
+    t.text "details_taches_proposees_parcours"
+    t.text "autre_remarque"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "referent_mlds_id"
