@@ -1,5 +1,5 @@
 test: ## Run the tests
-	bundle exec rails test
+	bundle exec rspec
 
 build: ## Install or update dependencies
 	bundle install && rails db:migrate
