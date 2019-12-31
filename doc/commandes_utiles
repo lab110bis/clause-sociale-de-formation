@@ -10,3 +10,9 @@ Dans config/database.yml ajouter :
 
 rails db:create
 rails s
+
+# Utiliser l'ordonnanceur de scaligo et heroku
+
+RAILS_ENV=development PORT=3000  foreman start web
+
+
