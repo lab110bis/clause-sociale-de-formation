@@ -30,3 +30,13 @@ INAPA ambassadeur
 Alternatives au vocabulaire de Clause Sociale de Formation : Immersion professionnelle, Démarche citoyenne.
 
 A retenir par rapport à l'interface : chaque parcours ne donne actuellement pas assez de visibilité sur quand relancer.
+
+----
+Debrief 31/12/2019
+
+Ce qui pose problème dans airtable c'est le suivit.
+Beaucoup de choses évoquées par rapport à la confrontation avec les bonnes personnes.
+Enjeux principal : parvenir à joindre les personnes.
+Test utilisateur : faire une page intermédiaire avec les domaines comme dans réserve civique.
+Retirer des champs du formulaire.
+----
