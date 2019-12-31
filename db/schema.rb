@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_27_094733) do
+ActiveRecord::Schema.define(version: 2019_12_31_142319) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_12_27_094733) do
   create_table "parcours", force: :cascade do |t|
     t.string "nom_organisme_acheteur"
     t.string "type_acheteur"
-    t.text "adresse_acheteur"
+    t.text "mail_referent_entreprise"
     t.string "nom_prenom_contact_acheteur"
     t.string "mail_contact_acheteur"
     t.string "telephone_contact_acheteur"
@@ -46,6 +46,7 @@ ActiveRecord::Schema.define(version: 2019_12_27_094733) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "referent_mlds_id"
+    t.string "mail_2eme_referent_entreprise"
   end
 
   create_table "referents_mlds", force: :cascade do |t|

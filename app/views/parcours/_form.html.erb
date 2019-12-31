@@ -22,18 +22,13 @@
   </div>
 
   <div class="field">
-    <%= form.label :adresse_acheteur %>
-    <%= form.text_area :adresse_acheteur %>
-  </div>
-
-  <div class="field">
     <%= form.label :nom_prenom_contact_acheteur %>
     <%= form.text_field :nom_prenom_contact_acheteur %>
   </div>
 
   <div class="field">
     <%= form.label :mail_contact_acheteur %>
-    <%= form.text_field :mail_contact_acheteur %>
+    <%= form.email_field :mail_contact_acheteur %>
   </div>
 
   <div class="field">
@@ -47,8 +42,8 @@
   </div>
 
   <div class="field">
-    <%= form.label "date_notification_marche %>
-    <%= form.date_field :date_notification_marche, :required => true %>
+    <%= form.label :date_notification_marche %>
+    <%= form.date_field :date_notification_marche, required: true%>
   </div>
 
   <div class="field">
@@ -82,6 +77,11 @@
   </div>
 
   <div class="field">
+    <%= form.label :mail_referent_entreprise %>
+    <%= form.email_field :mail_referent_entreprise %>
+  </div>
+
+  <div class="field">
     <%= form.label :telephone_referent_entreprise %>
     <%= form.text_field :telephone_referent_entreprise %>
   </div>
@@ -94,6 +94,11 @@
   <div class="field">
     <%= form.label :nom_prenom_2eme_referent_entreprise %>
     <%= form.text_field :nom_prenom_2eme_referent_entreprise %>
+  </div>
+
+  <div class="field">
+    <%= form.label :mail_2eme_referent_entreprise %>
+    <%= form.email_field :mail_2eme_referent_entreprise %>
   </div>
 
   <div class="field">
@@ -149,4 +154,6 @@
   <div class="actions">
     <%= form.submit %>
   </div>
+
+
 <% end %>
