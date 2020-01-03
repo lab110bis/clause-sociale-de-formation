@@ -7,7 +7,11 @@ de décrochage, entreprise, acheteurs et personnels de la mission de lutte
 contre le décrochage scolaire (MLDS). Elle peut constituer un tremplin vers
 l’insertion et l’emploi, et permet de développer le rapport École/Entreprise.
 
-https://www.education.gouv.fr/pid37517/la-clause-sociale-de-formation-sous-statut-scolaire.html
+[Pour en savoir plus sur le site de l'éducation nationale](https://www.education.gouv.fr/pid37517/la-clause-sociale-de-formation-sous-statut-scolaire.html)
+
+## Documentation
+
+voir le répertoire [doc](doc/)
 
 ## Installation
 
