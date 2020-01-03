@@ -10,5 +10,8 @@ run: ## Start the app server
 deploy: ## Deploy app
 	git push origin master && git push git@ssh.osc-fr1.scalingo.com:clause-sociale-de-formation.git master -f
 
-.PHONY: build run test
+install: ## install gems
+	bundle
+
+.PHONY: build run test install
 
