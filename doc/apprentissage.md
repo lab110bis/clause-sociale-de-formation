@@ -1,19 +1,15 @@
+## Résumé
 
-
-En 2013, Jean-Xavier à soumis l'idée d'ajouter une clause sociale de formation
-
-Qu'est-ce qui a été tenté ?
-
-Quelques chiffres
-- 140 parcours réalisé en 5 ans
-- 80 000 jeunes dit décrocheurs
-
+Chaque année 80 000 jeunes sortent du système scolaire sans qualification.
+Pour leur fournir l'opportunité d'une immersion professionnelle grâce aux marchés publiques, la CLS est crée en 2013. Ces immersions professionnelles apportent beaucoup de valeur au jeune. 140 en bénéficient lors des 5 premières années de sa mise en place. Pour augmenter le nombre de bénéficiaires, on augmente d'abord le nombre de CLS rencensées. Ensuite porte l'effort sur le nombre et l'implication des tutrices. Le principal obstacle aujourd'hui n'est ni dans le nombre de CLS recensées, ni dans le nombre de tutrices mais dans la difficulté à joindre les entreprises.
 
 ---
 
 ## Point de départ
 
 80 000 jeunes sorte du système scolaire sans qualification.
+
+En 2013, Jean-Xavier à soumis l'idée d'ajouter une clause sociale de formation
 
 L'idée est de leurs permettre de faire une immersion professionnel.
 
@@ -25,6 +21,8 @@ La mise en situation professionnel d'un bénéficiaire lui apporte :
 Même si le stage n'est pas réalisé en entier, ça apporte de la valeur pour le bénéficiaire.
 
 L'intention initial est d'utiliser les marchés publiques pour permettre des immersions professionnelles.
+
+- 140 parcours réalisé en 5 ans
 
 ### Clause sociale d'insertion
 
@@ -89,7 +87,7 @@ Et en dehors du logiciel ? Les résultats et apprentissages ?
 
 Création d'une communauté.
 
-On a découvert que des personnes déjà sensibilité et informé sur la question avaient des points de vues éronnés sur la question.
+On a découvert que des personnes déjà sensibilisées et informées sur la question avaient des points de vues éronnés sur la question.
 
 Le dispositif manque de visibilité.
 
@@ -97,11 +95,13 @@ Le dispositif manque de visibilité.
 - outiller pour recenser les CSF et assurer leur suivi
 - créer une dynamique autour de la CSF
 
-Il y a un vrai mode projet à penser, équipe rituel etc.
+Il y a un mode projet à penser, équipe rituel.
 Est ce qu’on est capables d’y aller tout seuls pour aller tester ?
 
 
 ### Plateforme dédiée / Betagouv
+
+Lorsque la tutrice pilote se présente comme intrapreuneuse sur le dispositif clause sociale de formation, cela change l'attitude de l'entreprise, qui devient davantage à l'écoute que lorsqu'elle se présente comme enseignante ou tutrice.
 
 Un décrocheurs c'est quoi ?
 
@@ -120,6 +120,8 @@ Les problèmes rencontrés
 - les entreprises ont des a prioris sur les bénéficiaires
 - certaines entreprise ne comprennent pas qui sont les bénéficiaires
 - Les personnes tutrices sont découragé à rentrer dans la démarche, elles jettent l'éponge devant les difficultés de relation avec les entreprises
+
+**Le problème racine est la difficulté à joindre les entreprises.**
 
 C'est là que nous sommes.
 
