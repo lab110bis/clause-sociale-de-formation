@@ -3,7 +3,7 @@
 <h1>Domaines</h1>
 
 <ul>
-  <% @domaines.each do |domaine| %>
-    <li><%= domaine %></li>
+  <% DOMAINES.each do |domaine| %>
+    <li><%= link_to(domaine, parcours_index_path(domaine: domaine)) %></li>
   <% end %>
 </ul>

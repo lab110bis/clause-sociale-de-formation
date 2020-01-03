@@ -1,11 +1,12 @@
 class ParcoursController < ApplicationController
-  http_basic_authenticate_with name: ENV["BASIC_AUTH_LOGIN"], password: ENV["BASIC_AUTH_PASSWORD"], except: [:new, :create]
+  http_basic_authenticate_with name: ENV["BASIC_AUTH_LOGIN"], password: ENV["BASIC_AUTH_PASSWORD"], except: [:new, :create] unless Rails.env.test?
   before_action :set_parcours, only: [:show, :edit, :update, :destroy]
 
   # GET /parcours
   # GET /parcours.json
   def index
-    @parcours = Parcours.all
+    @parcours = Parcours.where(domaine_activite_parcours: params[:domaine])
+    @titre_parcours = params[:domaine]
   end
 
   # GET /parcours/1

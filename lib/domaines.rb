@@ -1,0 +1,16 @@
+DOMAINES = [
+  "Autre",
+  "Accueil",
+  "Administration",
+  "Commerce, vente",
+  "Communication",
+  "Comptabilité",
+  "Electricité",
+  "Esthétique",
+  "Hôtellerie",
+  "Informatique",
+  "Logistique",
+  "Restauration, cuisine",
+  "Sécurité",
+  "Service à la personne",
+  "Transport"].freeze

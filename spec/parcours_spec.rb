@@ -5,4 +5,8 @@ describe Parcours, type: :model do
     expect(Parcours.new).to be_invalid
     expect(Parcours.new date_notification_marche: "25/12/2020").to be_valid
   end
+
+  it 'a une fabrique valide' do
+    expect(build(:parcours)).to be_valid
+  end
 end

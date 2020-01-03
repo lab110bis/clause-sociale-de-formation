@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Parcours</h1>
+<h1>Parcours <%= @titre_parcours %></h1>
 
 <section class="section__parcours">
   <% @parcours.each do |parcours| %>
@@ -12,9 +12,9 @@
           <%= parcours.details_taches_proposees_parcours %>
         </div>
         <div class="card__extra">
-          <div class="label label--active"><%= parcours.heures_parcours %></div>
+          <div class="label label--active"><%= parcours.heures_parcours %>h</div>
           <div class="label label--inactive"><%= parcours.academie_parcours %></div>
-          <div class="label"><%= parcours.secteur_activite_entreprise%></div>
+          <div class="label"><%= parcours.domaine_activite_parcours%></div>
         </div>
       <% end %>
     </div>
