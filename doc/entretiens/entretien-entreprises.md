@@ -6,6 +6,7 @@ CSF = Clause Sociale de Formation
 - Si vous avez été en contact avec un jeune, quel bilan tirez-vous de cette expérience ?
 - Qu'aviez-vous compris de la CSF lors de la réponse à l'appel d'offre ?
 - Qu'avez-vous compris de différent depuis ?
+- Quelles questions vous posez-vous encore ?
 
 
 # Email de contact envoyé
