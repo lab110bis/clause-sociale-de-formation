@@ -15,4 +15,6 @@ rails s
 
 RAILS_ENV=development PORT=3000  foreman start web
 
+# Déployer en production
 
+git push git@ssh.osc-fr1.scalingo.com:clause-sociale-de-formation.git master
