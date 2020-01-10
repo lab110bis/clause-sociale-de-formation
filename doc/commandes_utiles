@@ -21,8 +21,12 @@ git push git@ssh.osc-fr1.scalingo.com:clause-sociale-de-formation.git master
 
 # Intégrer les données en production
 
-- pg_dump csf_development -U csf -W -h localhost > pg_backup.bak
+- pg_dump csf_development --format=c -U csf -W -h localhost > pg_backup.bak
 
 - dans un terminal, configurer un tunnel comme suit :
   export $(scalingo --app clause-sociale-de-formation --region osc-fr1 env | grep "^SCALINGO_POSTGRESQL")
   scalingo -a clause-sociale-de-formation --region osc-fr1 db-tunnel $SCALINGO_POSTGRESQL_URL
+
+- dans un autre terminal, export une variable `DATABASE_URL` contenant une chaine de connexion passant par le tunnel : `export DATABASE_URL=postgresql://<login>:<mot_de_pass>@127.0.0.1:10000/<db_name>
+
+- puis, executer la commande de restore : `pg_restore -e --clean --if-exists --format=c --no-owner --no-privileges --dbname $DATABASE_URL pg_backup.bak`
