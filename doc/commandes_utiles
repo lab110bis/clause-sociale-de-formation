@@ -18,3 +18,11 @@ RAILS_ENV=development PORT=3000  foreman start web
 # Déployer en production
 
 git push git@ssh.osc-fr1.scalingo.com:clause-sociale-de-formation.git master
+
+# Intégrer les données en production
+
+- pg_dump csf_development -U csf -W -h localhost > pg_backup.bak
+
+- dans un terminal, configurer un tunnel comme suit :
+  export $(scalingo --app clause-sociale-de-formation --region osc-fr1 env | grep "^SCALINGO_POSTGRESQL")
+  scalingo -a clause-sociale-de-formation --region osc-fr1 db-tunnel $SCALINGO_POSTGRESQL_URL
