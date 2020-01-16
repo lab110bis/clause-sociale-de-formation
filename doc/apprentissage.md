@@ -59,11 +59,13 @@ Ce qui ne fonctionne pas avec démarche simplifié :
 
 Et en dehors du logiciel ? Les résultats et apprentissages ?
 
+**A retenir : besoin de centraliser données et échanges**
+
 ### Airtable
 
 Période ?
 
-Suite aux apprentissages de l'expérimentation précédente, l'équipe à mis en palce l'utilisation de [Airtable](https://airtable.com).
+Suite aux apprentissages de l'expérimentation précédente, l'équipe à mis en place l'utilisation de [Airtable](https://airtable.com).
 
 Ce qui fonctionne :
 
@@ -74,18 +76,21 @@ Ce qui fonctionne :
 
 **On a découvert que le problème ne viens pas du manque de parcours, ou du manque de personnes tutrices engagé, mais plutôt du manque de réactivité et/ou réalisme des entreprises vis à vis de cette clause.**
 
-Ce qui ne fonctionne pas :
+#### Ce qui ne fonctionne pas
 
 - l'utilisation des filtres pour trouver un parcours qui conviens est pas assez accessible pour les personnes tutrices
-- le suivi des parcours ne conviens pas, pour le moment, c'est un statut dans une colonne, mis à jours par seulement quelques personnes
 - problème de RGPD (il y a des données de personnes vulnérables et / ou mineurs)
+
+**Ce qui ne fonctionne pas dans le suivis**
+
+- le suivi des parcours ne conviens pas, pour le moment, c'est un statut dans une colonne, mis à jours par seulement quelques personnes
+- besoin de savoir quelle personne doit faire la prochaine action et quand la dernière action a été faite.
 
 Et en dehors du logiciel ? Les résultats et apprentissages ?
 
+**A retenir : le problème n'est ni un manque de parcours ni un manque de tuteurs**
 
 ### Design Sprint
-
-Création d'une communauté.
 
 On a découvert que des personnes déjà sensibilisées et informées sur la question avaient des points de vues éronnés sur la question.
 
@@ -98,12 +103,14 @@ Le dispositif manque de visibilité.
 Il y a un mode projet à penser, équipe rituel.
 Est ce qu’on est capables d’y aller tout seuls pour aller tester ?
 
+**A retenir : création d'une communauté**
 
-### Plateforme dédiée / Betagouv
+
+### Plateforme dédiée
 
 Lorsque la tutrice pilote se présente comme intrapreuneuse sur le dispositif clause sociale de formation, cela change l'attitude de l'entreprise, qui devient davantage à l'écoute que lorsqu'elle se présente comme enseignante ou tutrice.
 
-Un décrocheurs c'est quoi ?
+#### Un jeune en remobilisation scolaire c'est quoi ?
 
 Le terme décrit mal la tajectoire du bénéficiaire.
 - le dispositif 2eme chance concerne des jeunes de 16 à 20 ans
@@ -113,7 +120,10 @@ Le terme décrit mal la tajectoire du bénéficiaire.
 - les bénéficiaires peuvent être des personnes qui n'ont pas eu d'affectation (qui n'ont pas obtenue de place dans un lycée)
 - les bénéficiaires peuvent être des personnes qui ont arrêté d'aller à l'école
 
-Les problèmes rencontrés
+On expérimente les termes **jeune** et **remobilisation scolaire**.
+
+#### Les problèmes rencontrés
+
 - les tutrices n'arrivent pas à joindre les entreprises
 - délai entre la publication d'un marché et sa notification : l'entreprise oublie cette notion de clause sociale
 - turnover des  tuteurs d'entreprises sur la période
@@ -121,39 +131,36 @@ Les problèmes rencontrés
 - certaines entreprise ne comprennent pas qui sont les bénéficiaires
 - Les personnes tutrices sont découragé à rentrer dans la démarche, elles jettent l'éponge devant les difficultés de relation avec les entreprises
 
-**Le problème racine est la difficulté à joindre les entreprises.**
-
-C'est là que nous sommes.
-
+**A retenir: difficulté à joindre les entreprises.**
 
 
 # Synthèse
 
 
-2012-2013 : 8 jeunes / 11 clause sociales
-5 reprises de scolarité
-1 bénéficiaire d’une nouvelle action MLDS
-1 échec
-1 préparation de 2 semaines en entreprise (préparation à un parcours réalisé sur
+**2012-2013 : 8 jeunes / 11 clause sociales**
+- 5 reprises de scolarité
+- 1 bénéficiaire d’une nouvelle action MLDS
+- 1 échec
+- 1 préparation de 2 semaines en entreprise (préparation à un parcours réalisé sur
 l’année 2013-2014)
 
-2013-2014 : 7 jeunes / 7 clauses sociales
-4 reprises de scolarité
-1 reconnaissance de travailleur handicapé
-2 bénéficiaires d’une nouvelle action MLDS
+**2013-2014 : 7 jeunes / 7 clauses sociales**
+- 4 reprises de scolarité
+- 1 reconnaissance de travailleur handicapé
+- 2 bénéficiaires d’une nouvelle action MLDS
 
-2014-2015 : 9 jeunes / 9 clauses sociales
-6 reprises de scolarité
-1 bénéficiaire d’une nouvelle action MLDS
-1 échec
-1 parcours non commencé
+**2014-2015 : 9 jeunes / 9 clauses sociales**
+- 6 reprises de scolarité
+- 1 bénéficiaire d’une nouvelle action MLDS
+- 1 échec
+- 1 parcours non commencé
 
-2015-2016 : 14 jeunes / 14 clauses sociales
-9 projets professionnels établis (avec reprise de scolarité en majorité)
-2 interruptions (projet professionnel non conforme)
-3 échecs
+**2015-2016 : 14 jeunes / 14 clauses sociales**
+- 9 projets professionnels établis (avec reprise de scolarité en majorité)
+- 2 interruptions (projet professionnel non conforme)
+- 3 échecs
 
-2016-2017 : 12 jeunes / 14 clauses sociales
-8 projets professionnels établis, dont 2 contrats d’apprentissage
-1 interruption de parcours (absentéisme)
-3 parcours non commencés
+**2016-2017 : 12 jeunes / 14 clauses sociales**
+- 8 projets professionnels établis, dont 2 contrats d’apprentissage
+- 1 interruption de parcours (absentéisme)
+- 3 parcours non commencés
