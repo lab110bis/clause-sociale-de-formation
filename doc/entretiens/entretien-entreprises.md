@@ -51,7 +51,7 @@ Si vous n'êtes plus la personne référente, pourriez nous indiquer les coordon
 
 ## Entretiens
 
-### (300h) 6 : Plone DGESCO & DNE
+### (300h) 6 Province : Plone DGESCO & DNE
 
 Date de 2017 : a moitié effectué (150h). La jeune est partie. En 2018 quelqu'un a pris contact avec moi pour les 150h restantes, mais n'a trouvé personne.
 Je ne connaissais pas le principe. On l'a pris comme une contrainte. On a accepté de jouer le jeu.
@@ -97,4 +97,39 @@ On retient :
 - on prépare les stagiaires, mais il faudrait aussi préparer les entreprises
 - beaucoup d'intervenants différents : difficile de savoir à qui parler
 
+# 16 (autre) Province : "infrastructures de sécurité, ministère de l'éducation nationale"
 
+Déroulé :
+- Septembre 2017 : rédaction d'une fiche entreprise.
+- En février 2020 çà ferait 2 ans. Il y avait 1 mois pour répondre.
+- 19 Février 2018 : on a été notifié qu'on était attributaires.
+- Le marché court jusqu'au 18 Février 2022.
+
+On a pas été contacté.
+On a pas un besoin. On est plutôt en attente.
+Si on avait reçu des profils, on les aurait reçu.
+On a provisionné la rémunération du stagiaire.
+On a relancé plusieurs fois la cellule juridique du MEN.
+C'est lié aux calendriers scolaire (la rentrée de septembre).
+Tous les 3 mois j'évoque cette clause en commité de pilotage du MEN.
+C'est soumis à pénalité.
+On a deux lots.
+On a trouvé çà positif dans le fond et la forme, donc on s'y est conformé.
+
+On téléphoné et envoyé des mails : j'espère que vous ne nous reprocherez pas de ne pas avoir accueillit des jeunes.
+- on a pas les fichiers de jeunes
+- 14 mai 2018 : contact avec les achats
+- çà se cale sur les rythmes scolaires
+- chargé du suivit des clauses sociales
+
+- on a aucun à priori
+- Société de 1000 personnes. Une dizaine de recrutement.
+- On pensait qu'on allait nous en proposer plusieurs.
+
+## Debrief
+
+Jeu de mirroir avec les tutrices MLDS de l'autre coté.
+Mai 2018 : on vous donnera des réponses en septembre 2018. Ca fait "on en reparle dans 6 mois" : délais très long.
+Ils se tournent vers la référente du marché.
+C'est une obligation. C'est çà où des pénalités.
+Les achats ne donnent des informations qu'en réponse à une soliscitation de l'entreprise.
