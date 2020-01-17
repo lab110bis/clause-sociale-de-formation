@@ -37,7 +37,7 @@ Si vous n'êtes plus la personne référente, pourriez nous indiquer les coordon
 - 8 (900h) : Réalisation de prestations d'impression, de pliage et de conditionnement des copies vierges pour les concours et examens organisés par les services centraux et les services déconcentrés du ministère chargé de l'éducation nationale, de l'enseignement supérieur et de la recherche. 
 - 51 (300h) : Fournitures d'ordinateurs portables, de connectiques, d'accessoires et de prestations associées (lot n°1)
 
-## Retour
+## Retours
 
 - [réponses dans l'heure, jeudi 16] 6 (300h): Réalisation de prestation de maintenance corrective et évolutive du système de gestion de contenus Plone qui héberge des sites web dynamiques de la DGESCO et de la DNE, et de prestations associées pour le compte du ministère chargé de l'éducation nationale, de l'enseignement supérieur et de la recherche. 
 - [réponse dans l'heure, entretien vendredi 17] 16 (autre) : "Consolidation des infrastructures de sécurité StoneSoft, Fortinet, F5 et Cisco, installés dans les services centraux et déconcentrés du ministère de l'éducation nationale et prestations associées. Lot 1 : Firewall et Lot 3"
@@ -53,45 +53,52 @@ Si vous n'êtes plus la personne référente, pourriez nous indiquer les coordon
 
 ### (300h) 6 Province : Plone DGESCO & DNE
 
-Date de 2017 : a moitié effectué (150h). La jeune est partie. En 2018 quelqu'un a pris contact avec moi pour les 150h restantes, mais n'a trouvé personne.
-Je ne connaissais pas le principe. On l'a pris comme une contrainte. On a accepté de jouer le jeu.
-C'étais pas très clair. L'idée est très louable.
-Personne n'avait l'habitude de ce milieu. C'est une boite d'ingénieurs.
-On sait qu'il y a de plus en plus de jeunes qui décrochent.
-On n'y a pas plus pensé que çà.
-Je suis seule sur ce poste et j'ai beaucoup de travail.
-J'ai des enfants ado. En tant que mamant, je me sens concerné.
-Notre 1er essai n'a pas été concluant.
+Ce qui s'est passé jusqu'à présent :
+- La clause date de 2017 : la moitié des 150h a été effectué. La jeune est partie avant la fin. Elle a fait moins de 70h.
+- En 2018 quelqu'un a pris contact avec moi pour les 150h restantes, mais n'a trouvé personne.
 
-Tout le monde l'a vécu comme un échec : on a tous donné au maximum pour que çà marche.
-Elle a débarqué. On avait pas connaissance de son parcours, de ses difficultés
-quels sujets évité d'aborder
-peut-être certaines situations lui ont mis mal à l'aise
-si on a pas un minimum d'informations c'est difficile de la coaché au quotidien
-on a pas su lui faire sentir l'intérêt à poursuivre ses études.
-Elle avait des envies par rapport à un bac pro.
-Le métier que vous lui avez montré lui plaisait beaucoup.
-Elle avait le gout pour la compta, l'administration.
-La jeune disait qu'elle était très contente.
-Elle a fait moins de 70h.
-Elle tiraillé entre un projet personnel et un projet professionnel.
-Je me suis rendu compte très tard qu'elle avait un choix à faire, suite à mes appels répétés.
-Gros problème : l'information au départ. Donner beaucoup plus d'informations sur le contexte.
-J'ai pas le temps de me poser des questions. J'ai des problèmes.
-Je gère la totalité du personnel.
-On s'est un petit peu remis en question.
+Représentation :
+- Je ne connaissais pas le principe. On l'a pris comme une contrainte. On a accepté de jouer le jeu.
+- C'étais pas très clair. L'idée est très louable.
+- Personne n'avait l'habitude de ce milieu. C'est une boite d'ingénieurs.
+- On sait qu'il y a de plus en plus de jeunes qui décrochent.
+- On n'y a pas plus pensé que çà.
+- Je suis seule sur ce poste et j'ai beaucoup de travail.
+- J'ai des enfants ado. En tant que mamant, je me sens concerné.
 
-Dès le départ : posé le cadre. Plusieurs intervenants différents qui se sont succédés. A qui s'adresser pour quelle problématique. Plus d'information sur le jeune.
+Ressentis :
+- Notre 1er essai n'a pas été concluant.
+- Tout le monde l'a vécu comme un échec : on a tous donné au maximum pour que çà marche.
+- Elle a débarqué. On avait pas connaissance de son parcours, de ses difficultés. On ne savait pas quels sujets éviter d'aborder.
+- Peut-être certaines situations l'ont mis mal à l'aise.
+- Si on a pas un minimum d'informations c'est difficile de la coacher au quotidien.
+- On a pas su lui faire sentir l'intérêt à poursuivre ses études.
+- Elle avait des envies par rapport à un bac pro.
+- Le métier qu'on lui a montré lui plaisait beaucoup.
+- Elle avait le gout pour la compta, l'administration.
+- La jeune disait qu'elle était très contente.
+- Elle était tiraillée entre un projet personnel et un projet professionnel. Je me suis rendu compte très tard qu'elle avait un choix à faire, suite à mes appels répétés. Gros problème : l'information au départ. Donner beaucoup plus d'informations sur le contexte.
+- On s'est un petit peu remis en question.
 
+Contexte professionnel de l'interviewvée :
+- Je suis DRH.
+- J'ai pas le temps de me poser des questions. J'ai des problèmes à résoudre au quotidien.
+- Je gère seule la totalité du personnel.
+
+Suggestions d'améliorations :
+- Dès le départ : poser le cadre.
+- A qui s'adresser pour quelle problématique ? Plusieurs intervenants différents se sont succédés. 
+- Plus d'information sur le jeune.
 
 Méta : J'ai apprécié les questions, les plus précises possibles.
 
-Debrief
+#### Debrief (Yannick & Philippe, après l'entretien)
 - Changer l'ordre.
 - Faire des questions plus temporelles
 - Dimension partenariat entre l'entreprise et l'organisme partenaire.
 
-On retient :
+#### On retient :
+
 - vécu comme une contrainte
 - impression qu'il y a une jeune qui débarque
 - on prépare les stagiaires, mais il faudrait aussi préparer les entreprises
@@ -99,24 +106,24 @@ On retient :
 
 ### 16 (autre) Province : "infrastructures de sécurité, ministère de l'éducation nationale"
 
-Déroulé :
+Ce qui s'est passé jusqu'à présent :
 - Septembre 2017 : rédaction d'une fiche entreprise.
 - En février 2020 çà ferait 2 ans. Il y avait 1 mois pour répondre.
 - 19 Février 2018 : on a été notifié qu'on était attributaires.
 - Le marché court jusqu'au 18 Février 2022.
 
-On a pas été contacté.
-On a pas un besoin. On est plutôt en attente.
-Si on avait reçu des profils, on les aurait reçu.
-On a provisionné la rémunération du stagiaire.
-On a relancé plusieurs fois la cellule juridique du MEN.
-C'est lié aux calendriers scolaire (la rentrée de septembre).
-Tous les 3 mois j'évoque cette clause en commité de pilotage du MEN.
-C'est soumis à pénalité.
-On a deux lots.
-On a trouvé çà positif dans le fond et la forme, donc on s'y est conformé.
+- On a pas été contacté.
+- On a pas un besoin. On est plutôt en attente.
+- Si on nous avait présenté des profils, on les aurait reçu.
+- On a provisionné la rémunération du stagiaire.
+- On a relancé plusieurs fois la cellule juridique du MEN.
+- C'est lié aux calendriers scolaire (la rentrée de septembre).
+- Le commercial : tous les 3 mois j'évoque cette clause en commité de pilotage du MEN.
+- C'est soumis à pénalité.
+- On a deux lots.
+- On a trouvé çà positif dans le fond et la forme, donc on s'y est conformé.
 
-On téléphoné et envoyé des mails : j'espère que vous ne nous reprocherez pas de ne pas avoir accueillit des jeunes.
+On a téléphoné et envoyé des mails : j'espère que vous ne nous reprocherez pas de ne pas avoir accueillit des jeunes.
 - on a pas les fichiers de jeunes
 - 14 mai 2018 : contact avec les achats
 - çà se cale sur les rythmes scolaires
@@ -126,10 +133,10 @@ On téléphoné et envoyé des mails : j'espère que vous ne nous reprocherez pa
 - Société de 1000 personnes. Une dizaine de recrutement.
 - On pensait qu'on allait nous en proposer plusieurs.
 
-## Debrief
+#### Debrief (Yannick & Philippe, après l'entretien)
 
-Jeu de mirroir avec les tutrices MLDS de l'autre coté.
-Mai 2018 : on vous donnera des réponses en septembre 2018. Ca fait "on en reparle dans 6 mois" : délais très long.
-Ils se tournent vers la référente du marché.
-C'est une obligation. C'est çà où des pénalités.
-Les achats ne donnent des informations qu'en réponse à une soliscitation de l'entreprise.
+- Jeu de mirroir avec les tutrices/coordinatrices MLDS de l'autre coté. Aucune des deux parties ne parviens à contacter les interlocuteurs qui pourraient faire le lien entre un jeune et un parcours.
+- En Mai 2018 les achats disent : on vous donnera des réponses en septembre 2018. Ca fait "on en reparle dans 6 mois" : délais très long.
+- Ils se tournent vers la référente du marché.
+- C'est une obligation. C'est çà où des pénalités.
+- Les achats ne donnent des informations qu'en réponse à une soliscitation de l'entreprise.
