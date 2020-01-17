@@ -97,7 +97,7 @@ On retient :
 - on prépare les stagiaires, mais il faudrait aussi préparer les entreprises
 - beaucoup d'intervenants différents : difficile de savoir à qui parler
 
-# 16 (autre) Province : "infrastructures de sécurité, ministère de l'éducation nationale"
+### 16 (autre) Province : "infrastructures de sécurité, ministère de l'éducation nationale"
 
 Déroulé :
 - Septembre 2017 : rédaction d'une fiche entreprise.
