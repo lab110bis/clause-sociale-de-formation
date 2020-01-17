@@ -51,7 +51,7 @@ Si vous n'êtes plus la personne référente, pourriez nous indiquer les coordon
 
 ## Entretiens
 
-### (300h) 6 Province : Plone DGESCO & DNE
+### (300h) 6 : Plone DGESCO & DNE
 
 Ce qui s'est passé jusqu'à présent :
 - La clause date de 2017 : la moitié des 150h a été effectué. La jeune est partie avant la fin. Elle a fait moins de 70h.
