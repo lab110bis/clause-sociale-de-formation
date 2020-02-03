@@ -43,11 +43,15 @@ Par rapport à la clause sociale d'insertion, les avantages sont :
 
 Si nous considérons la première comme étant celle avec Démarche simplifié, est-ce qu'il y en a d'autres avant ? avec un fichier excel ou autre ?
 
+### Document partagé
+
+Il a été tenté, pendant 5 ans, l'utilisation d'un document qui recense les offres de parcours.
+
 ### Démarches simplifiées
 
 Période ?
 
-Le problème qu'on essaie de résoudre ?
+Le problème qu'on essaie de résoudre ? _Les parcours ne sont pas répertoriés_
 
 Ce qu'on essaie : [Démarche Simplifié](https://www.demarches-simplifiees.fr/)
 
