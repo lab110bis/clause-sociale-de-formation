@@ -64,7 +64,7 @@ Représentation :
 - On sait qu'il y a de plus en plus de jeunes qui décrochent.
 - On n'y a pas plus pensé que çà.
 - Je suis seule sur ce poste et j'ai beaucoup de travail.
-- J'ai des enfants ado. En tant que mamant, je me sens concerné.
+- J'ai des enfants ado. En tant que maman, je me sens concerné.
 
 Ressentis :
 - Notre 1er essai n'a pas été concluant.
@@ -140,3 +140,20 @@ On a téléphoné et envoyé des mails : j'espère que vous ne nous reprocherez 
 - Ils se tournent vers la référente du marché.
 - C'est une obligation. C'est çà où des pénalités.
 - Les achats ne donnent des informations qu'en réponse à une soliscitation de l'entreprise.
+
+----
+
+Entretien du 3/02/2020
+
+- Une jeune est rentrée. La jeune est restée 2 ou 3 semaines et elle n'est pas venu tous les jours. Elle partie du jour au lendemain. On a contacté les tuteurs. Même le papa ne savait pas où elle était.
+- On comptait sur elle. On avait réduit les ressources car on comptait sur elle.
+- Acheteur : on va vous reproposer un nouveau profil. Le marché se termine en décembre. Il reste 5 mois à faire.
+- Acheteur : la fiche est bien toujours la même ?
+- Entreprise : oui. Confirme nature des tâches, lieu et responsable. Pourra être amené à se déplacé en clientèle pour découvrir. Tâches au niveau commercial, marketing. Assistance au commerce. Découvrir l'entièreté. Assistant commercial. Toute ressource est importante pour nous. On a recruté une autre personne en attendant. A la fin des 900h on avait prévu de potentiellement embaucher la personne.
+- On peut accueillir une nouvelle personne dès demain.
+- Tutrice pilote : on aurait des profils à vous proposer selon les trois axes : Commercial, marketing et achat. L'axe marketing est moins présent. C'est plus de l'assistance commercial. Je pense à une personne non diplomée mais qui a une expérience. Elle n'a pas pu passé son BAC. Serait-il possible de l'accompagner.
+- Acheteur : on va revenir vers vous avec un profil.
+
+Ca nous un peu mis le bec dans l'eau. J'ai pas grand chose à dire de positif.
+
+Les questions je les ai posées avant.
