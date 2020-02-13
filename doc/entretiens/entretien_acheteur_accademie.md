@@ -97,3 +97,8 @@ Peut-être çà pourrait marcher si la fiche est a remplir en ligne au moment de
 
 Indiquer avant l'entretien de préparer les données demandées (nombre de CSF).
 
+# A retenir
+
+- La CSF aide les acheteurs à atteindre leur objectif de 20% de marché avec une clause sociale.
+- Une plateforme en ligne de centralisation de toutes les CSF aiderait par rapport au problème d'absence de synchronisation entre les MLDS.
+
