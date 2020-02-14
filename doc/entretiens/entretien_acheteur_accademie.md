@@ -13,7 +13,7 @@ Je suis arrivé en 2016.
 Avant mon arrivée, le ministère avait transmis à toutes les académies la recommandation de commencer à inclure des CSF.
 J'en ai incluse 5 ou 6 en quatres années.
 
-## Bénéfices
+## Bénéfices
 
 C'est une politique du gouvernement de rentrer dans une démarche d'achat responsable et la CSF rentre dans cette démarche.
 On a des objectif pour 2020 : 20% contiennent une clause sociale et 30% une clause environnmentale.
