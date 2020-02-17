@@ -12,29 +12,26 @@
         </div>
         <div class="card__content">
           <h3>Vous êtes une entreprise&nbsp;?</h3>
-          <%= link_to "Préparez-vous", entreprise_path, class: "button" %>
         </div>
       <% end %>
     </div>
     <div class="card">
-      <%= link_to new_parcours_path, class: "card__link" do %>
+      <%= link_to acheteur_path, class: "card__link" do %>
         <div class="card__cover">
           <%= image_tag "acheteur.png", alt: "acheteur" %>
         </div>
         <div class="card__content">
           <h3>Vous êtes un acheteur&nbsp;?</h3>
-          <%= link_to 'Proposer un parcours', new_parcours_path, class: "button" %>
         </div>
       <% end %>
     </div>
     <div class="card">
-      <%= link_to domaines_path, class: "card__link" do %>
+      <%= link_to tuteur_path, class: "card__link" do %>
         <div class="card__cover">
           <%= image_tag "education_nationale.png", alt: "Education nationale" %>
         </div>
         <div class="card__content">
           <h3>Vous êtes tuteur&nbsp;?</h3>
-          <%= link_to 'Retrouver les parcours', domaines_path, class: "button" %>
         </div>
       <% end %>
     </div>
