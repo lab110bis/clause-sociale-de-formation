@@ -16,3 +16,10 @@
 - transférer le contenu du site actuel coté acheteur http://achats.aji-france.com/mission_des_achats/la_clause_sociale_de_formation_sous_statut_scolaire et les pdfs
 - retirer des champs du formulaire (test utilisateur tutrice pilote) : domaine des achats (c'est le domaine de l'entreprise qui importe), déduire l'académie et la région depuis le département.
 - transférer les données en production (juste avant la bascule de airtable à l'application)
+
+## Questions ?
+
+- Les divers documents types proposé dans le guide acheteur doivent-il être rappatrier sur la plateforme ?
+- Qui prends le nom de domaine ?
+- Est-ce que le nom de domaine est clause-sociale-de-formation.fr ou bien clausesocialedeformation.fr ?
+- L'hébergement (et peut-être le nom de domaine) sont actuellement pris en charge par Scopyleft (via le budget restant de DossierSCO), voulez-vous changer quelque chose à cela ? Le lab ou plus largement l'Éducation Nationale souhaite-t-il prendre en charge cette hébergement ?
