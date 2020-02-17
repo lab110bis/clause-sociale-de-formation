@@ -1,4 +1,4 @@
-# Créer un bac à sable
+## Créer un bac à sable
 
 rails new bac-a-sable -T --database=postgresql
 Dans config/database.yml ajouter :
@@ -11,15 +11,15 @@ Dans config/database.yml ajouter :
 rails db:create
 rails s
 
-# Utiliser l'ordonnanceur de scaligo et heroku
+## Utiliser l'ordonnanceur de scaligo et heroku
 
 RAILS_ENV=development PORT=3000  foreman start web
 
-# Déployer en production
+## Déployer en production
 
 git push git@ssh.osc-fr1.scalingo.com:clause-sociale-de-formation.git master
 
-# Intégrer les données en production
+## Intégrer les données en production
 
 - pg_dump csf_development --format=c -U csf -W -h localhost > pg_backup.bak
 
@@ -30,3 +30,12 @@ git push git@ssh.osc-fr1.scalingo.com:clause-sociale-de-formation.git master
 - dans un autre terminal, export une variable `DATABASE_URL` contenant une chaine de connexion passant par le tunnel : `export DATABASE_URL=postgresql://<login>:<mot_de_pass>@127.0.0.1:10000/<db_name>
 
 - puis, executer la commande de restore : `pg_restore -e --clean --if-exists --format=c --no-owner --no-privileges --dbname $DATABASE_URL pg_backup.bak`
+
+## Envoyer un email avec tout plein de chose déjà rempli
+
+Pour l'envoie de mail on pourrait utiliser un mailto tout simple
+
+<a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+    Send mail with cc, bcc, subject and body
+</a>
+

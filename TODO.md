@@ -1,5 +1,6 @@
 
-- documenter ce que nous avons appris
+- Accompagner Jean-Xavier et Ekram (et Léa ?) dans la création de compte github
+- Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github
 - installer des filtres basiques
 - organiser la saisie d'un parcours de manière plus fluide et lisible
 - afficher des listes finies sur les champs le nécessitant (dans le formulaire de saisie de parcours)
@@ -10,10 +11,4 @@
 - transférer le contenu du site actuel coté acheteur http://achats.aji-france.com/mission_des_achats/la_clause_sociale_de_formation_sous_statut_scolaire et les pdfs
 - retirer des champs du formulaire (test utilisateur tutrice pilote) : domaine des achats (c'est le domaine de l'entreprise qui importe), déduire l'académie et la région depuis le département.
 - transférer les données en production (juste avant la bascule de airtable à l'application)
-
-
-Pour l'envoie de mail on pourrait utiliser un mailto tout simple
-
-<a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
-    Send mail with cc, bcc, subject and body
-</a>
+- documenter ce que nous avons appris
