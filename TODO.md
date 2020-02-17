@@ -1,11 +1,12 @@
 # TODO
 
+- lister les pages de guides dans le README pour en faciliter l'accès en modification
+- automatiser le déploiement à partir de github (pour déployer quand un guide est modifié directement sur github)
+- intégrer le guide des acheteurs
 - Accompagner Jean-Xavier et Ekram (et Léa ?) dans la création de compte github
 - Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github
 - mettre en place un filtre sur la localisation
 - mettre en place un filtre sur le temps du parcours
-- lister les pages de guides dans le README pour en faciliter l'accès en modification
-- automatiser le déploiement à partir de github (pour déployer quand un guide est modifié directement sur github)
 - organiser la saisie d'un parcours de manière plus fluide et lisible
 - afficher des listes finies sur les champs le nécessitant (dans le formulaire de saisie de parcours)
 - changer le champs de liste des taches pour mettre un `text` plutôt qu'un `string`
