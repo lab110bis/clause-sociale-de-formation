@@ -7,6 +7,7 @@
 - Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github
 - mettre en place un filtre sur la localisation
 - mettre en place un filtre sur le temps du parcours
+- créer un sitemap.txt pour améliorer le référencement
 - organiser la saisie d'un parcours de manière plus fluide et lisible
 - afficher des listes finies sur les champs le nécessitant (dans le formulaire de saisie de parcours)
 - changer le champs de liste des taches pour mettre un `text` plutôt qu'un `string`
