@@ -39,3 +39,10 @@ Pour l'envoie de mail on pourrait utiliser un mailto tout simple
     Send mail with cc, bcc, subject and body
 </a>
 
+## Activer l'auto-deploy
+
+- En étant connecté sous l'utilisateur github, vérifier que l'accès est bien donné pour le groupe qui va servir au lien :
+
+https://github.com/settings/connections/applications/dce5163f63352f1a4d45
+
+- Ensuite, sous scalingo, allez dans **code**
