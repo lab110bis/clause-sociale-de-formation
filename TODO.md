@@ -1,6 +1,5 @@
 # TODO
 
-- lister les pages de guides dans le README pour en faciliter l'accès en modification
 - automatiser le déploiement à partir de github (pour déployer quand un guide est modifié directement sur github)
 - Accompagner Jean-Xavier et Ekram (et Léa ?) dans la création de compte github
 - Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github
