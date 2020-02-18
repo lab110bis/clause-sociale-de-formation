@@ -9,6 +9,12 @@ l’insertion et l’emploi, et permet de développer le rapport École/Entrepri
 
 [Pour en savoir plus sur le site de l'éducation nationale](https://www.education.gouv.fr/pid37517/la-clause-sociale-de-formation-sous-statut-scolaire.html)
 
+## Les Guides
+
+- [Acheteur](app/views/pages/acheteur.html.erb)
+- [Entreprise](app/views/pages/entreprise.html.erb)
+- [Tuteur](app/views/pages/tuteur.html.erb)
+
 ## Documentation
 
 voir le répertoire [doc](doc/)
