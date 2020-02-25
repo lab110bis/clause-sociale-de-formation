@@ -1,6 +1,7 @@
 # TODO
 
 - lister les parcours sur lesquels l'équipe devrait se pencher
+- positionner un post-hook dans le déploiement pour automatiser les migrations
 - mettre à jour depuis airtable
 - revoir le script d'import CSV aritable pour faire des mise à jour régulière à partir du bon onglet airtable
 - ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
