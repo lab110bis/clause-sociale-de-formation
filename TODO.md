@@ -6,6 +6,7 @@
 - revoir le script d'import CSV aritable pour faire des mise à jour régulière à partir du bon onglet airtable
 - ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
 - afficher les parcours ouverts triés par date d'échéance (acheteur)
+- pour les parcours bientôt échus, pendre en considération la date fin de clause reconduction comprise
 - trier les parcours ouverts par fraicheur (tuteur pédagogique)
 - afficher qui doit faire la prochaine action (et quand ?)
 - mettre à jour le guide acheteur
