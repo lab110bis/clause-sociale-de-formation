@@ -29,23 +29,25 @@
 
 <section class="section-guide">
   <h1>Comment ça marche ?</h1>
-  <p>Parcours de l'acheteur...</p>
+
+  <%= render "timeline-acheteur.svg" %>
 
   <dl>
     <dt>S'engager dans les achats publics responsables</dt>
-    <dd>Formaliser une convention avec la MLDS de son académie (<a href="http://cache.media.education.gouv.fr/file/Lab_110bis/07/3/20191203_CSF_a_adapter_convention_de_partenariat_acheteur-MLDS_1216073.docx">convention type</a>)</dd>
+    <dd>
+    <ul><li>Formaliser une convention avec la MLDS de son académie (<a href="http://cache.media.education.gouv.fr/file/Lab_110bis/07/3/20191203_CSF_a_adapter_convention_de_partenariat_acheteur-MLDS_1216073.docx">convention type</a>)</li></ul></dd>
 
     <dt>Formaliser son marché</dt>
-    <dd>Insérer la clause dans son marché (<a href="http://cache.media.education.gouv.fr/file/Lab_110bis/06/9/20191203_CSF_proposition_de_redaction_type_de_la_clause_1216069.zip">rédaction type</a>)</dd>
+    <dd><ul><li>Insérer la clause dans son marché (<a href="http://cache.media.education.gouv.fr/file/Lab_110bis/06/9/20191203_CSF_proposition_de_redaction_type_de_la_clause_1216069.zip">rédaction type</a>)</li></ul></dd>
 
     <dt>Période de consultation</dt>
-    <dd>Analyser la clause proposée (<a href="http://cache.media.education.gouv.fr/file/Lab_110bis/08/0/20191128_CSF_Grille_d_analyse_1216080.docx">exemple de grille d'analyse</a>)</dd>
+    <dd><ul><li>Analyser la clause proposée (<a href="http://cache.media.education.gouv.fr/file/Lab_110bis/08/0/20191128_CSF_Grille_d_analyse_1216080.docx">exemple de grille d'analyse</a>)</li></ul></dd>
 
     <dt>Notification du marché</dt>
-    <dd>Déclarer le parcours à l'Education nationale (<a href="https://airtable.com/shrEzwLd6dgEVPlYm">remplir le formulaire en ligne</a>)</dd>
+    <dd><ul><li>Déclarer le parcours à l'Education nationale (<a href="https://airtable.com/shrEzwLd6dgEVPlYm">remplir le formulaire en ligne</a>)</li></ul></dd>
 
     <dt>Lancement du marché</dt>
-    <dd>Rappeler à l'entreprise ses engagements (<%= link_to "éléments de présentation", entreprise_path %>)</dd>
+    <dd><ul><li>Rappeler à l'entreprise ses engagements (<%= link_to "éléments de présentation", entreprise_path %>)</li></ul></dd>
 
     <dt>Exécution du marché</dt>
     <dd>
@@ -57,7 +59,6 @@
     </dd>
   </dl>
 
-  <%= image_tag "timeline-acheteur.svg", alt: "timeline de l'acheteur" %>
 
 </section>
 
