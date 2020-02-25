@@ -1,6 +1,6 @@
 # TODO
 
-- analyser le process de run
+- schématiser le process de run
 - mettre à jour le guide acheteur
 - intégrer le guide tuteur
 - brancher le site de la clause sociale sur air table
