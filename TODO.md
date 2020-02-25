@@ -1,10 +1,13 @@
 # TODO
 
-- automatiser le déploiement à partir de github (pour déployer quand un guide est modifié directement sur github)
-- Accompagner Jean-Xavier et Ekram (et Léa ?) dans la création de compte github
-- Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github
+- analyser le process de run
+- mettre à jour le guide acheteur
+- intégrer le guide tuteur
+- brancher le site de la clause sociale sur air table
 - mettre en place un filtre sur la localisation
 - mettre en place un filtre sur le temps du parcours
+- Accompagner Jean-Xavier et Ekram (et Léa ?) dans la création de compte github
+- Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github
 - créer un sitemap.txt pour améliorer le référencement
 - afficher des listes finies sur les champs le nécessitant (dans le formulaire de saisie de parcours)
 - changer le champs de liste des taches pour mettre un `text` plutôt qu'un `string`
