@@ -1,6 +1,11 @@
 # TODO
 
-- schématiser le process de run
+- lister les parcours sur lesquels l'équipe devrait se pencher
+- mettre à jour depuis airtable
+- ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
+- afficher les parcours ouverts triés par date d'échéance (acheteur)
+- trier les parcours ouverts par fraicheur (tuteur pédagogique)
+- afficher qui doit faire la prochaine action (et quand ?)
 - mettre à jour le guide acheteur
 - intégrer le guide tuteur
 - brancher le site de la clause sociale sur air table
