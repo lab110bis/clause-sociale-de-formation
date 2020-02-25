@@ -2,6 +2,7 @@
 
 - lister les parcours sur lesquels l'équipe devrait se pencher
 - mettre à jour depuis airtable
+- revoir le script d'import CSV aritable pour faire des mise à jour régulière à partir du bon onglet airtable
 - ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
 - afficher les parcours ouverts triés par date d'échéance (acheteur)
 - trier les parcours ouverts par fraicheur (tuteur pédagogique)
