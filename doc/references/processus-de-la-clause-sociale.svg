@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="337.63494"
+     inkscape:cx="357.63494"
      inkscape:cy="637.36305"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -97,7 +97,7 @@
          y="619.96149"
          id="tspan3387">réunion de présentation</tspan></text>
     <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c1fce8;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;fill-opacity:1"
        id="rect3336-8-2"
        width="251.55008"
        height="60"
@@ -132,16 +132,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="251.5737"
-       y="513.76312"
+       x="257.5737"
+       y="517.76312"
        id="text3421"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3423"
-         x="251.5737"
-         y="513.76312">Pas de réponse</tspan></text>
+         x="257.5737"
+         y="517.76312">Pas de réponse</tspan></text>
     <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c1fce8;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;fill-opacity:1"
        id="rect3336-8-2-6"
        width="251.55008"
        height="60"
@@ -164,25 +164,25 @@
        width="251.55008"
        height="91.428574"
        x="111.36783"
-       y="298.07648" />
+       y="294.07648" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="147.21051"
-       y="332.92578"
+       y="328.92578"
        id="text3338-7-7-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="147.21051"
-         y="332.92578"
+         y="328.92578"
          id="tspan3387-2-9">La MLDS envoie CV</tspan><tspan
          sodipodi:role="line"
          x="147.21051"
-         y="351.67578"
+         y="347.67578"
          id="tspan3415-4">et lettre motivation</tspan><tspan
          sodipodi:role="line"
          x="147.21051"
-         y="370.42578"
+         y="366.42578"
          id="tspan3475">à l'équipe CSF</tspan></text>
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
@@ -190,28 +190,28 @@
        width="251.55008"
        height="91.428574"
        x="112.79639"
-       y="178.07648" />
+       y="164.07648" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="130.63907"
-       y="212.92578"
+       y="198.92578"
        id="text3338-7-7-5-0"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="130.63907"
-         y="212.92578"
+         y="198.92578"
          id="tspan3475-7">Le jeune est identifié</tspan><tspan
          sodipodi:role="line"
          x="130.63907"
-         y="231.67578"
+         y="217.67578"
          id="tspan3508">par un tuteur pédagogique</tspan><tspan
          sodipodi:role="line"
          x="130.63907"
-         y="250.42578"
+         y="236.42578"
          id="tspan3510">via airtable</tspan></text>
     <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c1fce8;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;fill-opacity:1"
        id="rect3336-8-2-1-9-7"
        width="251.55008"
        height="91.428574"
@@ -254,5 +254,45 @@
          x="177.97556"
          y="849.96155"
          id="tspan3590">du bilan</tspan></text>
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c1fce8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect3336-8-2-1-9-7-1"
+       width="190.12154"
+       height="47.142868"
+       x="448.51068"
+       y="120.07649" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="457.6301"
+       y="138.85426"
+       id="text3338-7-7-5-0-1-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="457.6301"
+         y="138.85426"
+         id="tspan3543-2">Intervention de</tspan><tspan
+         sodipodi:role="line"
+         x="457.6301"
+         y="157.60426"
+         id="tspan4430">l'équipe CSF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="454.14795"
+       y="103.69682"
+       id="text3338-7-7-5-0-1-8-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="454.14795"
+         y="103.69682"
+         id="tspan4430-2">Légende:</tspan></text>
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect4455"
+       width="245.71428"
+       height="134.28572"
+       x="427.14285"
+       y="65.219345" />
   </g>
 </svg>
