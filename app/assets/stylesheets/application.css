@@ -14,12 +14,19 @@
  *= require_self
  */
 
-.card, .section-guide {
+.card, .section-guide, .card__parcours {
   box-shadow: 0 0 15px 2px rgba(0,0,0,.30);
+  border-radius: 15px;
 }
 
-.card__link, .card__link:hover, .card__link:visited {
+.card__link, .card__link:hover, .card__link:visited, .card__link:focus {
   text-decoration: inherit; /* no underline */
+  color: black;
+}
+
+.card__link:hover .card__content h3, .card__link:focus .card__content h3 {
+  background-color: #DDD;
+  color: black;
 }
 
 .card__dates {
@@ -69,5 +76,12 @@
 }
 
 body {
-  background-color: white;
-}
+  background-color: #fff;
+  color: #333;
+  margin: 33px; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+

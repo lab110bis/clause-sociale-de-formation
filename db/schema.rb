@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_31_142319) do
+ActiveRecord::Schema.define(version: 2020_02_25_164436) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,9 +23,9 @@ ActiveRecord::Schema.define(version: 2019_12_31_142319) do
     t.string "mail_contact_acheteur"
     t.string "telephone_contact_acheteur"
     t.text "objet_marche"
-    t.string "date_notification_marche"
-    t.string "date_fin_clause_sociale"
-    t.string "date_fin_clause_sociale_reconduction_comprise"
+    t.date "date_notification_marche"
+    t.date "date_fin_clause_sociale"
+    t.date "date_fin_clause_sociale_reconduction_comprise"
     t.string "nom_entreprise"
     t.string "secteur_activite_entreprise"
     t.string "site_web_entreprise"

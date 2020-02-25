@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "entreprise", to: "pages#entreprise"
   get "acheteur", to: "pages#acheteur"
   get "tuteur", to: "pages#tuteur"
+  get "parcours_a_suivre", to: "parcours_a_suivre#index"
 end
