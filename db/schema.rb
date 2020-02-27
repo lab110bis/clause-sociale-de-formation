@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_25_164436) do
+ActiveRecord::Schema.define(version: 2020_02_27_110235) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,6 +47,11 @@ ActiveRecord::Schema.define(version: 2020_02_25_164436) do
     t.datetime "updated_at", precision: 6, null: false
     t.integer "referent_mlds_id"
     t.string "mail_2eme_referent_entreprise"
+    t.text "objet_detaille_marche", null: false
+    t.text "commentaires"
+    t.string "disponibilite_parcours"
+    t.string "suivis_parcours"
+    t.string "convention_signee"
   end
 
   create_table "referents_mlds", force: :cascade do |t|
