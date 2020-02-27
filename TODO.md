@@ -8,7 +8,6 @@ Les priorités actuelles sont :
 
 ## Tâches priorisées
 
-- positionner un post-hook dans le déploiement pour automatiser les migrations
 - tester la liste des parcours sur lesquels l'équipe devrait se pencher
 - ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
 - afficher les parcours ouverts triés par date d'échéance (acheteur)
