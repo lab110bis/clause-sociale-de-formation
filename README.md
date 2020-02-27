@@ -1,5 +1,7 @@
 # Clause Sociale de Formation
 
+**Mettre un jeune en face de chaque parcours rendu accessible via une clause sociale de formation**
+
 La clause sociale de formation permet à un jeune en situation de décrochage
 scolaire de réaliser un parcours en entreprise pour l'aider à définir un projet
 professionnel. Cette clause repose sur de nombreux acteurs : jeune en situation

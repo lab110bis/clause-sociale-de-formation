@@ -1,8 +1,10 @@
 # CHANGELOG
 
 Au 25/02/2019, il reste :
+
 - 25 jours de développement
 - un hébergement en france jusqu'en novembre 2021, chez un hébergeur français.
+
 
 ## Février
 

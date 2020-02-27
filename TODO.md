@@ -1,5 +1,13 @@
 # TODO
 
+**Mettre un jeune en face de chaque parcours rendu accessible via une clause sociale de formation**
+
+Les priorités actuelles sont :
+- centraliser des documentations claires à propos de la clause sociale de formation à destination des acheteurs, entreprises, personnes en MLDS et tutrice
+- Permettre le suivi des parcours en fonction du profile de la personne qui regarde
+
+## Tâches priorisées
+
 - lister les parcours sur lesquels l'équipe devrait se pencher
 - positionner un post-hook dans le déploiement pour automatiser les migrations
 - mettre à jour depuis airtable
