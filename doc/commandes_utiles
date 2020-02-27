@@ -21,24 +21,23 @@ git push git@ssh.osc-fr1.scalingo.com:clause-sociale-de-formation.git master
 
 ## Intégrer les données en production
 
-- pg_dump csf_development --format=c -U csf -W -h localhost > pg_backup.bak
-
-Note du support de Scalingo :
-
-> En effet, vous n'avez pas les droit d'ajouter, enlever et/ou ajouter des extensions pour des raisons de sécurité. Pour cela, vous devez le faire depuis le dashboard.
-> La solution ici est de :
-> 
-> - Soit ignorer cette erreur et continuer le dump des données
-> - Soit changer le dump pour supprimer ces lignes
->
-
 - dans un terminal, configurer un tunnel comme suit :
+```
   export $(scalingo --app clause-sociale-de-formation --region osc-fr1 env | grep "^SCALINGO_POSTGRESQL")
   scalingo -a clause-sociale-de-formation --region osc-fr1 db-tunnel $SCALINGO_POSTGRESQL_URL
+```
 
-- dans un autre terminal, export une variable `DATABASE_URL` contenant une chaine de connexion passant par le tunnel : `export DATABASE_URL=postgresql://<login>:<mot_de_pass>@127.0.0.1:10000/<db_name>
+- pg_dump csf_development --format=c -U csf -W -h localhost > pg_backup.bak
 
-- puis, executer la commande de restore : `pg_restore -e --clean --if-exists --format=c --no-owner --no-privileges --dbname $DATABASE_URL pg_backup.bak`
+- dans un autre terminal, changer la machine et le port de la variable SCALINGO_POSTGRESQL_URL pour passer par le tunnel :
+```
+export $(scalingo --app clause-sociale-de-formation --region osc-fr1 env | grep "^SCALINGO_POSTGRESQL" |sed -- "s/@.*\//@127.0.0.1:10000\//")
+```
+
+- puis, executer la commande de restore :
+```
+  pg_restore -e -n public --clean --format=c --no-owner --no-privileges --dbname $SCALINGO_POSTGRESQL_URL pg_backup.bak
+```
 
 ## Envoyer un email avec tout plein de chose déjà rempli
 
