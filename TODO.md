@@ -16,10 +16,11 @@ Les priorités actuelles sont :
 - ajouter un filtre par acheteur (pour les acheteurs)
 - ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
 - mettre en place un filtre sur le temps du parcours
-- Accompagner Jean-Xavier et Ekram (et Léa ?) dans la création de compte github
-- Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github
+- [JX/EK] Accompagner Jean-Xavier et Ekram (et Léa ?) dans la création de compte github
+- [JX/EK] Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github
 - mettre en place une gestion des comptes (en restant sur http basic auth)
 - faire une carte pour la localisation des pacours
+
 
 ## Questions ?
 

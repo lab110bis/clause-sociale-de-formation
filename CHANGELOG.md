@@ -1,13 +1,14 @@
 # CHANGELOG
 
-Au 25/02/2019, il reste :
+Au 27/02/2019, il reste :
 
-- 25 jours de développement
+- 24 jours de développement
 - un hébergement en france jusqu'en novembre 2021, chez un hébergeur français.
 
 
 ## Février
 
+- Met à jour (manuellement) les données depuis airtable
 - Liste les CSF bientôt échus
 - Dresse le schéma du processus de suivi de la CSF
 - Intégrer les dernières modifications du guide entreprise
