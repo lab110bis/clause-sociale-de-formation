@@ -10,7 +10,6 @@ Les priorités actuelles sont :
 
 - tester la liste des parcours sur lesquels l'équipe devrait se pencher
 - ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
-- afficher les parcours ouverts triés par date d'échéance (acheteur)
 - pour les parcours bientôt échus, pendre en considération la date fin de clause reconduction comprise
 - trier les parcours ouverts par fraicheur (tuteur pédagogique)
 - intégrer le guide tuteur
