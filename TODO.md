@@ -8,7 +8,6 @@ Les priorités actuelles sont :
 
 ## Tâches priorisées
 
-- brancher le site de la clause sociale sur air table
 - intégrer la documentation du référent entreprise
 - pour les parcours bientôt échus, pendre en considération la date fin de clause reconduction comprise
 - trier les parcours ouverts par fraicheur (tuteur pédagogique)
