@@ -8,11 +8,12 @@ Les priorités actuelles sont :
 
 ## Tâches priorisées
 
-- pour les parcours bientôt échus, pendre en considération la date fin de clause reconduction comprise
+- pour les parcours bientôt échus, afficher la date fin de clause reconduction comprise
 - trier les parcours ouverts par fraicheur (tuteur pédagogique)
 - ajouter un filtre par région sur la liste des parcours à échoir
 - ajouter un filtre par acheteur (pour les acheteurs)
 - ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
+- navigation
 - mettre en place un filtre sur le temps du parcours
 - [JX/EK] Accompagner Jean-Xavier et Ekram (et Léa ?) dans la création de compte github
 - [JX/EK] Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github

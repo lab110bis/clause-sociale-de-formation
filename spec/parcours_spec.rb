@@ -1,13 +1,16 @@
 require "rails_helper"
 
 describe Parcours, type: :model do
-  it 'should have date_notification_marche' do
-    expect(Parcours.new).to be_invalid
-    expect(Parcours.new date_notification_marche: "25/12/2020").to be_valid
-  end
-
   it 'a une fabrique valide' do
     expect(build(:parcours)).to be_valid
+  end
+
+  it 'doit avoir une date_notification_marche' do
+    expect(build(:parcours, date_notification_marche: nil)).to be_invalid
+  end
+
+  it 'doit avoir un objet_detaille_marche' do
+    expect(build(:parcours, objet_detaille_marche: nil)).to be_invalid
   end
 
   it "bientot_echus renvoie un tableau vide quand aucun parcours n'existe" do
@@ -24,5 +27,14 @@ describe Parcours, type: :model do
     parcours_echus_en_dernier = create(:parcours, date_fin_clause_sociale: (Date.today+4.months))
     parcours_echus_en_1er = create(:parcours, date_fin_clause_sociale: (Date.today+3.months))
     expect(Parcours.bientot_echus).to eq([parcours_echus_en_1er, parcours_echus_en_dernier])
+  end
+
+  it "bientot_echus prends en compte le renouvellement du marché" do
+    parcours_bientot_echus = create(
+      :parcours,
+      date_fin_clause_sociale: (Date.today+5.months),
+      date_fin_clause_sociale_reconduction_comprise: (Date.today+1.year)
+    )
+    expect(Parcours.bientot_echus).to eq([])
   end
 end

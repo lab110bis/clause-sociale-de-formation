@@ -2,9 +2,13 @@
 
 Au 27/02/2019, il reste :
 
-- 24 jours de développement
+- 22,5 jours de développement
 - un hébergement en france jusqu'en novembre 2021, chez un hébergeur français.
 
+## Mars
+
+- Affiche le guide référent entreprise
+- Prends en compte les dates de reconduction
 
 ## Février
 
