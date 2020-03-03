@@ -8,7 +8,6 @@ Les priorités actuelles sont :
 
 ## Tâches priorisées
 
-- intégrer la documentation du référent entreprise
 - pour les parcours bientôt échus, pendre en considération la date fin de clause reconduction comprise
 - trier les parcours ouverts par fraicheur (tuteur pédagogique)
 - ajouter un filtre par région sur la liste des parcours à échoir

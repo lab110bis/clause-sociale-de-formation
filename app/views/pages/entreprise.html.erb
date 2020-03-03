@@ -1,129 +1,53 @@
-<header class="header-guide">
+<p id="notice"><%= notice %></p>
+
 <h1>L'entreprise et la Clause Sociale de Formation</h1>
-</header>
+<p class="lead-text">Toute entreprise titulaire d'un marché public avec une Clause Sociale de Formation doit offrir des parcours aux jeunes en situation de décrochage scolaire.</p>
 
+<div class="cards">
+  <div class="row">
+    <div class="card">
+      <%= link_to preparation_marche_path, class: "card__link" do %>
+        <div class="card__cover">
+          <%= image_tag "entreprise.png", alt: "entreprise" %>
+        </div>
+        <div class="card__content">
+          <h3>Vous préparez une réponse à un marché public&nbsp;?</h3>
+        </div>
+      <% end %>
+    </div>
+    <div class="card">
+      <%= link_to marche_notifie_path, class: "card__link" do %>
+        <div class="card__cover">
+          <%= image_tag "acheteur.png", alt: "acheteur" %>
+        </div>
+        <div class="card__content">
+          <h3>Vous avez remporté un marché public&nbsp;?</h3>
+        </div>
+      <% end %>
+    </div>
+    <div class="card">
+      <%= link_to referent_entreprise_path, class: "card__link" do %>
+        <div class="card__cover">
+          <%= image_tag "education_nationale.png", alt: "Education nationale" %>
+        </div>
+        <div class="card__content">
+          <h3>Le rôle du référent entreprise</h3>
+        </div>
+      <% end %>
+    </div>
 
-<section class="section-guide">
-  <h1>Vous répondez (ou avez répondu) à une consultation de marché public, prévoyant une Clause Sociale de Formation : de quoi s’agit-il&nbsp;?</h1>
-
-  <p class="summary">En quelques mots&nbsp;: la clause de formation sous statut scolaire dans les marchés publics, qu’est-ce que c’est&nbsp;?</p>
-
-  <p>Le décrochage scolaire est une cause nationale : 80 000 jeunes décrochent du système scolaire chaque année en France.</p>
-
-  <p>La clause sociale de formation permet à un jeune en situation de décrochage scolaire de réaliser un parcours en entreprise pour l'aider à définir un projet professionnel, en réalisant un parcours adapté « sur mesure ».</p>
-
-  <p>Cette clause repose sur de nombreux acteurs : jeune en situation de décrochage, entreprise, acheteurs et personnels de la mission de lutte contre le décrochage scolaire (MLDS). Elle peut constituer un tremplin vers l’insertion et l’emploi, et permet de développer le rapport École/Entreprise.</p>
-
-  <p class="encart"><strong>Zoom sur les jeunes en situation de remobilisation scolaire&nbsp;:</strong>
-   Les jeunes ont entre 16 et 25 ans.
-   La sortie du système scolaire n'est qu'une parenthèse. Elle peut venir d'une absence de place en Lycée ou dans une formation choisie.
-  L'immersion professionnelle est un levier pour le jeune qui a envie de découvrir le monde professionnel et les compétences qui s'y déploient.</p>
-
-</section>
-
-<section class="section-guide">
-<h1>Vous venez de remporter un marché public !</h1>
-
-<p><strong>Comment la clause sociale de formation va-t-elle se dérouler ?</strong></p>
-
-<p>Félicitations ! Vous venez de remporter un marché public !
-Une clause sociale de formation sous statut scolaire est prévue au contrat : de quoi s’agit-il et comment va-
-t-elle se dérouler ?</p>
-
-<h2>Temps d'étude de votre offre de parcours par l'éducation nationale&nbsp;:</h2>
-
-<p>L’Education nationale va vous mettre en relation avec un jeune et son tuteur pédagogique. Attention : les profils de jeunes ne sont pas immédiatement disponibles, ils sont établis&nbsp;:
-</p>
-  <ul>
-    <li><strong>en suivant le calendrier scolaire</strong> (donc à partir d'octobre jusqu'en fin d'année scolaire)</li>
-    <li>et <strong>à l'issue d'entretiens de situation</strong>.</li>
-  </ul>
-  <p>Il y a donc une certaine durée à prévoir côté entreprise&nbsp;: plusieurs mois peuvent être nécessaire en attendant le profil et son tuteur.</p>
-</p>
-<p>L’Education nationale prend en charge la proposition du profil bénéficiaire de la clause sociale de formation.
-Attention : les profils de jeunes ne sont pas immédiatement disponibles, ils sont établis en suivant le calendrier
-scolaire (donc à partir d’octobre jusqu’en fin d’année scolaire), à l’issue d’entretiens de situation. Il y a donc une certaine durée à prévoir côté acheteur et côté entreprise : plusieurs mois peuvent être nécessaires à la proposition d’un profil.</p>
-
-<h2>Une fois le profil établi&nbsp;:</h2>
-
-<p>La MLDS établit avec le jeune <strong>un CV et une lettre de motivation</strong>.</p>
-
-<p>Elle désigne un <strong>tuteur pédagogique</strong> qui suivra le jeune pendant l’ensemble de son parcours en entreprise, en lien avec le référent entreprise.</p>
-
-<p>Elle demande à être mise en relation avec un référent à l’intérieur de l’entreprise, qui suivra le jeune durant toute son immersion en entreprise.</p>
-
-<p>Le jeune est soigneusement sélectionné par son tuteur en fonction de son appétence avec les tâches indiquées dans le parcours.</p>
-
-<p>il existe une clause de non-concurrence à la fois entre les jeunes et les tuteurs : 1 seul jeune vous sera présenté.</p>
-
-<p><em>Modalités pratiques&nbsp;: lorsqu’un profil est proposé à l’entreprise par l’Education nationale, l’entreprise doit prendre connaissance du message transmis par l’Education nationale à l’entreprise, via l’adresse :</p>
-
-<p><a href="mailto:clausesocialedeformation@education.gouv.fr">clausesocialedeformation@education.gouv.fr</a></p>
-
-<p>Le donneur d’ordres est également destinataire de ce message, transmettant le CV et la lettre de motivation du jeune à l’entreprise, avec le nom et les coordonnées du tuteur pédagogique.</em></p>
-
-<p class="summary">REFLEXE COTE ENTREPRISE&nbsp;: une réponse rapide est alors attendue ! Un jeune attend…</p>
-
-<p>Ainsi, quand un profil vous est proposé, vous devez répondre au maximum sous 15 jours.</p>
-
-<div class="encart">
-  <p><strong>La première rencontre avec le jeune : la réunion de présentation du jeune sur le lieu de stage</strong></p>
-
-  <p>Une fois le profil transmis à l’entreprise, une réunion de présentation du jeune à l’entreprise est réalisée : elle constitue un moment clef du parcours. Elle permet de définir les missions confiées et les modalités pratiques.</p> 
-
-  <p>C’est aussi l’occasion d’adapter votre offre de parcours (la « fiche entreprise ») au profil du jeune.</p>
-
-  <p>Sont présents obligatoirement le jeune, son tuteur pédagogique et le référent entreprise.</p>
-
-  <p>La présence de l’acheteur (ou donneur d’ordre) à cette réunion n’est pas obligatoire, mais elle est conseillée.</p>
-
-  <p>Un travail collaboratif permet alors de mieux définir les missions (approfondissement des missions proposées), voire même de les modifier en fonction du profil (par exemple, un parcours initialement administratif peut devenir un parcours de vente…).</p>
-
-  <p>La rencontre avec le jeune détermine les modalités pratiques de mise en œuvre. Il ne s’agit pas d’un entretien d'embauche. Il est même possible de la répéter.</p>
-
-  <p>A savoir : pendant cet entretien, le jeune ne saura pas décrire précisément ce qui le motive car il ne se projette pas encore dans le travail qu'il va réaliser.</p>
   </div>
+</div>
 
-  <h2>Modalité pratique d’entrée en entreprise&nbsp;:</h2>
-
-  <p>Une convention de stage tripartite est signée entre l’entreprise, l’établissement scolaire d’accueil et le jeune bénéficiaire.</p>
-
-  <p>La convention de stage est un document très important : c’est elle qui permet de donner un statut au jeune</p>
-
-<h2>Pendant le parcours&nbsp;:</h2>
-
-<p>Le jeune réalise son parcours, conformément à la Fiche entreprise et aux échanges réalisés lors de la réunion de
-présentation du jeune.</p>
-
-<p class="summary">Pendant le parcours&nbsp;:</p>
-
-<p>Le jeune réalise son parcours, conformément à la Fiche entreprise et aux échanges réalisés lors de la réunion de présentation du jeune.</p>
-
-<p class="encart">Pendant la période en entreprise, le tuteur pédagogique et le référent entreprise gardent un contact privilégié et régulier. Le jeune bénéficiaire de la clause tient un journal de bord, valant rapport de stage à l’issue du parcours.</p>
-
-<p class="summary">En fin de parcours :</p>
-
-<p>Le référent entreprise réalise avec le tuteur pédagogique de l’Education nationale un bilan croisé du parcours du jeune.</p>
-
-<p class="encart">
-A la fin du stage, le tuteur pédagogique de l’éducation nationale et le référent entreprise établissent un <strong>bilan croisé</strong> sur le déroulement du parcours effectué par le jeune, permettant de vérifier les compétences acquises, non acquises et en voie d’acquisition.
-Ce bilan est remis à l’acheteur, ce qui lui permet de s’assurer que la clause sociale a bien été réalisée par le titulaire du marché : ainsi, outre son importance pédagogique, ce document a une </strong>valeur juridique</strong>.</p>
-
-<p>
-Une fois le bilan réalisé, le tuteur pédagogique fait le point avec le jeune et explore, avec l’entreprise, toutes les possibilités pérennes de retour en formation ou d’accès à l’emploi. Par ailleurs, le bilan croisé permet de cerner les différentes formations qui pourraient être proposées au jeune à l’issue de son parcours.
-</p>
-
-<p>Témoignages&nbsp;: <a href="https://www.dailymotion.com/video/x4xya0j">l’exemple d’Emilia</a></p>
+<section class="section-guide">
+<h3>Pour toute question</h3>
+<p><a class=button href="mailto:clausesocialedeformation@education.gouv.fr"><strong>clausesocialedeformation@education.gouv.fr</strong></a></p>
 </section>
 
 <section class="section-guide">
-<h1>Pour aller plus loin&nbsp;</h1>
-
-<h2>quelques liens utiles pour s’informer</p>
+<h3>Des liens utiles pour s’informer</h3>
 <ul>
   <li><a href="https://www.education.gouv.fr/pid37517/la-clause-sociale-de-formation-sous-statut-scolaire.html">education.gouv.fr/la-clause-sociale-de-formation-sous-statut-scolaire</a></li>
   <li><a href="http://achats.aji-france.com/mission_des_achats/la_clause_sociale_de_formation_sous_statut_scolaire">ahats.aji-france.com/mission_des_achats/la_clause_sociale_de_formation_sous_statut_scolaire</a></li>
 </ul>
-
-<p>Pour toute question <a href="mailto:clausesocialedeformation@education.gouv.fr">clausesocialedeformation@education.gouv.fr</a></p>
 </section>
