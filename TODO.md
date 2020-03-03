@@ -8,17 +8,18 @@ Les priorités actuelles sont :
 
 ## Tâches priorisées
 
-- tester la liste des parcours sur lesquels l'équipe devrait se pencher
-- ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
+- brancher le site de la clause sociale sur air table
+- intégrer la documentation du référent entreprise
 - pour les parcours bientôt échus, pendre en considération la date fin de clause reconduction comprise
 - trier les parcours ouverts par fraicheur (tuteur pédagogique)
-- intégrer le guide tuteur
-- brancher le site de la clause sociale sur air table
-- mettre en place un filtre sur la localisation
+- ajouter un filtre par région sur la liste des parcours à échoir
+- ajouter un filtre par acheteur (pour les acheteurs)
+- ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
 - mettre en place un filtre sur le temps du parcours
 - Accompagner Jean-Xavier et Ekram (et Léa ?) dans la création de compte github
 - Accompagner Jean-Xavier et Ekram (et Léa ?) pour éditer les guides directement sur le site via github
 - mettre en place une gestion des comptes (en restant sur http basic auth)
+- faire une carte pour la localisation des pacours
 
 ## Questions ?
 
