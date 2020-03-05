@@ -1,13 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Parcours échus dans moins de 6 mois</h1>
+<h1><%= @parcours_bientot_echus.count %> parcours échus dans moins de 6 mois</h1>
 <section class="section__parcours">
   <% @parcours_bientot_echus.each do |parcours| %>
     <div class="card__parcours">
       <%= link_to parcours_path(parcours), class: "card__link" do %>
         <div class="card__content">
         <h3><%= parcours.nom_entreprise %></h3>
-        <div class="card__meta">Publié le <time><%= parcours.date_notification_marche %></time> Finit le <time><%= parcours.date_fin_clause_sociale %></time></div>
+        <div class="card__meta">Publié le <time><%= parcours.date_notification_marche %></time> </time> Finit le <time><%= parcours.date_fin_connue %></time></div>
           <%= parcours.details_taches_proposees_parcours %>
         </div>
         <div class="card__extra">
