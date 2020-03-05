@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Organismes acheteurs</h1>
+
+<ul>
+  <% @organismes_acheteurs.each do |organisme, nombre| %>
+    <li><%= link_to("#{organisme} (#{nombre})", parcours_acheteur_path(organisme), class: "button") %></li>
+  <% end %>
+</ul>

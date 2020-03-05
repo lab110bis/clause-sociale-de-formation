@@ -47,7 +47,7 @@
     <dd><ul><li>Déclarer le parcours à l'Education nationale (<a href="https://airtable.com/shrEzwLd6dgEVPlYm">remplir le formulaire en ligne</a>)</li></ul></dd>
 
     <dt>Lancement du marché</dt>
-    <dd><ul><li>Rappeler à l'entreprise ses engagements (<%= link_to "éléments de présentation", entreprise_path %>)</li></ul></dd>
+    <dd><ul><li>Rappeler à l'entreprise ses engagements (<%= link_to "éléments de présentation", entreprise_guide_path %>)</li></ul></dd>
 
     <dt>Exécution du marché</dt>
     <dd>
@@ -139,7 +139,7 @@
 <p>
 L'acheteur ne doit pas hésiter à rappeler à l'entreprise ses
 engagements en lui expliquant ce qu'est la clause sociale de
-formation (en utilisant une référence vers la page <%= link_to 'clause-sociale-de-formation.fr/entreprise', entreprise_path %>.
+formation (en utilisant une référence vers la page <%= link_to 'clause-sociale-de-formation.fr/entreprise', entreprise_guide_path %>.
 </p>
 </section>
 
@@ -156,7 +156,7 @@ formation (en utilisant une référence vers la page <%= link_to 'clause-sociale
     <li>une fois le rdv de présentation fixé, l'acheteur peut, si il le souhaite assister à cette réunion en présence du jeune, de son tuteur et du référent entreprise.</li>
   </ul>
 
-  <%= link_to 'Liste des parcours bientôt à échéance', parcours_a_suivre_path, class: "button" %>
+  <%= link_to 'Liste des parcours bientôt échus', parcours_a_suivre_path, class: "button" %>
 
   <h2>POINTS D'ATTENTION</h2>
   <p>Il s'agit souvent du <strong>moment le plus crucial</strong> dans la mise en oeuvre de la clause ! Parfois, les entreprises sont réticentes à l'idée d'accueillir un jeune pour différentes raisons&nbsp;:</p>
