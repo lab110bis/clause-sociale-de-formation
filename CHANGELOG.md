@@ -1,12 +1,10 @@
 # CHANGELOG
 
-Au 27/02/2019, il reste :
-
-- 22,5 jours de développement
-- un hébergement en france jusqu'en novembre 2021, chez un hébergeur français.
-
 ## Mars
 
+Au 5/03/2019, temps passé : 2,5 Y + 2 P
+
+- Filtre par région la liste des parcours à échoir
 - Affiche le guide référent entreprise
 - Prends en compte les dates de reconduction
 

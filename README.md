@@ -28,3 +28,7 @@ voir [INSTALL.md](INSTALL.md)
 ## Développement
 
 Nous sommes parti avec le framework [ruby on rails](https://rubyonrails.org/).
+
+## Hébergement
+
+- Hébergé en france jusqu'à peu près novembre 2021, chez un hébergeur français (Scalingo).

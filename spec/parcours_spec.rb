@@ -69,4 +69,18 @@ describe Parcours, type: :model do
     )
     expect(parcours.date_fin_connue).to eq(Date.today+6.months)
   end
+
+  it "par_academie ne ramène que les parcours d'une académie" do
+    parcours_de_versailles = create(:parcours, academie_parcours: "Versailles")
+    parcours_de_creteil = create(:parcours, academie_parcours: "Créteil")
+    expect(Parcours.par_academie "Créteil").to eq([parcours_de_creteil])
+  end
+
+  it "groupe_par_academie décompte les bientot_echus par academie" do
+    parcours_de_versailles = create(:parcours, academie_parcours: "versailles", date_fin_clause_sociale: Date.today)
+    parcours_de_creteil_1 = create(:parcours, academie_parcours: "créteil", date_fin_clause_sociale: Date.today)
+    parcours_de_creteil_2 = create(:parcours, academie_parcours: "créteil", date_fin_clause_sociale: Date.today)
+    expect(Parcours.groupe_bientot_echus_par_academies.count["versailles"]).to eq(1)
+    expect(Parcours.groupe_bientot_echus_par_academies.count["créteil"]).to eq(2)
+  end
 end

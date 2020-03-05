@@ -4,8 +4,12 @@ class ParcoursASuivreController < ApplicationController
   # GET /parcours
   # GET /parcours.json
   def index
-    @parcours_bientot_echus = Parcours.bientot_echus
-    #@parcours = Parcours.where(domaine_activite_parcours: params[:domaine])
+    if params[:academie].nil?
+      @nombre_parcours = Parcours.groupe_bientot_echus_par_academies.count
+      render :academies
+    else
+      @parcours_bientot_echus = Parcours.bientot_echus.par_academie params[:academie]
+    end
   end
 
 end

@@ -11,6 +11,14 @@ class Parcours < ApplicationRecord
     where("date_fin_clause_sociale_reconduction_comprise::date <= :echeance AND date_fin_clause_sociale::date <= :echeance", echeance: Date.today+6.months)
   }
 
+  scope :par_academie, -> (academie) {
+    where(academie_parcours: academie)
+  }
+
+  scope :groupe_bientot_echus_par_academies, -> {
+    select(:academie_parcours).where("id in (?)", (bientot_echus.ids)).group(:academie_parcours)
+  }
+
   def date_fin_connue
     [date_fin_clause_sociale_reconduction_comprise, date_fin_clause_sociale].compact.max
   end
