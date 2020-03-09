@@ -13,6 +13,10 @@ describe Parcours, type: :model do
     expect(build(:parcours, objet_detaille_marche: nil)).to be_invalid
   end
 
+  it "doit avoir un nom_organisme_acheteur" do
+    expect(build(:parcours, nom_organisme_acheteur: nil)).to be_invalid
+  end
+
   it "bientot_echus renvoie un tableau vide quand aucun parcours n'existe" do
     expect(Parcours.bientot_echus).to be_empty
   end

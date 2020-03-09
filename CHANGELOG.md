@@ -4,6 +4,7 @@
 
 Au 5/03/2019, temps passé : 2,5 Y + 2 P
 
+- Affiche les parcours par acheteur
 - Filtre par région la liste des parcours à échoir
 - Affiche le guide référent entreprise
 - Prends en compte les dates de reconduction

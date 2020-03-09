@@ -8,7 +8,6 @@ Les priorités actuelles sont :
 
 ## Tâches priorisées
 
-- ajouter un filtre par acheteur (pour les acheteurs)
 - trier les parcours ouverts par fraicheur (tuteur pédagogique)
 - ajouter des notes de suivies sur un parcours (actuellement dans les commentaires)
 - navigation
