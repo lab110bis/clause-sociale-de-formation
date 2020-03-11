@@ -78,10 +78,32 @@
 body {
   background-color: #fff;
   color: #333;
-  margin: 33px; }
+}
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px; }
 
+.main {
+  margin: 33px;
+}
+
+.bas-de-page {
+  padding: 3em;
+  background: black;
+  color: white;
+  margin-bottom: 0;
+}
+
+.bas-de-page a {
+  background: black;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navigation li {
+  margin: 1em;
+}

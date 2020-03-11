@@ -10,6 +10,17 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="main">
+      <%= yield %>
+    </div>
+    <footer class="bas-de-page">
+      <nav class="navigation">
+        <ul>
+          <li><%= link_to "D'autres témoignages", temoignages_path %></li>
+          <li><%= link_to "Suivi des parcours", parcours_a_suivre_path %></li>
+          <li><a href="mailto:clausesocialedeformation@education.gouv.fr">clausesocialedeformation@education.gouv.fr</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>

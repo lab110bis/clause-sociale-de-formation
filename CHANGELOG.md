@@ -2,8 +2,10 @@
 
 ## Mars
 
-Au 5/03/2019, temps passé : 2,5 Y + 2 P
+Au 11/03/2019, temps passé : 3,5 Y + 3 P
 
+- mise en place d'un début de navigation
+- début d'intégration des témoignages
 - Affiche les parcours par acheteur
 - Filtre par région la liste des parcours à échoir
 - Affiche le guide référent entreprise
