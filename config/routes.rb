@@ -18,4 +18,5 @@ Rails.application.routes.draw do
   root to: "pages#accueil"
 
   get "parcours_a_suivre", to: "parcours_a_suivre#index"
+  get "temoignages", to: "pages#temoignages"
 end
