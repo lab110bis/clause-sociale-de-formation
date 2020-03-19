@@ -7,7 +7,7 @@ Au 11/03/2019, temps passé : 3,5 Y + 3 P
 - mise en place d'un début de navigation
 - début d'intégration des témoignages
 - Affiche les parcours par acheteur
-- Filtre par région la liste des parcours à échoir
+- Filtre les parcours à échoir par accadémie
 - Affiche le guide référent entreprise
 - Prends en compte les dates de reconduction
 
