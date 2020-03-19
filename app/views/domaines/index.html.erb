@@ -1,9 +1,0 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Domaines</h1>
-
-<ul>
-  <% DOMAINES.each do |domaine| %>
-    <li><%= link_to(domaine, parcours_index_path(domaine: domaine)) %></li>
-  <% end %>
-</ul>

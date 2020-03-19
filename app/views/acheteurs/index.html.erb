@@ -1,9 +1,0 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Organismes acheteurs</h1>
-
-<ul>
-  <% @organismes_acheteurs.sort.each do |organisme, parcours| %>
-    <li><%= link_to("#{parcours.first.nom_organisme_acheteur} (#{parcours.length})", parcours_index_path(acheteur: organisme), class: "button") %></li>
-  <% end %>
-</ul>

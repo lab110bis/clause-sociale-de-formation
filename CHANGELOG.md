@@ -1,9 +1,10 @@
 # CHANGELOG
 
-## Mars
+## Mars
 
-Au 11/03/2019, temps passé : 3,5 Y + 3 P
+Au 11/03/2019, temps passé : 4 Y + 3,5 P
 
+- bascule sur un site statique
 - mise en place d'un début de navigation
 - début d'intégration des témoignages
 - Affiche les parcours par acheteur
