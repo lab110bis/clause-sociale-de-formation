@@ -2,7 +2,14 @@
 
 ## Mars
 
-Au 11/03/2019, temps passé : 4 Y + 3,5 P
+Au 31/03/2020, temps passé : 0.5 E + 0.5 P
+
+
+Début de l'intervention d'Eric
+
+----
+
+Au 11/03/2020, temps passé : 4 Y + 3,5 P
 
 - bascule sur un site statique
 - mise en place d'un début de navigation
