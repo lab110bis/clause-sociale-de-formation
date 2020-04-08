@@ -2,8 +2,9 @@
 
 ## Mars
 
-Au 31/03/2020, temps passé : 0.5 E + 0.5 P
+Au 8/04/2020, temps passé : 1 E + 1 P
 
+- Mise en forme de l'à-propos
 - Remplacement du contenu existant par le template beta gouv
 - Début de l'intervention d'Erick
 
