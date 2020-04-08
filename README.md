@@ -1,34 +1,45 @@
-# Clause Sociale de Formation
+🚧 Ce dépôt n’est plus maintenu et sera à terme remplacé par une nouvelle version dont le développement est en cours. 🚧
 
-**Mettre un jeune en face de chaque parcours rendu accessible via une clause sociale de formation**
 
-La clause sociale de formation permet à un jeune en situation de décrochage
-scolaire de réaliser un parcours en entreprise pour l'aider à définir un projet
-professionnel. Cette clause repose sur de nombreux acteurs : jeune en situation
-de décrochage, entreprise, acheteurs et personnels de la mission de lutte
-contre le décrochage scolaire (MLDS). Elle peut constituer un tremplin vers
-l’insertion et l’emploi, et permet de développer le rapport École/Entreprise.
+# template.data.gouv.fr [![CircleCI](https://circleci.com/gh/etalab/template.data.gouv.fr.svg?style=svg)](https://circleci.com/gh/etalab/template.data.gouv.fr)
 
-[Pour en savoir plus sur le site de l'éducation nationale](https://www.education.gouv.fr/pid37517/la-clause-sociale-de-formation-sous-statut-scolaire.html)
+Template CSS pour *.beta.gouv.fr, doc.data.gouv.fr et compagnie.
 
-## Les Guides
-
-- [Acheteur](app/views/pages/acheteur.html.erb)
-- [Entreprise](app/views/pages/entreprise.html.erb)
-- [Tuteur](app/views/pages/tuteur.html.erb)
-
-## Documentation
-
-voir le répertoire [doc](doc/)
-
-## Installation
-
-voir [INSTALL.md](INSTALL.md)
+[![npm version](https://badgen.net/npm/v/template.data.gouv.fr)](https://www.npmjs.com/package/template.data.gouv.fr)
 
 ## Développement
 
-Nous sommes parti avec le framework [ruby on rails](https://rubyonrails.org/).
+Pour bénéficier du rechargement automatique du CSS :
 
-## Hébergement
+```bash
+  yarn install && yarn dev
+  open index.html
+```
 
-- Hébergé en france jusqu'à peu près novembre 2021, chez un hébergeur français (Scalingo).
+## Construire votre propre version du template
+
+Commenter les parties qui ne vous sont pas utiles dans `src/css/index.css` puis lancer:
+```bash
+  yarn dist
+```
+
+## Importer le package NPM
+
+Installer le package sur votre projet
+```bash
+  npm install template.data.gouv.fr
+```
+
+Puis importer le fichier
+```
+  import 'template.data.gouv.fr/dist/main.css'
+```
+
+## Utiliser la dernière version complète
+
+En utilisant unpkg `<link href="https://unpkg.com/template.data.gouv.fr@1.3.1/dist/main.min.css" rel="stylesheet">`
+## Licence
+
+2019 DINSIC
+
+Cette application est publiée sous [licence MIT](LICENSE).
