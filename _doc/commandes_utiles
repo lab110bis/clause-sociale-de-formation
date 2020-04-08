@@ -19,6 +19,16 @@ RAILS_ENV=development PORT=3000  foreman start web
 
 git push git@ssh.osc-fr1.scalingo.com:clause-sociale-de-formation.git master
 
+## Co-auteur dans le message de commit
+
+Dans le ~/.gitconfig ajouter :
+
+``̀`
+[commit]
+  template = .gitmessage
+``̀`
+
+
 ## Intégrer les données en production
 
 - dans un terminal, configurer un tunnel comme suit :
