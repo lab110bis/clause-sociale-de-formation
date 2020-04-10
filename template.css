@@ -1614,7 +1614,7 @@ li.done::after {
   background-color: var(--blue);
 }
 
-.steps-form li:first-child::after {
+.steps-form li:last-child::after {
   content: none;
 }
 
@@ -1683,10 +1683,10 @@ li.done::after {
 }
 
 .steps-form-vertical li::after {
-  width: 5px;
+  width: 4px;
   height: 100%;
-  top: -16px;
-  left: 24px;
+  bottom: 0;
+  left: 18px;
 }
 
 .steps-form-vertical li::before {
@@ -1695,6 +1695,11 @@ li.done::after {
   margin-bottom: 0;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  border-width: 4px;
+  font-size: 1.5em;
+  line-height: 30px;
 }
 
 /* larger components */
