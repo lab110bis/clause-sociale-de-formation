@@ -1662,6 +1662,41 @@ li.done::after {
   }
 }
 
+.steps-form-vertical {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+}
+
+.steps-form-vertical li {
+  text-align: left;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.steps-form-vertical li::after {
+  width: 5px;
+  height: 100%;
+  top: -16px;
+  left: 24px;
+}
+
+.steps-form-vertical li::before {
+  margin-left: 0;
+  margin-right: 10px;
+  margin-bottom: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
 /* larger components */
 .container {
   position: relative;

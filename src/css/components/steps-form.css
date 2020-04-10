@@ -91,3 +91,29 @@ li.done::after {
     margin: 2vh 0 0;
   }
 }
+
+.steps-form-vertical {
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.steps-form-vertical li {
+  text-align: left;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.steps-form-vertical li::after {
+  width: 5px;
+  height: 100%;
+  top: -16px;
+  left: 24px;
+}
+
+.steps-form-vertical li::before {
+  margin-left: 0;
+  margin-right: 10px;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
