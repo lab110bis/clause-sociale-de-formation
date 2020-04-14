@@ -8,14 +8,17 @@
 }
 
 .hero__container {
-  min-height: 25em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: var(--space-l);
+  padding: 64px 0;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.hero__container > :last-child {
+  margin-bottom: 0;
 }
 
 .hero h1 {

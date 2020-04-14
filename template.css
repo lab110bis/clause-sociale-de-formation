@@ -1876,7 +1876,6 @@ span.navbar__domain {
 }
 
 .hero__container {
-  min-height: 25em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1890,10 +1889,13 @@ span.navbar__domain {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2em;
-  padding: var(--space-l);
+  padding: 64px 0;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.hero__container > :last-child {
+  margin-bottom: 0;
 }
 
 .hero h1 {
