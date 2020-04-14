@@ -277,6 +277,32 @@ dd + dt {
   margin-top: var(--space-xs);
 }
 
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+ul li::before {
+  content: "";
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 12px;
+  background-color: #0053b3;
+  background-color: var(--theme-primary);
+}
+
 /* basic elements */
 input,
 textarea,
@@ -2535,6 +2561,11 @@ a.article__link {
         -ms-flex: 0 0 20rem;
             flex: 0 0 20rem;
   }
+}
+
+.summary {
+  padding: 2.5em 0;
+  font-size: 18px;
 }
 
 /* helpers for evertyhing else */
