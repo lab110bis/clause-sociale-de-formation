@@ -39,6 +39,11 @@
   line-height: var(--space-l);
 }
 
+.footer__social li::before,
+.footer__links li::before {
+  display: none;
+}
+
 .footer__links h2 {
   margin-top: 0;
   margin-bottom: var(--space-xs);

@@ -37,6 +37,9 @@
   display: inline-block;
 }
 
+.nav__item::before {
+  display: none;
+}
 .nav__item a,
 .nav__item .dropdown {
   text-decoration: none;

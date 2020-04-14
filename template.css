@@ -1814,6 +1814,10 @@ li.done::after {
   display: inline-block;
 }
 
+.nav__item::before {
+  display: none;
+}
+
 .nav__item a,
 .nav__item .dropdown {
   text-decoration: none;
@@ -1999,6 +2003,11 @@ span.navbar__domain {
   margin: 0;
   line-height: 2em;
   line-height: var(--space-l);
+}
+
+.footer__social li::before,
+.footer__links li::before {
+  display: none;
 }
 
 .footer__links h2 {
