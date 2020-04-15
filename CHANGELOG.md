@@ -2,8 +2,9 @@
 
 ## Mars
 
-Au 8/04/2020, temps passé : 1 E + 1 P
+Au 14/04/2020, temps passé : 2 E + 1,5 (+2h45) P
 
+- Initié la mise en forme de la page d'accueil et la FAQ
 - Mise en forme de l'à-propos
 - Remplacement du contenu existant par le template beta gouv
 - Début de l'intervention d'Erick
