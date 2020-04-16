@@ -17,6 +17,11 @@
   padding: var(--space-s);
 }
 
+.navbar__container > div {
+  display: flex;
+  align-items: center;
+}
+
 .navbar__home {
   height: 120px;
 }

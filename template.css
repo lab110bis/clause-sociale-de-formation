@@ -1794,6 +1794,15 @@ li.done::after {
   padding: var(--space-s);
 }
 
+.navbar__container > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .navbar__home {
   height: 120px;
 }
@@ -2575,7 +2584,7 @@ a.article__link {
 
 .summary {
   padding: 2.5em 0;
-  font-size: 20;
+  font-size: 20px;
 }
 
 /* helpers for evertyhing else */
