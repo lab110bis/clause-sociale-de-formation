@@ -2,7 +2,7 @@
 
 ## Mars
 
-Au 14/04/2020, temps passé : 2 E + 1,5 (+2h45) P
+Au 16/04/2020, temps passé : 3 E + 3 P
 
 - Initié la mise en forme de la page d'accueil et la FAQ
 - Mise en forme de l'à-propos
