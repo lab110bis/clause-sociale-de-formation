@@ -15,6 +15,32 @@
   border: none;
 }
 
+.card a {
+  text-decoration: none;
+}
+
+.card a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.card a::after {
+  content: ">";
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.card h3 {
+  display: inline;
+  font-size: 1.25em;
+  line-height: 1.25;
+}
+
 .row .card + .card {
   margin-left: var(--space-m);
 }
@@ -38,7 +64,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #EBEFF3;
+}
+
+.card__cover--small {
+  height: 150px;
 }
 
 .card__cover img {
