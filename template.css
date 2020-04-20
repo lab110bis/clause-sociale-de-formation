@@ -1129,6 +1129,10 @@ fieldset {
   border: 1px solid var(--theme-border-lighter);
 }
 
+.card:empty {
+  border: none;
+}
+
 .row .card + .card {
   margin-left: 1.5em;
   margin-left: var(--space-m);
@@ -1160,13 +1164,10 @@ fieldset {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #0053b3;
-  background-color: var(--theme-background-color);
+  background-color: white;
 }
 
 .card__cover img {
-  -o-object-fit: cover;
-     object-fit: cover; /* will not work on IE and Edge < 16 */
   height: 100%;
   width: 100%;
 }
@@ -2676,6 +2677,11 @@ a.article__link {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.row + .row {
+  margin-top: 1.5em;
+  margin-top: var(--space-m);
 }
 
 .row > * {

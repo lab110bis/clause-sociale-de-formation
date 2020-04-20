@@ -11,6 +11,10 @@
   border: 1px solid var(--theme-border-lighter);
 }
 
+.card:empty {
+  border: none;
+}
+
 .row .card + .card {
   margin-left: var(--space-m);
 }
@@ -34,11 +38,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--theme-background-color);
+  background-color: white;
 }
 
 .card__cover img {
-  object-fit: cover; /* will not work on IE and Edge < 16 */
   height: 100%;
   width: 100%;
 }
