@@ -1,5 +1,9 @@
 .section {
-  padding: 5em 0;
+  padding: 2.5em 0;
+}
+
+.section.container:not(:last-of-type) {
+  border-bottom: 2px solid var(--darker-grey);
 }
 
 .section-white {

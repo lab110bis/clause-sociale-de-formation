@@ -2,8 +2,9 @@
 
 ## Mars
 
-Au 16/04/2020, temps passé : 3 E + 3 P
+Au 22/04/2020, temps passé : 3,5 E + 3,5 P
 
+- Mise en forme des cartes personas et des citations
 - Initié la mise en forme de la page d'accueil et la FAQ
 - Mise en forme de l'à-propos
 - Remplacement du contenu existant par le template beta gouv
