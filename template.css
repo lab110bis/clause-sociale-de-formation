@@ -1243,6 +1243,17 @@ fieldset {
   padding: var(--space-s);
 }
 
+.card-quote .text-quote {
+  margin: 0;
+  padding: 20px 20px 20px 35px;
+}
+
+.card-quote .text-quote footer {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
 .panel {
   background: #fff;
   background: var(--theme-background-white);
