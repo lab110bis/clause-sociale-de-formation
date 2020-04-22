@@ -64,3 +64,7 @@ Pour l'envoie de mail on pourrait utiliser un mailto tout simple
 https://github.com/settings/connections/applications/dce5163f63352f1a4d45
 
 - Ensuite, sous scalingo, allez dans **code**
+
+## Nettoyer le svg
+
+https://jakearchibald.github.io/svgomg/
