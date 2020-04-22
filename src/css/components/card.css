@@ -13,10 +13,15 @@
 
 .card:empty {
   border: none;
+  visibility: hidden;
 }
 
 .card a {
   text-decoration: none;
+}
+
+.card a:hover {
+  background: none;
 }
 
 .card a::before {
@@ -66,7 +71,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #EBEFF3;
+  background-color: var(--lighter-grey);
+  padding: 10px;
 }
 
 .card__cover--small {
