@@ -29,10 +29,12 @@
 }
 
 .card a::after {
-  content: ">";
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 14px;
   margin-left: 12px;
-  font-weight: bold;
-  font-size: 1.5em;
+  background: url(/images/arrow-right.svg);
 }
 
 .card h3 {
