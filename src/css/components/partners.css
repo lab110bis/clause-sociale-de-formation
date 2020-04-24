@@ -1,0 +1,14 @@
+.partners {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  align-items: start;
+}
+
+.partners li::before {
+  display: none;
+}
+
+.partners img {
+  max-width: 100%;
+}

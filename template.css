@@ -1779,6 +1779,23 @@ li.done::after {
   line-height: 30px;
 }
 
+.partners {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.partners li::before {
+  display: none;
+}
+
+.partners img {
+  max-width: 100%;
+}
+
 /* larger components */
 .container {
   position: relative;

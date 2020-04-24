@@ -25,6 +25,7 @@
 @import "components/tile.css";
 @import "components/pagination.css";
 @import "components/steps-form.css";
+@import "components/partners.css";
 
 /* larger components */
 @import "layouts/container.css";
