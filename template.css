@@ -1246,6 +1246,7 @@ fieldset {
 .card-quote .text-quote {
   margin: 0;
   padding: 20px 20px 20px 35px;
+  height: 100%;
 }
 
 .card-quote .text-quote footer {
