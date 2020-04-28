@@ -1835,6 +1835,10 @@ li.done::after {
   text-align: center;
 }
 
+.read-more {
+  margin-top: 30px;
+}
+
 /* larger components */
 .container {
   position: relative;
