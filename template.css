@@ -1243,6 +1243,11 @@ fieldset {
   padding: var(--space-s);
 }
 
+.card-quote {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+
 .card-quote .text-quote {
   margin: 0;
   padding: 20px 20px 20px 35px;
@@ -2701,6 +2706,10 @@ a.article__link {
 .summary {
   padding: 2.5em 0;
   font-size: 20px;
+}
+
+.quotes .card-quote:not(:last-child) {
+  margin-bottom: 50px;
 }
 
 /* helpers for evertyhing else */

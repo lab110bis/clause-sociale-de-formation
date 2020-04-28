@@ -110,6 +110,10 @@
   padding: var(--space-s);
 }
 
+.card-quote {
+  flex-basis: 33%;
+}
+
 .card-quote .text-quote {
   margin: 0;
   padding: 20px 20px 20px 35px;
