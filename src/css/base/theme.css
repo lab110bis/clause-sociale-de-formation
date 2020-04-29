@@ -41,6 +41,7 @@
   --space-m: 1.5em;
   --space-l: 2em;
   --space-xl: 3em;
+  --space-xxl: 4em;
 
   /* Theme */
   --theme-primary: var(--blue);

@@ -71,7 +71,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--lighter-grey);
+  background-color: var(--green);
   padding: 10px;
 }
 

@@ -72,6 +72,7 @@
   --space-m: 1.5em;
   --space-l: 2em;
   --space-xl: 3em;
+  --space-xxl: 4em;
 
   /* Theme */
   --theme-primary: var(--blue);
@@ -1197,8 +1198,8 @@ fieldset {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #ebeff3;
-  background-color: var(--lighter-grey);
+  background-color: #03bd5b;
+  background-color: var(--green);
   padding: 10px;
 }
 
@@ -1842,6 +1843,12 @@ li.done::after {
 
 .read-more {
   margin-top: 30px;
+}
+
+.intro {
+  text-align: center;
+  padding: 4em 20px;
+  padding: var(--space-xxl) 20px;
 }
 
 /* larger components */

@@ -28,6 +28,7 @@
 @import "components/partners.css";
 @import "components/timeline.css";
 @import "components/read-more.css";
+@import "components/intro.css";
 
 /* larger components */
 @import "layouts/container.css";
