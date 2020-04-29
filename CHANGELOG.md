@@ -1,7 +1,7 @@
 # CHANGELOG
 
 
-Au 24/04/2020, temps passé : 4 E + 4 P
+Au 24/04/2020, temps passé : 4,5 E + 4,5 P
 
 ## Avril
 

@@ -1,4 +1,9 @@
 .intro {
   text-align: center;
-  padding: var(--space-xxl) 20px;
+  padding-top: var(--space-xxl);
+  padding-bottom: var(--space-xxl);
+}
+
+.intro h2 {
+  margin-bottom: 0;
 }

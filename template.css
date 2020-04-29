@@ -1198,8 +1198,8 @@ fieldset {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #03bd5b;
-  background-color: var(--green);
+  background-color: #ebeff3;
+  background-color: var(--lighter-grey);
   padding: 10px;
 }
 
@@ -1847,8 +1847,14 @@ li.done::after {
 
 .intro {
   text-align: center;
-  padding: 4em 20px;
-  padding: var(--space-xxl) 20px;
+  padding-top: 4em;
+  padding-top: var(--space-xxl);
+  padding-bottom: 4em;
+  padding-bottom: var(--space-xxl);
+}
+
+.intro h2 {
+  margin-bottom: 0;
 }
 
 /* larger components */
