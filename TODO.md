@@ -5,3 +5,4 @@
   * résumer les témoignages
   * réduire "De quoi s'agit-il ?"
   * envoyer "Découvrir la clause" vers la vidéo
+- Des filtres par "phase" pour davantage de clarté dans la faq

@@ -2489,12 +2489,19 @@ a.article__link {
           flex: 1 1 auto;
   background: #fff;
   background: var(--white);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .dashboard .side-menu ul {
   margin-top: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.dashboard .side-menu li::before {
+  display: none;
 }
 
 .dashboard .side-menu a {
