@@ -1,15 +1,10 @@
 # CHANGELOG
 
 
-Au 24/04/2020, temps passé : 4,5 E + 4,5 P
+Au 04/05/2020, temps passé : 5 E + 5 P
 
-## Avril
-
+- Mise en forme de la FAQ
 - Mise en forme de la page d'accueil
-- Initié la mise en forme de la page d'accueil et la FAQ
-
-## Mars
-
 - Mise en forme de l'à-propos
 - Remplacement du contenu existant par le template beta gouv
 - Début de l'intervention d'Erick
