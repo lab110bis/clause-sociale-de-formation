@@ -43,5 +43,8 @@
     "etalab",
     "beta.gouv.fr",
     "ui kit"
-  ]
+  ],
+  "dependencies": {
+    "menuspy": "^1.3.0"
+  }
 }

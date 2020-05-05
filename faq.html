@@ -16,16 +16,16 @@ title: FAQ
         <h2>Bienvenue</h2>
 
         <div id="dashboard" class="dashboard">
-            <aside class="side-menu" role="navigation">
-                <ul>
-                    <li><a>Général</a></li>
-                    <li><a>Entreprise</a></li>
-                    <li><a class="active">Acheteur</a></li>
-                    <li><a>MLDS</a></li>
-                    <li><a>Autres organismes de formation</a></li>
-                    <li><a>Jeunes</a></li>
-                </ul>
-            </aside>
+          <aside class="side-menu" role="navigation">
+            <ul>
+              <li><a href="#general">Général</a></li>
+              <li><a href="#entreprise">Entreprise</a></li>
+              <li><a href="#acheteur" class="active">Acheteur</a></li>
+              <li><a href="#mlds">MLDS</a></li>
+              <li><a href="#autres">Organismes de formation hors Éducation Nationale</a></li>
+              <li><a href="#jeunes">Jeunes</a></li>
+            </ul>
+          </aside>
 
             <div class="main">
                 <div id="general">
@@ -61,7 +61,7 @@ title: FAQ
                             scolaire dans leurs marchés ?</h3>
                         <p>La clause sociale de formation permet aux acheteurs de répondre à leur obligation de prise en
                             compte du développement durable, dans sa composante sociale. Cette démarche est sécurisée
-                            juridiquement et économiquement.</p>>
+                            juridiquement et économiquement.</p>
                         <p>Du côté des acheteurs (et prescripteurs), les parcours réalisés permettent de voir les
                             effets concrets de la clause sociale, ce qui est très stimulant en interne pour promouvoir
                             les achats responsables. Par ailleurs, ce dispositif est complémentaire d’autre dispositifs
@@ -315,6 +315,7 @@ title: FAQ
                 </div> <!-- / #acheteur -->
 
                 <div id="entreprise">
+                    <h2>Entreprise</h2>
                     <div class="panel">
                         <h3>Quel est l’intérêt pour l’entreprise d’accueillir un jeune en situation de décrochage
                             scolaire ?</h3>
@@ -328,7 +329,7 @@ title: FAQ
                                 remplir la fiche entreprise ?</h3>
                             <p>Suivre ce processus :</p>
                             <ul>
-                                <liJ
+                                <li>
                                         ’identifie un contact au sein de l’entreprise pouvant être le tuteur en
                                         entreprise du
                                         jeune, je précise également le nom d’un responsable des ressources humaines.
@@ -512,6 +513,7 @@ title: FAQ
                 </div> <!-- / #entreprise -->
 
                 <div id="MDLS">
+                  <h2>MLDS</h2>
                     <div class="panel">
                         <h3>En quoi la Clause sociale de formation peut-elle être considérée comme un outil pédagogique
                             ?</h3>
@@ -731,6 +733,7 @@ title: FAQ
                 </div> <!-- / #MLDS -->
 
                 <div id="autres">
+                  <h2>Organismes de formation hors Éducation Nationale</h2>
                     <div class="panel">
                         <h3>La clause sociale de formation peut-elle être mise en oeuvre par d’autres acteurs de la formation et de l’insertion, que la MLDS ?</h3>
                         <p>Oui, la CSF permet de repérer des jeunes sans solution, qui seront alors redirigés et pris en charge par la MLDS a minima le temps du parcours en CSF. </p>
@@ -743,6 +746,7 @@ title: FAQ
                 </div> <!-- / #autres-->
 
                 <div id="jeunes">
+                  <h2>Jeunes</h2>
 
                     <div class="panel">
                         <h3>Je suis actuellement sans formation (absent de mon établissement ou sans inscription scolaire) : suis-je concerné ?</h3>
@@ -789,4 +793,10 @@ title: FAQ
         </div>
 
     </section>
+  <script src="dist/menuspy.min.js"></script>
+  <script>
+    console.log("toto");
+    var elm = document.querySelector('#side-menu');
+    var ms = new MenuSpy(elm);
+  </script>
 </main>
