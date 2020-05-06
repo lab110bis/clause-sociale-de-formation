@@ -2492,6 +2492,8 @@ a.article__link {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .dashboard .side-menu ul {
