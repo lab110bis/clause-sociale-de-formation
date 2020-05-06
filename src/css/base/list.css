@@ -20,6 +20,6 @@ ul li::before {
   background-color: var(--theme-primary);
 }
 
-ul li+li {
+ul li + li {
   margin-top: 10px;
 }

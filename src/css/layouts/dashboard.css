@@ -23,8 +23,19 @@
     display: none;
 }
 
+.dashboard .side-menu li + li {
+  margin-top: 0;
+}
+
+.dashboard .side-menu li li a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 80%;
+  line-height: 1.4;
+}
+
 .dashboard .side-menu a {
-    padding: var(--space-s) var(--space-l);
+    padding: var(--space-xs) var(--space-l);
     display: block;
     width: 100%;
     color: var(--theme-dark-text);
@@ -40,8 +51,12 @@
 }
 
 .dashboard .main {
-    padding: var(--space-l);
     flex: 1 1 75%;
+}
+
+.dashboard .main > div {
+    padding: var(--space-l);
+    margin-top: var(--space-xl);
     background: var(--lighter-grey);
 }
 

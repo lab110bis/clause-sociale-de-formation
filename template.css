@@ -301,7 +301,7 @@ ul li::before {
   background-color: var(--theme-primary);
 }
 
-ul li+li {
+ul li + li {
   margin-top: 10px;
 }
 
@@ -2507,9 +2507,20 @@ a.article__link {
   display: none;
 }
 
+.dashboard .side-menu li + li {
+  margin-top: 0;
+}
+
+.dashboard .side-menu li li a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 80%;
+  line-height: 1.4;
+}
+
 .dashboard .side-menu a {
-  padding: 1em 2em;
-  padding: var(--space-s) var(--space-l);
+  padding: 0.5em 2em;
+  padding: var(--space-xs) var(--space-l);
   display: block;
   width: 100%;
   color: #26353f;
@@ -2528,11 +2539,16 @@ a.article__link {
 }
 
 .dashboard .main {
-  padding: 2em;
-  padding: var(--space-l);
   -webkit-box-flex: 1;
       -ms-flex: 1 1 75%;
           flex: 1 1 75%;
+}
+
+.dashboard .main > div {
+  padding: 2em;
+  padding: var(--space-l);
+  margin-top: 3em;
+  margin-top: var(--space-xl);
   background: #ebeff3;
   background: var(--lighter-grey);
 }
