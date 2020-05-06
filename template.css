@@ -284,24 +284,25 @@ ul {
 }
 
 ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  position: relative;
+  padding-left: 18px;
 }
 
 ul li::before {
   content: "";
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  position: absolute;
+  top: 10px;
+  left: 0;
   display: inline-block;
   width: 6px;
   height: 6px;
   margin-right: 12px;
   background-color: #0053b3;
   background-color: var(--theme-primary);
+}
+
+ul li+li {
+  margin-top: 10px;
 }
 
 /* basic elements */

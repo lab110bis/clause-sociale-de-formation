@@ -4,16 +4,22 @@ ul {
 }
 
 ul li {
-  display: flex;
-  align-items: baseline;
+  position: relative;
+  padding-left: 18px;
 }
 
 ul li::before {
   content: "";
-  flex-shrink: 0;
+  position: absolute;
+  top: 10px;
+  left: 0;
   display: inline-block;
   width: 6px;
   height: 6px;
   margin-right: 12px;
   background-color: var(--theme-primary);
+}
+
+ul li+li {
+  margin-top: 10px;
 }
