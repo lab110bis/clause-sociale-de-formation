@@ -2557,6 +2557,11 @@ a.article__link {
   margin-top: 0;
 }
 
+.dashboard .main > div > div + div {
+  margin-top: 1.5em;
+  margin-top: var(--space-m);
+}
+
 @media (max-width: 749px) {
   .dashboard {
     -webkit-box-orient: vertical;
