@@ -12,15 +12,12 @@ title: FAQ
 <main role="main">
 
     <section class="section container">
-
-        <h2>Bienvenue</h2>
-
         <div id="dashboard" class="dashboard">
-          <aside class="side-menu" role="navigation">
+          <aside class="side-menu" id="menu-faq" role="navigation">
             <ul>
               <li><a href="#general">Général</a></li>
               <li><a href="#entreprise">Entreprise</a></li>
-              <li><a href="#acheteur" class="active">Acheteur</a></li>
+              <li><a href="#acheteur">Acheteur</a></li>
               <li><a href="#mlds">MLDS</a></li>
               <li><a href="#organismes">Organismes de formation hors Éducation Nationale</a></li>
               <li><a href="#jeunes">Jeunes</a></li>
@@ -791,10 +788,10 @@ title: FAQ
         </div>
 
     </section>
-  <script src="dist/menuspy.min.js"></script>
+  <script src="src/js/menuspy.js"></script>
   <script>
-    console.log("toto");
-    var elm = document.querySelector('#side-menu');
+    var elm = document.querySelector('#menu-faq');
     var ms = new MenuSpy(elm);
+    console.log(ms);
   </script>
 </main>
