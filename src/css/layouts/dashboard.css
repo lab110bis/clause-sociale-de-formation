@@ -42,7 +42,7 @@
   text-decoration: none;
 }
 
-.dashboard .side-menu a.active {
+.dashboard .side-menu li.active {
   background: linear-gradient(to right, var(--theme-primary), var(--theme-primary) 5px, var(--lighter-grey) 5px, var(--lighter-grey));
 }
 

@@ -16,23 +16,23 @@ title: FAQ
           <aside class="side-menu" id="menu-faq" role="navigation">
             <ul>
               <li><a href="#general">Général</a></li>
-              <li><a href="#entreprise">Entreprise</a>
-                 <ul>
-                  <li><a href="#process-entreprise">Process</a></li>
-                  <li><a href="#securisation-entreprise">Sécurisation</a></li>
-                  <li><a href="#incidents-entreprise">Incidents</a></li>
-                </ul>
-              </li>
-              <li><a href="#acheteur" class="active">Acheteur</a>
+              <li><a href="#acheteur">Acheteur</a>
                 <ul>
-                  <li><a href="#process-acheteur" class="active">Process</a></li>
+                  <li><a href="#chronologie-acheteur">Chronologie</a></li>
                   <li><a href="#securisation-acheteur">Sécurisation</a></li>
                   <li><a href="#incidents-acheteur">Incidents</a></li>
                 </ul>
               </li>
+              <li><a href="#entreprise">Entreprise</a>
+                 <ul>
+                  <li><a href="#chronologie-entreprise">Chronologie</a></li>
+                  <li><a href="#securisation-entreprise">Sécurisation</a></li>
+                  <li><a href="#incidents-entreprise">Incidents</a></li>
+                </ul>
+              </li>
               <li><a href="#mlds">MLDS</a>
                   <ul>
-                  <li><a href="#process-mlds">Process</a></li>
+                  <li><a href="#chronologie-mlds">Chronologie</a></li>
                   <li><a href="#securisation-mlds">Sécurisation</a></li>
                   <li><a href="#incidents-mlds">Incidents</a></li>
                 </ul>
@@ -84,8 +84,8 @@ title: FAQ
                             d’insertion existants.
                         </p>
                     </div>
-                    <div id="process-acheteur" class="process">
-                        <h3>Process</h3>
+                    <div id="chronologie-acheteur">
+                        <h3>Chronologie</h3>
                         <div class="panel">
                             <h4>Je suis acheteur&nbsp;: comment entrer dans la démarche&nbsp;?</h4>
                             <p>Démarche à suivre&nbsp;:</p>
@@ -256,8 +256,8 @@ title: FAQ
                                 <li>en cas de besoin&nbsp;: répondre aux différentes sollicitations du tuteur MLDS.</li>
                             </ul>
                         </div>
-                    </div> <!-- /process -->
-                    <div class="securisation">
+                    </div> <!-- /chronologie-acheteur -->
+                    <div id="securisation-acheteur">
                         <h3>Sécurisation juridique et économique</h3>
 
                         <div class="panel">
@@ -306,10 +306,10 @@ title: FAQ
                                 ailleurs, l’offre de parcours doit être déclarée au moins six mois avant la fin du
                                 marché).</p>
                         </div>
-                    </div> <!-- / securisation -->
+                    </div> <!-- / securisation-acheteur -->
 
-                    <div class="incidents">
-                        <h4>Incidents</h4>
+                    <div id="incidents-acheteur">
+                        <h3>Incidents</h3>
                         <div class="panel">
                             <h4>En cas de non-respect de la clause par le titulaire du marché, l’acheteur est-il prévenu
                                &nbsp;?</h4>
@@ -326,7 +326,7 @@ title: FAQ
                                 lieux à l'acheteur lui permettant de prendre la décision d’appliquer ou non ces
                                 pénalités.</p>
                         </div>
-                    </div> <!-- /incidents -->
+                    </div> <!-- /incidents-acheteur -->
                 </div> <!-- / #acheteur -->
 
                 <div id="entreprise">
@@ -337,8 +337,8 @@ title: FAQ
                         <p>La CSF permet à l’entreprise d'exécuter ses obligations contractuelles dans le cadre de
                             l’obtention d’un marché public (ou privé), et de développer sa politique de RSE.</p>
                     </div>
-                    <div class="process">
-                        <h4>Process</h4>
+                    <div id="chronologie-entreprise">
+                        <h4>Chronologie</h4>
                         <div class="panel">
                             <h4>J’ai une clause sociale dans un marché public auquel je souhaite répondre&nbsp;: comment
                                 remplir la fiche entreprise&nbsp;?</h4>
@@ -443,10 +443,10 @@ title: FAQ
                             <p>Si le profil du jeune correspond aux besoins de l’entreprise, une suite peut être
                                 envisagée (contrats d’apprentissage, contrat à durée à déterminée ou formation...).</p>
                         </div>
-                    </div> <!-- /process-->
+                    </div> <!-- /chronologie-->
 
-                    <div class="securisation">
-                        <h4>Sécurisation juridique et économique</h4>
+                    <div id="securisation-entreprise">
+                        <h3>Sécurisation juridique et économique</h3>
 
                         <div class="panel">
                             <h4>Qu’apporte le statut scolaire du jeune en entreprise&nbsp;? (convention de stage, durée,
@@ -500,10 +500,10 @@ title: FAQ
                                 entreprise titulaire et tuteur entreprise sous-traitant).</p>
                             <p>Cette hypothèse est très rare en pratique.</p>
                         </div>
-                    </div> <!-- /securisation-->
+                    </div> <!-- /securisation-entreprise -->
 
-                    <div class="incidents">
-                        <h4>Incidents</h4>
+                    <div id="incidents-entreprise">
+                        <h3>Incidents</h3>
 
                         <div class="panel">
                             <h4>Le tuteur entreprise peut-il contacter directement le tuteur MLDS&nbsp;?</h4>
@@ -524,7 +524,7 @@ title: FAQ
                             <p>Tout dépend de la durée réalisée par le jeune en entreprise.</p>
                             <p>En principe, toute semaine qui est commencée est décomptée du volume horaire.</p>
                         </div>
-                    </div> <!-- /incidents-->
+                    </div> <!-- /incidents-enteprise -->
                 </div> <!-- / #entreprise -->
 
                 <div id="mlds">
@@ -538,7 +538,8 @@ title: FAQ
                             l’élève.</p>
                     </div>
 
-                    <div class="process">
+                    <div id="chronologie-mlds">
+                        <h3>Chronologie</h3>
                         <div class="panel">
                             <h4>Comment initier la démarche dans la région académique&nbsp;?</h4>
                             <p>La MLDS se rapproche d’acheteurs locaux (Etat, collectivités territoriales…), afin
@@ -662,9 +663,10 @@ title: FAQ
                                 contrat à durée à déterminée...).</p>
 
                         </div>
-                    </div> <!-- / process-->
+                    </div> <!-- / chronologie-mlds -->
 
-                    <div class="securisation">
+                    <div id="securisation-mlds">
+                        <h3>Sécurisation</h3>
                         <div class="panel">
                             <h4>L’acheteur doit-il systématiquement être tenu informé&nbsp;?</h4>
                             <p>Lors de la mise en place du parcours, l’acheteur est systématiquement mis en copie des
@@ -706,10 +708,10 @@ title: FAQ
                             <p>Un RIB lorsque la clause sociale permet une gratification, accompagné d’un certificat de
                                 scolarité.</p>
                         </div>
-                    </div> <!-- / securisation-->
+                    </div> <!-- / securisation-mlds -->
 
-                    <div class="incidents">
-                        <h4>Incidents</h4>
+                    <div id="incidents-mlds">
+                        <h3>Incidents</h3>
                         <div class="panel">
                             <h4>Est-ce que la MLDS peut estimer que l’entreprise n’est pas en capacité d’accueillir un jeune&nbsp;?</h4>
                             <p>Oui, la MLDS peut estimer que l’entreprise n’est pas en mesure de permettre à un élève d’être accueilli dans des conditions favorables. Elle en informe l’acheteur, en motivant sa position.</p>
@@ -744,7 +746,7 @@ title: FAQ
                             <p>La CSF est inscrite dans un contrat, suite à un partenariat de l’acheteur avec la MLDS.</p>
                             <p>Si aucun jeune n’est présenté, l’équipe projet nationale, lors du bilan annuel en informera les coordonnateurs de région académique pour y remédier.</p>
                         </div>
-                    </div> <!-- / incidents-->
+                    </div> <!-- / incidents-mlds -->
                 </div> <!-- / #MLDS -->
 
                 <div id="hors-education-nationale">

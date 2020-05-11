@@ -2528,7 +2528,7 @@ a.article__link {
   text-decoration: none;
 }
 
-.dashboard .side-menu a.active {
+.dashboard .side-menu li.active {
   background: linear-gradient(to right, #0053b3, #0053b3 5px, #ebeff3 5px, #ebeff3);
   background: linear-gradient(to right, var(--theme-primary), var(--theme-primary) 5px, var(--lighter-grey) 5px, var(--lighter-grey));
 }
