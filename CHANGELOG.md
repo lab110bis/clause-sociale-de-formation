@@ -1,7 +1,7 @@
 # CHANGELOG
 
 
-Au 11/05/2020, temps passé : 5,5 E + 7 P
+Au 12/05/2020, temps passé : 6 E + 8 P
 
 - Mise en forme de la FAQ
 - Mise en forme de la page d'accueil

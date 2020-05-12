@@ -305,6 +305,10 @@ ul li + li {
   margin-top: 10px;
 }
 
+.section-color ul li::before {
+  background-color: white;
+}
+
 /* basic elements */
 input,
 textarea,
