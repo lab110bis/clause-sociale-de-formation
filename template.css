@@ -1934,7 +1934,11 @@ li.done::after {
 }
 
 .navbar__home {
-  height: 120px;
+  width: 300px;
+}
+
+.navbar__home img {
+  width: 100%;
 }
 
 .navbar__logo {
