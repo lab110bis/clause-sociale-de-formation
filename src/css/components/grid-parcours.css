@@ -1,0 +1,135 @@
+.grid-parcours {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-parcours > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  padding-left: 20px;
+}
+
+.grid-parcours > div::before,
+.grid-parcours > div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid transparent;
+  border-left: 10px solid white;
+}
+
+.grid-parcours > div::before {
+  left: 0;
+}
+
+.grid-parcours > div::after {
+  right: -10px;
+}
+
+.parcours-active {
+  color: white;
+}
+
+.parcours-acheteur .grid-parcours > div {
+  background-color: red;
+}
+
+.parcours-acheteur .grid-parcours > div::after {
+  border-left-color: red;
+}
+
+.parcours-acheteur .grid-parcours > div:first-child {
+  grid-column: 1/2;
+}
+
+.parcours-acheteur .grid-parcours > div:nth-child(2) {
+  grid-column: 2/4;
+}
+
+.parcours-acheteur .grid-parcours > div:nth-child(3) {
+  grid-column: 4/6;
+}
+
+.parcours-acheteur .grid-parcours > div:last-child {
+  grid-column: 6/9;
+}
+
+.parcours-jeune .grid-parcours > div {
+  background-color: green;
+}
+
+.parcours-jeune .grid-parcours > div::after {
+  border-left-color: green;
+}
+
+.parcours-jeune .grid-parcours > div:first-child {
+  grid-column: 4/6;
+}
+
+.parcours-jeune .grid-parcours > div:nth-child(2) {
+  grid-column: 6/7;
+}
+
+.parcours-jeune .grid-parcours > div:nth-child(3) {
+  grid-column: 7/8;
+}
+
+.parcours-jeune .grid-parcours > div:last-child {
+  grid-column: 8/9;
+}
+
+.parcours-entreprise .grid-parcours > div {
+  background-color: rebeccapurple;
+}
+
+.parcours-entreprise .grid-parcours > div::after {
+  border-left-color: rebeccapurple;
+}
+
+.parcours-entreprise .grid-parcours > div:first-child {
+  grid-column: 3/4;
+}
+
+.parcours-entreprise .grid-parcours > div:nth-child(2) {
+  grid-column: 4/5;
+}
+
+.parcours-entreprise .grid-parcours > div:nth-child(3) {
+  grid-column: 5/6;
+}
+
+.parcours-entreprise .grid-parcours > div:nth-child(4) {
+  grid-column: 6/7;
+}
+
+.parcours-entreprise .grid-parcours > div:nth-child(5) {
+  grid-column: 7/8;
+}
+
+.parcours-entreprise .grid-parcours > div:last-child {
+  grid-column: 8/9;
+}
+
+.parcours-coordinateur .grid-parcours > div {
+  background-color: chocolate;
+}
+
+.parcours-coordinateur .grid-parcours > div::after {
+  border-left-color: chocolate;
+}
+
+.parcours-coordinateur .grid-parcours > div:first-child {
+  grid-column: 1/2;
+}
+
+.parcours-coordinateur .grid-parcours > div:last-child {
+  grid-column: 4/9;
+}

@@ -29,6 +29,7 @@
 @import "components/timeline.css";
 @import "components/read-more.css";
 @import "components/intro.css";
+@import "components/grid-parcours.css";
 
 /* larger components */
 @import "layouts/container.css";
