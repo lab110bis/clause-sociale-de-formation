@@ -2153,26 +2153,28 @@ li.done::after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.navbar__home {
-  width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
 }
 
 .navbar__home img {
-  width: 100%;
+  width: auto;
+  height: 158px;
 }
 
 .navbar__logo {
   height: auto;
-  width: 100px;
+  width: 200px;
 }
 
 .nav__links {
-  display: inline-block;
+  display: block;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  text-align: center;
 }
 
 .nav__item {

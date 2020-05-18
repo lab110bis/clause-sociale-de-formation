@@ -20,25 +20,25 @@
 .navbar__container > div {
   display: flex;
   align-items: center;
-}
-
-.navbar__home {
-  width: 300px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .navbar__home img {
-  width: 100%;
+  width: auto;
+  height: 158px;
 }
 .navbar__logo {
   height: auto;
-  width: 100px;
+  width: 200px;
 }
 
 .nav__links {
-  display: inline-block;
+  display: block;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  text-align: center;
 }
 
 .nav__item {
