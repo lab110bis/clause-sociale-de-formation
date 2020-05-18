@@ -12,9 +12,16 @@ a:active {
 }
 
 a[href^="http"]::after {
-  content="";
+  content: '';
   display: inline-block;
-  background: url(./images/external-link-symbol.svg);
   width: 16px;
   height: 16px;
+  margin-left: 5px;
+  background: url(../images/external-link-symbol.svg);
+  background-size: contain;
+}
+
+a[href$=".docx"]::after,
+a[href$=".zip"]::after {
+  display: none;
 }

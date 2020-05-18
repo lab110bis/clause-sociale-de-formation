@@ -309,6 +309,35 @@ ul li + li {
   background-color: white;
 }
 
+a,
+button {
+  cursor: pointer;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  color: #0053b3;
+  color: var(--theme-primary);
+}
+
+a[href^="http"]::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background: url(../images/external-link-symbol.svg);
+  background-size: contain;
+}
+
+a[href$=".docx"]::after,
+a[href$=".zip"]::after {
+  display: none;
+}
+
 /* basic elements */
 input,
 textarea,

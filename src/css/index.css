@@ -6,6 +6,7 @@
 @import "base/code.css";
 @import "base/main.css";
 @import "base/list.css";
+@import "base/link.css";
 
 /* basic elements */
 @import "elements/input.css";
