@@ -793,8 +793,8 @@ a.button.secondary {
 }
 
 .table thead th {
-  background: #fafbfc;
-  background: var(--lightest-grey);
+  background: #ebeff3;
+  background: var(--lighter-grey);
   border-bottom: 1px solid #c9d3df;
   border-bottom: 1px solid var(--theme-border-lighter);
   font-size: 0.875em;
@@ -816,16 +816,16 @@ a.button.secondary {
   margin-left: var(--space-xs);
 }
 
-.table tr:hover {
-  background: #fafbfc;
-  background: var(--lightest-grey);
-}
-
 .table__filter {
   margin-bottom: 1em;
   margin-bottom: var(--space-s);
   max-width: 20em;
   float: right;
+}
+
+thead {
+  background-color: #c9d3df;
+  background-color: var(--light-grey);
 }
 
 .icon {
