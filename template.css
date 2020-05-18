@@ -1891,9 +1891,17 @@ li.done::after {
   margin-bottom: 0;
 }
 
+.parcours > div > h3 {
+  margin-bottom: 4px;
+}
+
+.parcours > div:not(:first-of-type) {
+  margin-top: 24px;
+}
+
 .grid-parcours {
   display: grid;
-  grid-template-columns: repeat(8, minmax(12.5%, 1fr));
+  grid-template-columns: repeat(8, minmax(calc(12.5% - 10px), 1fr));
   grid-gap: 10px;
 }
 
@@ -1910,6 +1918,7 @@ li.done::after {
           align-items: center;
   min-height: 90px;
   padding-left: 20px;
+  padding-right: 10px;
   color: white;
   line-height: 1.2;
 }
@@ -1974,11 +1983,13 @@ li.done::after {
 }
 
 .parcours-jeune .grid-parcours > div {
-  background-color: green;
+  background-color: #03bd5b;
+  background-color: var(--green);
 }
 
 .parcours-jeune .grid-parcours > div::after {
-  border-left-color: green;
+  border-left-color: #03bd5b;
+  border-left-color: var(--green);
 }
 
 .parcours-jeune .grid-parcours > div:first-child {
@@ -1998,11 +2009,13 @@ li.done::after {
 }
 
 .parcours-entreprise .grid-parcours > div {
-  background-color: #639;
+  background-color: #cc5c00;
+  background-color: var(--dark-orange);
 }
 
 .parcours-entreprise .grid-parcours > div::after {
-  border-left-color: #639;
+  border-left-color: #cc5c00;
+  border-left-color: var(--dark-orange);
 }
 
 .parcours-entreprise .grid-parcours > div:first-child {
@@ -2030,11 +2043,13 @@ li.done::after {
 }
 
 .parcours-coordinateur .grid-parcours > div {
-  background-color: chocolate;
+  background-color: #ab2b1e;
+  background-color: var(--dark-red);
 }
 
 .parcours-coordinateur .grid-parcours > div::after {
-  border-left-color: chocolate;
+  border-left-color: #ab2b1e;
+  border-left-color: var(--dark-red);
 }
 
 .parcours-coordinateur .grid-parcours > div:first-child {
