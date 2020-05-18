@@ -10,3 +10,11 @@ a:visited,
 a:active {
   color: var(--theme-primary);
 }
+
+a[href^="http"]::after {
+  content="";
+  display: inline-block;
+  background: url(./images/external-link-symbol.svg);
+  width: 16px;
+  height: 16px;
+}
