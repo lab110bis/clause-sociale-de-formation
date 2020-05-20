@@ -167,7 +167,7 @@
   background: none;
 }
 
-.parcours-acheteur .grid-parcours-info > div::before, 
+.parcours-acheteur .grid-parcours-info > div::before,
 .parcours-acheteur .grid-parcours-info > div::after {
   display: none;
 }
