@@ -2291,9 +2291,10 @@ span.navbar__domain {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 64px 0;
+  padding: 64px 30px;
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .hero__container > :last-child {
