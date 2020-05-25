@@ -10,16 +10,71 @@
 
         <nav class="navbar__container">
             <ul class="nav__links">
-                <li class="nav__item"><a href="index.html">Accueil</a></li>
-                <li class="nav__item"><a href="a-propos.html">À propos</a></li>
-                <li class="nav__item"><a href="faq.html">Foire aux questions</a></li>
+              <li class="nav__item">
+                <a href="index.html" 
+                   {% if page.url == "/" %}
+                     class="active"
+                   {% endif %}
+                   >
+                   Accueil
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="a-propos.html" 
+                   {% if page.url == "/a-propos.html" %}
+                     class="active"
+                   {% endif %}
+                   >
+                   À propos
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="faq.html" 
+                   {% if page.url == "/faq.html" %}
+                     class="active"
+                   {% endif %}
+                   >
+                   Foire aux questions
+                </a>
+              </li>
             </ul>
             <ul class="nav__links">
-              <li class="nav__item">Vous êtes&nbsp;:</li>
-                <li class="nav__item"><a href="acheteur.html">acheteur</a></li>
-                <li class="nav__item"><a href="entreprise.html">entreprise</a></li>
-                <li class="nav__item"><a href="mlds.html">MLDS</a></li>
-                <li class="nav__item"><a href="jeune.html">jeune</a></li>
+              <li class="nav__item">
+                <a href="acheteur.html" 
+                   {% if page.url == "/acheteur.html" %}
+                     class="active"
+                   {% endif %}
+                   >
+                   Acheteur
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="mlds.html" 
+                   {% if page.url == "/mlds.html" %}
+                     class="active"
+                   {% endif %}
+                   >
+                   <abbr title="Mission de Lutte contre le Décrochage Scolaire">MLDS</abbr>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="entreprise.html" 
+                   {% if page.url == "/entreprise.html" %}
+                     class="active"
+                   {% endif %}
+                   >
+                   Entreprise
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="jeune.html" 
+                   {% if page.url == "/jeune.html" %}
+                     class="active"
+                   {% endif %}
+                   >
+                   Jeune
+                </a>
+              </li>
             </ul>
         </nav>
 </header>

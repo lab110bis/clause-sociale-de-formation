@@ -2195,6 +2195,10 @@ li.done::after {
   border-radius: 3px;
 }
 
+.nav__item abbr {
+  text-decoration: none;
+}
+
 .nav__links a::after {
   content: none;
 }
