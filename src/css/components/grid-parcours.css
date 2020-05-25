@@ -82,11 +82,12 @@
 }
 
 .parcours-jeune .grid-parcours > div {
-  background-color: var(--green);
+  color: var(--theme-dark-text);
+  background-color: var(--medium-green);
 }
 
 .parcours-jeune .grid-parcours > div::after {
-  border-left-color: var(--green);
+  border-left-color: var(--medium-green);
 }
 
 .parcours-jeune .grid-parcours > div:first-child {

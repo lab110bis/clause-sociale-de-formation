@@ -1984,13 +1984,15 @@ li.done::after {
 }
 
 .parcours-jeune .grid-parcours > div {
-  background-color: #03bd5b;
-  background-color: var(--green);
+  color: #26353f;
+  color: var(--theme-dark-text);
+  background-color: #87d5a6;
+  background-color: var(--medium-green);
 }
 
 .parcours-jeune .grid-parcours > div::after {
-  border-left-color: #03bd5b;
-  border-left-color: var(--green);
+  border-left-color: #87d5a6;
+  border-left-color: var(--medium-green);
 }
 
 .parcours-jeune .grid-parcours > div:first-child {
