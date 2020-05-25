@@ -106,7 +106,7 @@
 }
 
 .parcours-tuteur-mlds .grid-parcours > div {
-  color: var(--darkest-grey);
+  color: var(--theme-dark-text);
   background-color: var(--medium-green);
 }
 
