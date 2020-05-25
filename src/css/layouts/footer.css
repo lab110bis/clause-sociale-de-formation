@@ -1,6 +1,6 @@
 .footer {
-  background: var(--theme-background-dark);
-  color: var(--white);
+  border-top: var(--theme-background-dark) 20px solid;
+  color: var(--theme-dark-text);
   padding: var(--space-l) 0;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .footer__links a {
-  color: var(--white);
+  color: var(--theme-dark-text);
   text-decoration: none;
 }
 

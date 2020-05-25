@@ -2370,10 +2370,10 @@ span.navbar__domain {
 }
 
 .footer {
-  background: #1c1c1c;
-  background: var(--theme-background-dark);
-  color: #fff;
-  color: var(--white);
+  border-top: #1c1c1c 20px solid;
+  border-top: var(--theme-background-dark) 20px solid;
+  color: #26353f;
+  color: var(--theme-dark-text);
   padding: 2em 0;
   padding: var(--space-l) 0;
 }
@@ -2436,8 +2436,8 @@ span.navbar__domain {
 }
 
 .footer__links a {
-  color: #fff;
-  color: var(--white);
+  color: #26353f;
+  color: var(--theme-dark-text);
   text-decoration: none;
 }
 
