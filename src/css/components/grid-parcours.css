@@ -175,6 +175,42 @@
   grid-column: 8/9;
 }
 
+.parcours-entreprise-detail .grid-parcours > div {
+  background-color: var(--dark-orange);
+}
+
+.parcours-entreprise-detail .grid-parcours > div::after {
+  border-left-color: var(--dark-orange);
+}
+
+.parcours-entreprise-detail .grid-parcours > div:first-child {
+  grid-column: 1/2;
+}
+
+.parcours-entreprise-detail .grid-parcours > div:nth-child(2) {
+  grid-column: 2/3;
+}
+
+.parcours-entreprise-detail .grid-parcours > div:nth-child(3) {
+  grid-column: 3/4;
+}
+
+.parcours-entreprise-detail .grid-parcours > div:nth-child(4) {
+  grid-column: 4/5;
+}
+
+.parcours-entreprise-detail .grid-parcours > div:nth-child(5) {
+  grid-column: 5/6;
+}
+
+.parcours-entreprise-detail .grid-parcours > div:nth-child(6) {
+  grid-column: 6/8;
+}
+
+.parcours-entreprise-detail .grid-parcours > div:last-child {
+  grid-column: 8/9;
+}
+
 .parcours-coordinateur .grid-parcours > div {
   background-color: var(--dark-red);
 }
@@ -202,12 +238,15 @@
 }
 
 .parcours-acheteur .grid-parcours-info > div,
+.parcours-entreprise-detail .grid-parcours-info > div,
 .parcours-tuteur-mlds .grid-parcours-info > div {
   background: none;
 }
 
 .parcours-acheteur .grid-parcours-info > div::before,
 .parcours-acheteur .grid-parcours-info > div::after,
+.parcours-entreprise-detail .grid-parcours-info > div::before,
+.parcours-entreprise-detail .grid-parcours-info > div::after,
 .parcours-tuteur-mlds .grid-parcours-info > div::before,
 .parcours-tuteur-mlds .grid-parcours-info > div::after {
   display: none;

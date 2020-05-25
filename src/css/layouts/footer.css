@@ -1,5 +1,5 @@
 .footer {
-  border-top: var(--theme-background-dark) 20px solid;
+  border-top: var(--theme-background-dark) 30px solid;
   color: var(--theme-dark-text);
   padding: var(--space-l) 0;
 }
