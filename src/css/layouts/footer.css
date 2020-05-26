@@ -50,12 +50,13 @@
 }
 
 .footer__links a {
+  padding: 5px;
   color: var(--theme-dark-text);
   text-decoration: none;
 }
 
 .footer__links a:hover {
-  background: var(--darker-grey);
+  background: var(--lighter-grey);
 }
 
 .footer__logo {
