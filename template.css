@@ -335,6 +335,7 @@ a[href^="http"]::after {
 }
 
 a[href$=".docx"]::after,
+a[href$=".pdf"]::after,
 a[href$=".zip"]::after {
   display: none;
 }
@@ -2141,6 +2142,28 @@ li.done::after {
   grid-column: 4/9;
 }
 
+.parcours-coordinateur-detail .grid-parcours > div {
+  background-color: #ab2b1e;
+  background-color: var(--dark-red);
+}
+
+.parcours-coordinateur-detail .grid-parcours > div::after {
+  border-left-color: #ab2b1e;
+  border-left-color: var(--dark-red);
+}
+
+.parcours-coordinateur-detail .grid-parcours > div:first-child {
+  grid-column: 1/2;
+}
+
+.parcours-coordinateur-detail .grid-parcours > div:nth-child(2) {
+  grid-column: 2/4;
+}
+
+.parcours-coordinateur-detail .grid-parcours > div:last-child {
+  grid-column: 4/9;
+}
+
 .grid-parcours-info {
   margin-top: 10px;
 }
@@ -2154,6 +2177,7 @@ li.done::after {
 
 .parcours-acheteur .grid-parcours-info > div,
 .parcours-entreprise-detail .grid-parcours-info > div,
+.parcours-coordinateur-detail .grid-parcours-info > div,
 .parcours-tuteur-mlds .grid-parcours-info > div {
   background: none;
 }
@@ -2162,6 +2186,8 @@ li.done::after {
 .parcours-acheteur .grid-parcours-info > div::after,
 .parcours-entreprise-detail .grid-parcours-info > div::before,
 .parcours-entreprise-detail .grid-parcours-info > div::after,
+.parcours-coordinateur-detail .grid-parcours-info > div::before,
+.parcours-coordinateur-detail .grid-parcours-info > div::after,
 .parcours-tuteur-mlds .grid-parcours-info > div::before,
 .parcours-tuteur-mlds .grid-parcours-info > div::after {
   display: none;
@@ -2179,6 +2205,30 @@ li.done::after {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.grid-illustration {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-gap: 1em;
+  grid-gap: var(--space-s);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid-illustration-image img {
+  max-width: 100%;
+}
+
+.grid-illustration-content :first-child {
+  margin-top: 0;
+}
+
+@media (max-width: var(--tablet-max)) {
+  .grid-illustration {
+    grid-template-columns: 30% 1fr;
+  }
 }
 
 /* larger components */
@@ -2491,14 +2541,15 @@ span.navbar__domain {
 }
 
 .footer__links a {
+  padding: 5px;
   color: #26353f;
   color: var(--theme-dark-text);
   text-decoration: none;
 }
 
 .footer__links a:hover {
-  background: #53657d;
-  background: var(--darker-grey);
+  background: #ebeff3;
+  background: var(--lighter-grey);
 }
 
 .footer__logo {

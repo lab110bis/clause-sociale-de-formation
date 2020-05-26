@@ -1,0 +1,20 @@
+.grid-illustration {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-gap: var(--space-s);
+  align-items: center;
+}
+
+.grid-illustration-image img {
+  max-width: 100%;
+}
+
+.grid-illustration-content :first-child {
+  margin-top: 0;
+}
+
+@media (max-width: var(--tablet-max)) {
+  .grid-illustration {
+    grid-template-columns: 30% 1fr;
+  }
+}

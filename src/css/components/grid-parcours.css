@@ -227,6 +227,26 @@
   grid-column: 4/9;
 }
 
+.parcours-coordinateur-detail .grid-parcours > div {
+  background-color: var(--dark-red);
+}
+
+.parcours-coordinateur-detail .grid-parcours > div::after {
+  border-left-color: var(--dark-red);
+}
+
+.parcours-coordinateur-detail .grid-parcours > div:first-child {
+  grid-column: 1/2;
+}
+
+.parcours-coordinateur-detail .grid-parcours > div:nth-child(2) {
+  grid-column: 2/4;
+}
+
+.parcours-coordinateur-detail .grid-parcours > div:last-child {
+  grid-column: 4/9;
+}
+
 .grid-parcours-info {
   margin-top: 10px;
 }
@@ -239,6 +259,7 @@
 
 .parcours-acheteur .grid-parcours-info > div,
 .parcours-entreprise-detail .grid-parcours-info > div,
+.parcours-coordinateur-detail .grid-parcours-info > div,
 .parcours-tuteur-mlds .grid-parcours-info > div {
   background: none;
 }
@@ -247,6 +268,8 @@
 .parcours-acheteur .grid-parcours-info > div::after,
 .parcours-entreprise-detail .grid-parcours-info > div::before,
 .parcours-entreprise-detail .grid-parcours-info > div::after,
+.parcours-coordinateur-detail .grid-parcours-info > div::before,
+.parcours-coordinateur-detail .grid-parcours-info > div::after,
 .parcours-tuteur-mlds .grid-parcours-info > div::before,
 .parcours-tuteur-mlds .grid-parcours-info > div::after {
   display: none;

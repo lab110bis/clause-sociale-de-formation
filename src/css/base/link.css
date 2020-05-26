@@ -22,6 +22,7 @@ a[href^="http"]::after {
 }
 
 a[href$=".docx"]::after,
+a[href$=".pdf"]::after,
 a[href$=".zip"]::after {
   display: none;
 }
