@@ -31,6 +31,7 @@
 @import "components/read-more.css";
 @import "components/intro.css";
 @import "components/grid-parcours.css";
+@import "components/video-wrapper.css";
 
 /* larger components */
 @import "layouts/container.css";
