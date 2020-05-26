@@ -1,8 +1,11 @@
 # CHANGELOG
 
 
-Au 25/05/2020, temps passé : 7,5 E + 10,5 P
+Au 26/05/2020, temps passé : 8 E + 11 P
 
+- Mise en forme de la page entreprise
+- Mise en forme de la page tuteur MLDS
+- Mise en forme de la page acheteur
 - Mise en forme de la FAQ
 - Mise en forme de la page d'accueil
 - Mise en forme de l'à-propos
