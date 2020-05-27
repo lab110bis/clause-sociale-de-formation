@@ -18,7 +18,7 @@
 
 ## Pages persona
 
-- Lien vers le bilan.
+- Lien vers le bilan (done).
 - Frise cliquable
 
 Autre piste : rendre plus visible le menu.
