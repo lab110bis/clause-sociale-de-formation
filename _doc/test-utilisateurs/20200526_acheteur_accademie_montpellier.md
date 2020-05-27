@@ -11,9 +11,9 @@
 
 ## Accueil 
 
-- Lien vers l'à-propos sur "L'immersion en entreprise pour un jeune en situation de décrochage"
-- Remonter les cartes des persona.
-- Redescendre l'accorche "une centaine de parcours disponibles"
+- Lien vers l'à-propos sur "L'immersion en entreprise pour un jeune en situation de décrochage" (done).
+- Remonter les cartes des persona (done).
+- Redescendre l'accroche "une centaine de parcours disponibles" (done).
 
 
 ## Pages persona

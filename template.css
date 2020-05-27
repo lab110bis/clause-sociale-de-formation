@@ -1886,8 +1886,6 @@ li.done::after {
   text-align: center;
   padding-top: 4em;
   padding-top: var(--space-xxl);
-  padding-bottom: 4em;
-  padding-bottom: var(--space-xxl);
 }
 
 .intro h2 {
@@ -2578,6 +2576,10 @@ span.navbar__domain {
 .section.container:not(:last-of-type) {
   border-bottom: 2px solid #53657d;
   border-bottom: 2px solid var(--darker-grey);
+}
+
+.section.container.container-persona {
+  border-bottom: none;
 }
 
 .section-white {
