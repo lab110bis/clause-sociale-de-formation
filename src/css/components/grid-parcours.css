@@ -253,6 +253,10 @@
   color: var(--theme-dark-text);
 }
 
+.grid-parcours-info > div :first-child {
+  margin-top: 0;
+}
+
 .parcours-acheteur .grid-parcours-info > div,
 .parcours-entreprise-detail .grid-parcours-info > div,
 .parcours-coordinateur-detail .grid-parcours-info > div,

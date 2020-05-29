@@ -1892,9 +1892,11 @@ li.done::after {
   margin-bottom: 0;
 }
 
-.intro h1 a:hover, a:visited, a:link, a:active {
+.intro h1 a:hover,
+.intro h1 a:visited,
+.intro h1 a:link,
+.intro h1 a:active {
   text-decoration: none;
-
 }
 
 .intro h1 a::after {
@@ -2182,6 +2184,10 @@ li.done::after {
   display: block;
   color: #26353f;
   color: var(--theme-dark-text);
+}
+
+.grid-parcours-info > div :first-child {
+  margin-top: 0;
 }
 
 .parcours-acheteur .grid-parcours-info > div,

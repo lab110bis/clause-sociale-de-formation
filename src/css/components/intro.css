@@ -7,9 +7,11 @@
   margin-bottom: 0;
 }
 
-.intro h1 a:hover, a:visited, a:link, a:active {
+.intro h1 a:hover,
+.intro h1 a:visited,
+.intro h1 a:link,
+.intro h1 a:active {
   text-decoration: none;
-
 }
 
 .intro h1 a::after {
@@ -20,3 +22,4 @@
   margin-left: 12px;
   background: url(./images/arrow-right.svg);
 }
+
