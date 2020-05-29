@@ -39,7 +39,7 @@
   width: 9px;
   height: 14px;
   margin-left: 12px;
-  background: url(/images/arrow-right.svg);
+  background: url(./images/arrow-right.svg);
 }
 
 .card h3 {

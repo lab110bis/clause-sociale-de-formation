@@ -1195,7 +1195,7 @@ fieldset {
   width: 9px;
   height: 14px;
   margin-left: 12px;
-  background: url(/images/arrow-right.svg);
+  background: url(./images/arrow-right.svg);
 }
 
 .card h3 {
@@ -1903,7 +1903,7 @@ li.done::after {
   width: 12px;
   height: 18px;
   margin-left: 12px;
-  background: url(/images/arrow-right.svg);
+  background: url(./images/arrow-right.svg);
 }
 
 .parcours > div > h3 {
