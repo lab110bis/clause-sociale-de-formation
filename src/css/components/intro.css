@@ -6,3 +6,17 @@
 .intro h2 {
   margin-bottom: 0;
 }
+
+.intro h1 a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+
+}
+
+.intro h1 a::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 18px;
+  margin-left: 12px;
+  background: url(/images/arrow-right.svg);
+}
