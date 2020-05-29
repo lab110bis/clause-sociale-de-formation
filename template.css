@@ -1900,7 +1900,7 @@ li.done::after {
 .intro h1 a::after {
   content: "";
   display: inline-block;
-  width: 12px;
+  width: 11px;
   height: 18px;
   margin-left: 12px;
   background: url(./images/arrow-right.svg);
