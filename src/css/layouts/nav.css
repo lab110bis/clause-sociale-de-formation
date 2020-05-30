@@ -10,6 +10,7 @@
 }
 
 .navbar__container {
+  border-top: 2px solid;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

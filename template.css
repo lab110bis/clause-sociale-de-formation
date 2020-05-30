@@ -2135,43 +2135,43 @@ li.done::after {
   grid-column: 8/9;
 }
 
-.parcours-coordinateur .grid-parcours > div {
+.parcours-coordonateur .grid-parcours > div {
   background-color: #ab2b1e;
   background-color: var(--dark-red);
 }
 
-.parcours-coordinateur .grid-parcours > div::after {
+.parcours-coordonateur .grid-parcours > div::after {
   border-left-color: #ab2b1e;
   border-left-color: var(--dark-red);
 }
 
-.parcours-coordinateur .grid-parcours > div:first-child {
+.parcours-coordonateur .grid-parcours > div:first-child {
   grid-column: 1/3;
 }
 
-.parcours-coordinateur .grid-parcours > div:last-child {
+.parcours-coordonateur .grid-parcours > div:last-child {
   grid-column: 4/9;
 }
 
-.parcours-coordinateur-detail .grid-parcours > div {
+.parcours-coordonateur-detail .grid-parcours > div {
   background-color: #ab2b1e;
   background-color: var(--dark-red);
 }
 
-.parcours-coordinateur-detail .grid-parcours > div::after {
+.parcours-coordonateur-detail .grid-parcours > div::after {
   border-left-color: #ab2b1e;
   border-left-color: var(--dark-red);
 }
 
-.parcours-coordinateur-detail .grid-parcours > div:first-child {
+.parcours-coordonateur-detail .grid-parcours > div:first-child {
   grid-column: 1/3;
 }
 
-.parcours-coordinateur-detail .grid-parcours > div:nth-child(2) {
+.parcours-coordonateur-detail .grid-parcours > div:nth-child(2) {
   grid-column: 3/5;
 }
 
-.parcours-coordinateur-detail .grid-parcours > div:last-child {
+.parcours-coordonateur-detail .grid-parcours > div:last-child {
   grid-column: 5/9;
 }
 
@@ -2192,7 +2192,7 @@ li.done::after {
 
 .parcours-acheteur .grid-parcours-info > div,
 .parcours-entreprise-detail .grid-parcours-info > div,
-.parcours-coordinateur-detail .grid-parcours-info > div,
+.parcours-coordonateur-detail .grid-parcours-info > div,
 .parcours-tuteur-mlds .grid-parcours-info > div {
   background: none;
 }
@@ -2201,8 +2201,8 @@ li.done::after {
 .parcours-acheteur .grid-parcours-info > div::after,
 .parcours-entreprise-detail .grid-parcours-info > div::before,
 .parcours-entreprise-detail .grid-parcours-info > div::after,
-.parcours-coordinateur-detail .grid-parcours-info > div::before,
-.parcours-coordinateur-detail .grid-parcours-info > div::after,
+.parcours-coordonateur-detail .grid-parcours-info > div::before,
+.parcours-coordonateur-detail .grid-parcours-info > div::after,
 .parcours-tuteur-mlds .grid-parcours-info > div::before,
 .parcours-tuteur-mlds .grid-parcours-info > div::after {
   display: none;
@@ -2297,6 +2297,7 @@ li.done::after {
 }
 
 .navbar__container {
+  border-top: 2px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
