@@ -2297,7 +2297,6 @@ li.done::after {
 }
 
 .navbar__container {
-  border-top: 2px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2309,8 +2308,15 @@ li.done::after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1em;
-  padding: var(--space-s);
+  padding-top: 1em;
+  padding-top: var(--space-s);
+  padding-bottom: 1em;
+  padding-bottom: var(--space-s);
+}
+
+.navbar__container:not(:first-child) {
+  border-top: 2px solid #0053b3;
+  border-top: 2px solid var(--theme-primary);
 }
 
 .navbar__container > div {
@@ -2347,6 +2353,10 @@ li.done::after {
 .nav__item {
   padding: 0;
   display: inline-block;
+}
+
+.nav__item + .nav__item {
+  margin-top: 0;
 }
 
 .nav__item::before {
