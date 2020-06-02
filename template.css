@@ -3309,6 +3309,11 @@ a.article__link {
   margin: 0;
 }
 
+.small-image img {
+  width: 16px;
+  height: auto;
+}
+
 .typography__sample {
   margin-top: 2em;
   margin-top: var(--space-l);
