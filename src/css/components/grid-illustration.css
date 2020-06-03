@@ -5,6 +5,21 @@
   align-items: center;
 }
 
+.grid-medium-size-illustration {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  grid-gap: var(--space-xs);
+  align-items: center;
+}
+
+.grid-medium-size-image img {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 24px;
+  height: auto;
+}
+
 .grid-illustration-image img {
   max-width: 100%;
 }

@@ -1,7 +1,7 @@
 # CHANGELOG
 
 
-Au 29/05/2020, temps passé : 8,5 E + 13 P
+Au 3/06/2020, temps passé : 9 E + 14 P
 
 - Mise en forme de la page entreprise
 - Mise en forme de la page tuteur MLDS
