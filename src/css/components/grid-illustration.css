@@ -13,11 +13,12 @@
 }
 
 .grid-medium-size-image img {
+  margin-right: var(--space-xs);
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  width: 24px;
-  height: auto;
+  width: auto;
+  height: 24px;
 }
 
 .grid-illustration-image img {
