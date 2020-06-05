@@ -19,6 +19,7 @@ a[href^="http"]::after {
   margin-left: 5px;
   background: url(./images/external-link-symbol.svg);
   background-size: contain;
+  vertical-align: sub; /* bas du soulignement */
 }
 
 a[href$=".docx"]::after,

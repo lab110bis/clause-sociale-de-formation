@@ -85,7 +85,7 @@ button.button-outline:visited {
 }
 
 a[href^="http"].button::after {
-  filter: invert(0.8) grayscale(1);
+  filter: brightness(0) invert(1);
 }
 
 a.button-outline:disabled,
