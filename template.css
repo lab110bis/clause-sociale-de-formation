@@ -2297,6 +2297,18 @@ li.done::after {
   margin-top: 0;
 }
 
+.grid-parcours-info p + ul {
+  margin-top: -12px;
+}
+
+.grid-parcours ul li::before {
+  top: 8px;
+}
+
+.grid-parcours-info ul li + li {
+  margin-top: 5px;
+}
+
 .parcours-acheteur .grid-parcours-info > div,
 .parcours-acheteur-mise-en-relation .grid-parcours-info > div,
 .parcours-acheteur-refus-entreprise .grid-parcours-info > div,
