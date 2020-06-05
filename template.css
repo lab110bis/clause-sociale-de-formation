@@ -324,14 +324,24 @@ a:active {
   color: var(--theme-primary);
 }
 
-a[href^="http"]::after {
+a[href^="http"]::after,
+a[href^="mailto"]::after {
   content: '';
   display: inline-block;
   width: 16px;
   height: 16px;
   margin-left: 5px;
-  background: url(./images/external-link-symbol.svg);
   background-size: contain;
+}
+
+a[href^="http"]::after {
+  background-image: url(./images/external-link-symbol.svg);
+  vertical-align: sub; /* bas du soulignement */
+}
+
+a[href^="mailto"]::after {
+  background-image: url(./images/mail-symbol-white.svg);
+  display: none;
 }
 
 a[href$=".docx"]::after,
@@ -339,6 +349,15 @@ a[href$=".doc"]::after,
 a[href$=".pdf"]::after,
 a[href$=".zip"]::after {
   display: none;
+}
+
+a[href^="http"].button::after {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+a[href^="mailto"].button::after {
+  display: inline-block;
 }
 
 /* basic elements */
@@ -621,11 +640,6 @@ button.button-outline:visited {
   border: 1px solid var(--white);
   color: #fff;
   color: var(--white);
-}
-
-a[href^="http"].button::after {
-  -webkit-filter: invert(0.8) grayscale(1);
-          filter: invert(0.8) grayscale(1);
 }
 
 a.button-outline:disabled,

@@ -84,10 +84,6 @@ button.button-outline:visited {
   color: var(--white);
 }
 
-a[href^="http"].button::after {
-  filter: brightness(0) invert(1);
-}
-
 a.button-outline:disabled,
 button.button-outline:disabled {
   color: var(--light-grey);
