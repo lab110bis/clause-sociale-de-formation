@@ -17,18 +17,19 @@ a[href^="mailto"]::after {
   display: inline-block;
   width: 16px;
   height: 16px;
-  margin-left: 5px;
+  margin-left: 10px;
   background-size: contain;
 }
 
 a[href^="http"]::after {
   background-image: url(./images/external-link-symbol.svg);
-  vertical-align: sub; /* bas du soulignement */
+  vertical-align: -3px; /* Référence : milieu de ligne */
 }
 
 a[href^="mailto"]::after {
   background-image: url(./images/mail-symbol-white.svg);
   display: none;
+  vertical-align: -2px; /* Référence : milieu de ligne */
 }
 
 a[href$=".docx"]::after,
