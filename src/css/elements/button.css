@@ -84,6 +84,10 @@ button.button-outline:visited {
   color: var(--white);
 }
 
+a[href^="http"].button::after {
+  filter: invert(0.8) grayscale(1);
+}
+
 a.button-outline:disabled,
 button.button-outline:disabled {
   color: var(--light-grey);

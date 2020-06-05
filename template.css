@@ -623,6 +623,11 @@ button.button-outline:visited {
   color: var(--white);
 }
 
+a[href^="http"].button::after {
+  -webkit-filter: invert(0.8) grayscale(1);
+          filter: invert(0.8) grayscale(1);
+}
+
 a.button-outline:disabled,
 button.button-outline:disabled {
   color: #c9d3df;
