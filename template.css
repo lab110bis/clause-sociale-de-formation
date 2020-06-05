@@ -1956,7 +1956,6 @@ li.done::after {
   min-height: 90px;
   padding-left: 20px;
   padding-right: 10px;
-  color: white;
   line-height: 1.2;
 }
 
@@ -1979,6 +1978,11 @@ li.done::after {
 
 .grid-parcours > div::after {
   right: -10px;
+}
+
+.grid-parcours > div,
+.grid-parcours:not(.grid-parcours-info) > div a {
+  color: white;
 }
 
 .parcours-acheteur .grid-parcours > div {
@@ -2073,11 +2077,6 @@ li.done::after {
 
 .parcours-acheteur-refus-entreprise .grid-parcours-info > div:last-child {
   grid-column: 7/9;
-}
-
-/* XXX ne fonctionne pas : à corriger */
-.parcours-acheteur-refus-entreprise + .parcours-acheteur-refus-entreprise {
-  margin-top: 0;
 }
 
 .parcours-jeune .grid-parcours > div {
