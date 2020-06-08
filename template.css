@@ -1912,14 +1912,19 @@ li.done::after {
   margin-bottom: 0;
 }
 
-.intro h1 a:hover,
-.intro h1 a:visited,
-.intro h1 a:link,
-.intro h1 a:active {
+h1 a:hover,
+h1 a:visited,
+h1 a:link,
+h1 a:active,
+h2 a:hover,
+h2 a:visited,
+h2 a:link,
+h2 a:active {
   text-decoration: none;
 }
 
-.intro h1 a::after {
+h1 a::after,
+h2 a::after {
   content: "";
   display: inline-block;
   width: 11px;
