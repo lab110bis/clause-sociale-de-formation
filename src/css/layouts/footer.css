@@ -14,24 +14,22 @@
   justify-content: space-between;
 }
 
+.footer .container > div:last-child > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .container > div:last-child {
+  flex-basis: 55%;
+}
+
 .footer ul {
   list-style-type: none;
   padding: 0;
 }
 
-.footer__social {
-  margin-top: var(--space-s);
-}
-
-.footer__social li {
-  display: inline;
-  margin-right: var(--space-s);
-}
-
-.footer__social .icon {
-  width: 35px;
-  height: 35px;
-  fill: var(--white);
+.footer li {
+  padding-left: 0;
 }
 
 .footer__links {
@@ -39,7 +37,6 @@
   line-height: var(--space-l);
 }
 
-.footer__social li::before,
 .footer__links li::before {
   display: none;
 }
