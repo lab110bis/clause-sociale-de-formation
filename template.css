@@ -1990,6 +1990,38 @@ h2 a::after {
   color: white;
 }
 
+.grid-parcours > .start-1_end-2 {
+  grid-column: 1/2;
+}
+
+.grid-parcours > .start-2_end-3 {
+  grid-column: 2/3;
+}
+
+.grid-parcours > .start-3_end-4 {
+  grid-column: 3/4;
+}
+
+.grid-parcours > .start-4_end-5 {
+  grid-column: 4/5;
+}
+
+.grid-parcours > .start-5_end-6 {
+  grid-column: 5/6;
+}
+
+.grid-parcours > .start-6_end-7 {
+  grid-column: 6/7;
+}
+
+.grid-parcours > .start-7_end-8 {
+  grid-column: 7/8;
+}
+
+.grid-parcours > .start-8_end-9 {
+  grid-column: 8/9;
+}
+
 .parcours-acheteur .grid-parcours > div {
   background-color: #0053b3;
   background-color: var(--blue);
@@ -1998,10 +2030,6 @@ h2 a::after {
 .parcours-acheteur .grid-parcours > div::after {
   border-left-color: #0053b3;
   border-left-color: var(--blue);
-}
-
-.parcours-acheteur .grid-parcours > div:first-child {
-  grid-column: 1/2;
 }
 
 .parcours-acheteur .grid-parcours > div:nth-child(2) {
