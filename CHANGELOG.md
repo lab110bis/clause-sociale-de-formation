@@ -1,15 +1,17 @@
 # CHANGELOG
 
 
-Au 3/06/2020, temps passé : 9,5 E + 16 P
+Au 3/06/2020, temps passé : 10,5 E + 17,5 P
 
-- Mise en forme de la page entreprise
-- Mise en forme de la page tuteur MLDS
-- Mise en forme de la page acheteur
-- Mise en forme de la FAQ
-- Mise en forme de la page d'accueil
-- Mise en forme de l'à-propos
-- Remplacement du contenu existant par le template beta gouv
+- Met en forme la page entreprise
+- Met en forme la page coordonateur MLDS
+- Met en forme la page tuteur MLDS
+- Met en forme la page jeune
+- Met en forme la page acheteur
+- Met en forme la FAQ
+- Met en forme la page d'accueil
+- Met en forme l'à-propos
+- Remplace le contenu existant par le template beta gouv
 - Début de l'intervention d'Erick
 
 ----
