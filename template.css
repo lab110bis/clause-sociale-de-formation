@@ -2070,31 +2070,15 @@ h2 a::after {
   grid-column: 8/9;
 }
 
-.parcours-acheteur .grid-parcours > div {
-  background-color: #0053b3;
-  background-color: var(--blue);
-}
-
-.parcours-acheteur .grid-parcours > div::after {
-  border-left-color: #0053b3;
-  border-left-color: var(--blue);
-}
-
-.parcours-acheteur-mise-en-relation .grid-parcours > div {
-  background-color: #0053b3;
-  background-color: var(--blue);
-}
-
-.parcours-acheteur-mise-en-relation .grid-parcours > div::after {
-  border-left-color: #0053b3;
-  border-left-color: var(--blue);
-}
-
+.parcours-acheteur .grid-parcours > div,
+.parcours-acheteur-mise-en-relation .grid-parcours > div,
 .parcours-acheteur-refus-entreprise .grid-parcours > div {
   background-color: #0053b3;
   background-color: var(--blue);
 }
 
+.parcours-acheteur .grid-parcours > div::after,
+.parcours-acheteur-mise-en-relation .grid-parcours > div::after,
 .parcours-acheteur-refus-entreprise .grid-parcours > div::after {
   border-left-color: #0053b3;
   border-left-color: var(--blue);
@@ -2124,51 +2108,27 @@ h2 a::after {
   border-left-color: var(--medium-green);
 }
 
-.parcours-entreprise .grid-parcours > div {
-  background-color: #cc5c00;
-  background-color: var(--dark-orange);
-}
-
-.parcours-entreprise .grid-parcours > div::after {
-  border-left-color: #cc5c00;
-  border-left-color: var(--dark-orange);
-}
-
+.parcours-entreprise .grid-parcours > div,
 .parcours-entreprise-detail .grid-parcours > div {
   background-color: #cc5c00;
   background-color: var(--dark-orange);
 }
 
+.parcours-entreprise .grid-parcours > div::after,
 .parcours-entreprise-detail .grid-parcours > div::after {
   border-left-color: #cc5c00;
   border-left-color: var(--dark-orange);
 }
 
-.parcours-coordonateur .grid-parcours > div {
-  background-color: #ab2b1e;
-  background-color: var(--dark-red);
-}
-
-.parcours-coordonateur .grid-parcours > div::after {
-  border-left-color: #ab2b1e;
-  border-left-color: var(--dark-red);
-}
-
-.parcours-coordonateur-detail .grid-parcours > div {
-  background-color: #ab2b1e;
-  background-color: var(--dark-red);
-}
-
-.parcours-coordonateur-detail .grid-parcours > div::after {
-  border-left-color: #ab2b1e;
-  border-left-color: var(--dark-red);
-}
-
+.parcours-coordonateur .grid-parcours > div,
+.parcours-coordonateur-detail .grid-parcours > div,
 .parcours-coordonateur-gere-un-parcours .grid-parcours > div {
   background-color: #ab2b1e;
   background-color: var(--dark-red);
 }
 
+.parcours-coordonateur .grid-parcours > div::after,
+.parcours-coordonateur-detail .grid-parcours > div::after,
 .parcours-coordonateur-gere-un-parcours .grid-parcours > div::after {
   border-left-color: #ab2b1e;
   border-left-color: var(--dark-red);
