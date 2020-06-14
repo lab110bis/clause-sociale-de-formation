@@ -352,12 +352,14 @@ a[href$=".zip"]::after {
   display: none;
 }
 
-a[href^="http"].button::after {
+a[href^="http"].button::after,
+a[href^="http"].button-outline::after {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
 }
 
-a[href^="mailto"].button::after {
+a[href^="mailto"].button::after,
+a[href^="mailto"].button-outline::after {
   display: inline-block;
 }
 
@@ -2125,6 +2127,11 @@ h2 a::after {
 .parcours-coordonateur-gere-un-parcours .grid-parcours > div {
   background-color: #ab2b1e;
   background-color: var(--dark-red);
+}
+
+.grid-parcours:not(.grid-parcours-info) > div a:hover {
+  color: #ab2b1e;
+  color: var(--dark-red);
 }
 
 .parcours-coordonateur .grid-parcours > div::after,

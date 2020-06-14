@@ -175,6 +175,10 @@
   background-color: var(--dark-red);
 }
 
+.grid-parcours:not(.grid-parcours-info) > div a:hover {
+  color: var(--dark-red);
+}
+
 .parcours-coordonateur .grid-parcours > div::after,
 .parcours-coordonateur-detail .grid-parcours > div::after,
 .parcours-coordonateur-gere-un-parcours .grid-parcours > div::after {

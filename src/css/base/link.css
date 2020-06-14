@@ -39,10 +39,12 @@ a[href$=".zip"]::after {
   display: none;
 }
 
-a[href^="http"].button::after {
+a[href^="http"].button::after,
+a[href^="http"].button-outline::after {
   filter: brightness(0) invert(1);
 }
 
-a[href^="mailto"].button::after {
+a[href^="mailto"].button::after,
+a[href^="mailto"].button-outline::after {
   display: inline-block;
 }
