@@ -48,3 +48,7 @@ a[href^="mailto"].button::after,
 a[href^="mailto"].button-outline::after {
   display: inline-block;
 }
+
+.raccourcis a {
+  text-decoration: none;
+}
