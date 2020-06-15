@@ -2150,6 +2150,7 @@ h2 a::after {
   display: block;
   color: #26353f;
   color: var(--theme-dark-text);
+  min-height: 0;
 }
 
 .grid-parcours-info > div :first-child {

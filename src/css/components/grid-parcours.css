@@ -193,6 +193,7 @@
   padding-left: 0;
   display: block;
   color: var(--theme-dark-text);
+  min-height: 0;
 }
 
 .grid-parcours-info > div :first-child {
