@@ -25,23 +25,41 @@
 
 .grid-parcours > div::before,
 .grid-parcours > div::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: inherit;
+	padding-bottom: 50%;
+	height: 57.7%;
+	z-index: -1;
+	-webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotate(-30deg) skewX(30deg);
+	-ms-transform: rotate(-30deg) skewX(30deg);
+	transform: rotate(-30deg) skewX(30deg);
+/*
   content: "";
   position: absolute;
   top: 0;
   display: block;
   width: 0;
   height: 0;
-  border-top: 45px solid transparent;
-  border-bottom: 45px solid transparent;
+  border-top: 50% solid transparent;
+  border-bottom: 50% solid transparent;
   border-left: 10px solid white;
+*/
 }
 
 .grid-parcours > div::before {
   left: 0;
+	background-color: white;
 }
 
 .grid-parcours > div::after {
   right: -10px;
+	display: none; /* XXX */
 }
 
 .grid-parcours:not(.grid-parcours-info) ul li::before {
@@ -141,15 +159,11 @@
   grid-column: 8/9;
 }
 
-.parcours-acheteur .grid-parcours > div,
-.parcours-acheteur-mise-en-relation .grid-parcours > div,
-.parcours-acheteur-refus-entreprise .grid-parcours > div {
+.parcours-acheteur .grid-parcours > div {
   background-color: var(--blue);
 }
 
-.parcours-acheteur .grid-parcours > div::after,
-.parcours-acheteur-mise-en-relation .grid-parcours > div::after,
-.parcours-acheteur-refus-entreprise .grid-parcours > div::after {
+.parcours-acheteur .grid-parcours > div::after {
   border-left-color: var(--blue);
 }
 
@@ -171,19 +185,15 @@
   border-left-color: var(--medium-green);
 }
 
-.parcours-entreprise .grid-parcours > div,
-.parcours-entreprise-detail .grid-parcours > div {
+.parcours-entreprise .grid-parcours > div {
   background-color: var(--dark-orange);
 }
 
-.parcours-entreprise .grid-parcours > div::after,
-.parcours-entreprise-detail .grid-parcours > div::after {
+.parcours-entreprise .grid-parcours > div::after {
   border-left-color: var(--dark-orange);
 }
 
-.parcours-coordonateur .grid-parcours > div,
-.parcours-coordonateur-detail .grid-parcours > div,
-.parcours-coordonateur-gere-un-parcours .grid-parcours > div {
+.parcours-coordonateur .grid-parcours > div {
   background-color: var(--dark-red);
 }
 
@@ -191,9 +201,7 @@
   color: var(--dark-red);
 }
 
-.parcours-coordonateur .grid-parcours > div::after,
-.parcours-coordonateur-detail .grid-parcours > div::after,
-.parcours-coordonateur-gere-un-parcours .grid-parcours > div::after {
+.parcours-coordonateur .grid-parcours > div::after {
   border-left-color: var(--dark-red);
 }
 
@@ -224,33 +232,67 @@
   margin-top: 5px;
 }
 .parcours-acheteur .grid-parcours-info > div,
-.parcours-acheteur-mise-en-relation .grid-parcours-info > div,
-.parcours-acheteur-refus-entreprise .grid-parcours-info > div,
-.parcours-entreprise-detail .grid-parcours-info > div,
-.parcours-coordonateur-detail .grid-parcours-info > div,
-.parcours-coordonateur-gere-un-parcours .grid-parcours-info > div,
+.parcours-entreprise .grid-parcours-info > div,
+.parcours-coordonateur .grid-parcours-info > div,
 .parcours-tuteur-mlds .grid-parcours-info > div {
   background: none;
 }
 
 .parcours-acheteur .grid-parcours-info > div::before,
 .parcours-acheteur .grid-parcours-info > div::after,
-.parcours-acheteur-mise-en-relation .grid-parcours-info > div::before,
-.parcours-acheteur-mise-en-relation .grid-parcours-info > div::after,
-.parcours-acheteur-refus-entreprise .grid-parcours-info > div::before,
-.parcours-acheteur-refus-entreprise .grid-parcours-info > div::after,
-.parcours-entreprise-detail .grid-parcours-info > div::before,
-.parcours-entreprise-detail .grid-parcours-info > div::after,
-.parcours-coordonateur-detail .grid-parcours-info > div::before,
-.parcours-coordonateur-detail .grid-parcours-info > div::after,
-.parcours-coordonateur-gere-un-parcours .grid-parcours-info > div::before,
-.parcours-coordonateur-gere-un-parcours .grid-parcours-info > div::after,
+.parcours-entreprise .grid-parcours-info > div::before,
+.parcours-entreprise .grid-parcours-info > div::after,
+.parcours-coordonateur .grid-parcours-info > div::before,
+.parcours-coordonateur .grid-parcours-info > div::after,
 .parcours-tuteur-mlds .grid-parcours-info > div::before,
 .parcours-tuteur-mlds .grid-parcours-info > div::after {
   display: none;
 }
 
 @media (--smaller-than-tablet) {
+  .grid-parcours > div::before,
+  .grid-parcours > div::after {
+    border-top: 10px solid white;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 0;
+  }
+
+  .grid-parcours > div::before {
+    top: 0;
+  }
+
+  .grid-parcours > div::after {
+    top: auto;
+    bottom: -10px;
+    border-left-color: transparent;
+  }
+
+  .parcours-acheteur .grid-parcours > div::after,
+  .parcours-jeune .grid-parcours > div::after,
+  .parcours-tuteur-mlds .grid-parcours > div::after,
+  .parcours-entreprise .grid-parcours > div::after,
+  .parcours-coordonateur .grid-parcours > div::after {
+    border-left-color: transparent;
+  }
+
+  .parcours-acheteur .grid-parcours > div::after {
+    border-top-color: var(--blue);
+  }
+
+  .parcours-jeune .grid-parcours > div::after,
+  .parcours-tuteur-mlds .grid-parcours > div::after {
+    border-top-color: var(--medium-green);
+  }
+
+  .parcours-entreprise .grid-parcours > div::after {
+    border-top-color: var(--dark-orange);
+  }
+
+  .parcours-coordonateur .grid-parcours > div::after {
+    border-top-color: var(--dark-red);
+  }
+
   .parcours > div {
     display: flex;
   }
