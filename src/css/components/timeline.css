@@ -4,6 +4,7 @@
   counter-reset: timeline;
   justify-content: center;
   list-style: none;
+  padding-left: 0;
 }
 
 .timeline li {
@@ -27,4 +28,17 @@
   line-height: 30px;
   border-radius: 50%;
   text-align: center;
+}
+
+
+@media (--smaller-than-tablet) {
+  .timeline li {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (--smaller-than-phablet) {
+  .timeline li {
+    flex-basis: 100%;
+  }
 }
