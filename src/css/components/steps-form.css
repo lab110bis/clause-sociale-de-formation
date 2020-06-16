@@ -122,3 +122,17 @@ li.done::after {
   font-size: 1.5em;
   line-height: 30px;
 }
+
+@media (--smaller-than-tablet) {
+  .steps-form-vertical li {
+    align-items: flex-start;
+  }
+
+  .steps-form-vertical li::before {
+    margin-top: 0;
+  }
+
+  .steps-form-vertical li::after {
+    display: none;
+  }
+}

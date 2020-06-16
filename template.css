@@ -1849,6 +1849,22 @@ li.done::after {
   line-height: 30px;
 }
 
+@media (max-width: 749px) {
+  .steps-form-vertical li {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .steps-form-vertical li::before {
+    margin-top: 0;
+  }
+
+  .steps-form-vertical li::after {
+    display: none;
+  }
+}
+
 .partners {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1953,7 +1969,7 @@ h2 a::after {
   grid-gap: 10px;
 }
 
-.grid-parcours > div {
+.parcours-with-background {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1967,53 +1983,38 @@ h2 a::after {
   min-height: 90px;
   padding-left: 20px;
   padding-right: 10px;
-  line-height: 1.2;
 }
 
-.grid-parcours > div::before,
-.grid-parcours > div::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: inherit;
-  padding-bottom: 50%;
-  height: 57.7%;
-  z-index: -1;
-  -webkit-transform-origin: 0 0;
-  transform-origin: 0 0;
-  -webkit-transform: rotate(-30deg) skewX(30deg);
-  transform: rotate(-30deg) skewX(30deg);
-
-  /*
+.parcours-with-background::before,
+.parcours-with-background::after {
   content: "";
   position: absolute;
   top: 0;
   display: block;
   width: 0;
   height: 0;
-  border-top: 50% solid transparent;
-  border-bottom: 50% solid transparent;
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid transparent;
   border-left: 10px solid white;
-*/
 }
 
-.grid-parcours > div::before {
+.parcours-with-background::before {
   left: 0;
-  background-color: white;
 }
 
-.grid-parcours > div::after {
+.parcours-with-background::after {
   right: -10px;
-  display: none; /* XXX */
 }
 
-.grid-parcours:not(.grid-parcours-info) ul li::before {
-  background-color: white;
+.parcours-with-background a {
+  color: #fff;
 }
 
-.grid-parcours > div,
-.grid-parcours:not(.grid-parcours-info) > div a {
+.parcours-with-background li::before {
+  background-color: #fff;
+}
+
+.grid-parcours > div {
   color: white;
 }
 
@@ -2105,12 +2106,14 @@ h2 a::after {
   grid-column: 8/9;
 }
 
-.parcours-acheteur .grid-parcours > div {
+.parcours-acheteur .parcours-with-background {
   background-color: #0053b3;
   background-color: var(--blue);
 }
 
-.parcours-acheteur .grid-parcours > div::after {
+.parcours-acheteur .parcours-with-background::after,
+.parcours-acheteur-mise-en-relation .grid-parcours > div::after,
+.parcours-acheteur-refus-entreprise .grid-parcours > div::after {
   border-left-color: #0053b3;
   border-left-color: var(--blue);
 }
@@ -2139,17 +2142,21 @@ h2 a::after {
   border-left-color: var(--medium-green);
 }
 
-.parcours-entreprise .grid-parcours > div {
+.parcours-entreprise .grid-parcours > div,
+.parcours-entreprise-detail .grid-parcours > div {
   background-color: #cc5c00;
   background-color: var(--dark-orange);
 }
 
-.parcours-entreprise .grid-parcours > div::after {
+.parcours-entreprise .grid-parcours > div::after,
+.parcours-entreprise-detail .grid-parcours > div::after {
   border-left-color: #cc5c00;
   border-left-color: var(--dark-orange);
 }
 
-.parcours-coordonateur .grid-parcours > div {
+.parcours-coordonateur .grid-parcours > div,
+.parcours-coordonateur-detail .grid-parcours > div,
+.parcours-coordonateur-gere-un-parcours .grid-parcours > div {
   background-color: #ab2b1e;
   background-color: var(--dark-red);
 }
@@ -2159,16 +2166,15 @@ h2 a::after {
   color: var(--dark-red);
 }
 
-.parcours-coordonateur .grid-parcours > div::after {
+.parcours-coordonateur .grid-parcours > div::after,
+.parcours-coordonateur-detail .grid-parcours > div::after,
+.parcours-coordonateur-gere-un-parcours .grid-parcours > div::after {
   border-left-color: #ab2b1e;
   border-left-color: var(--dark-red);
 }
 
-.grid-parcours-info {
+.parcours-info {
   margin-top: 10px;
-}
-
-.grid-parcours-info > div {
   padding-left: 0;
   display: block;
   color: #26353f;
@@ -2176,8 +2182,12 @@ h2 a::after {
   min-height: 0;
 }
 
-.grid-parcours-info > div :first-child {
+.parcours-info :first-child {
   margin-top: 0;
+}
+
+.parcours-info :last-child {
+  margin-bottom: 0;
 }
 
 .grid-parcours-info p + ul {
@@ -2193,79 +2203,49 @@ h2 a::after {
 }
 
 .parcours-acheteur .grid-parcours-info > div,
-.parcours-entreprise .grid-parcours-info > div,
-.parcours-coordonateur .grid-parcours-info > div,
+.parcours-acheteur-mise-en-relation .grid-parcours-info > div,
+.parcours-acheteur-refus-entreprise .grid-parcours-info > div,
+.parcours-entreprise-detail .grid-parcours-info > div,
+.parcours-coordonateur-detail .grid-parcours-info > div,
+.parcours-coordonateur-gere-un-parcours .grid-parcours-info > div,
 .parcours-tuteur-mlds .grid-parcours-info > div {
   background: none;
 }
 
 .parcours-acheteur .grid-parcours-info > div::before,
 .parcours-acheteur .grid-parcours-info > div::after,
-.parcours-entreprise .grid-parcours-info > div::before,
-.parcours-entreprise .grid-parcours-info > div::after,
-.parcours-coordonateur .grid-parcours-info > div::before,
-.parcours-coordonateur .grid-parcours-info > div::after,
+.parcours-acheteur-mise-en-relation .grid-parcours-info > div::before,
+.parcours-acheteur-mise-en-relation .grid-parcours-info > div::after,
+.parcours-acheteur-refus-entreprise .grid-parcours-info > div::before,
+.parcours-acheteur-refus-entreprise .grid-parcours-info > div::after,
+.parcours-entreprise-detail .grid-parcours-info > div::before,
+.parcours-entreprise-detail .grid-parcours-info > div::after,
+.parcours-coordonateur-detail .grid-parcours-info > div::before,
+.parcours-coordonateur-detail .grid-parcours-info > div::after,
+.parcours-coordonateur-gere-un-parcours .grid-parcours-info > div::before,
+.parcours-coordonateur-gere-un-parcours .grid-parcours-info > div::after,
 .parcours-tuteur-mlds .grid-parcours-info > div::before,
 .parcours-tuteur-mlds .grid-parcours-info > div::after {
   display: none;
 }
 
-@media (max-width: 749px) {
-  .grid-parcours > div::before,
-  .grid-parcours > div::after {
-    border-top: 10px solid white;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 0;
-  }
-
-  .grid-parcours > div::before {
-    top: 0;
-  }
-
-  .grid-parcours > div::after {
-    top: auto;
-    bottom: -10px;
-    border-left-color: transparent;
-  }
-
-  .parcours-acheteur .grid-parcours > div::after,
-  .parcours-jeune .grid-parcours > div::after,
-  .parcours-tuteur-mlds .grid-parcours > div::after,
-  .parcours-entreprise .grid-parcours > div::after,
-  .parcours-coordonateur .grid-parcours > div::after {
-    border-left-color: transparent;
-  }
-
-  .parcours-acheteur .grid-parcours > div::after {
-    border-top-color: #0053b3;
-    border-top-color: var(--blue);
-  }
-
-  .parcours-jeune .grid-parcours > div::after,
-  .parcours-tuteur-mlds .grid-parcours > div::after {
-    border-top-color: #87d5a6;
-    border-top-color: var(--medium-green);
-  }
-
-  .parcours-entreprise .grid-parcours > div::after {
-    border-top-color: #cc5c00;
-    border-top-color: var(--dark-orange);
-  }
-
-  .parcours-coordonateur .grid-parcours > div::after {
-    border-top-color: #ab2b1e;
-    border-top-color: var(--dark-red);
-  }
-
-  .parcours > div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
+@media (max-width: 999px) {
   .grid-parcours {
     grid-template-columns: none;
+    line-height: 1.2;
+  }
+
+  .grid-parcours > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .parcours-info {
+    margin-top: 0;
   }
 
   .grid-parcours > .start-1_end-2,
@@ -2382,6 +2362,20 @@ h2 a::after {
   }
 }
 
+@media (max-width: 549px) {
+  .parcours {
+    margin-bottom: 30px;
+  }
+
+  .grid-parcours > div {
+    display: block;
+  }
+
+  .parcours-info {
+    margin-top: 10px;
+  }
+}
+
 .video-wrapper {
   position: relative;
   padding-bottom: 70.4%;
@@ -2465,7 +2459,7 @@ h2 a::after {
   max-width: 35em;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 549px) {
   .container {
     width: 85%;
     padding: 0;
@@ -2786,6 +2780,12 @@ span.navbar__domain {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (max-width: 549px) {
+  .footer__logo {
+    width: 100%;
   }
 }
 

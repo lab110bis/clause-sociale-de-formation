@@ -70,3 +70,9 @@
     flex-direction: column;
   }
 }
+
+@media (--smaller-than-phablet) {
+  .footer__logo {
+    width: 100%;
+  }
+}
