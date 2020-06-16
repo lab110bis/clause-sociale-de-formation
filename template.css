@@ -2731,10 +2731,6 @@ span.navbar__domain {
   border-bottom: 2px solid var(--darker-grey);
 }
 
-.section.container.container-persona {
-  border-bottom: none;
-}
-
 .section-white {
   background-color: #fff;
   background-color: var(--theme-background-white);
