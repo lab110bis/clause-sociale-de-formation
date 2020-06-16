@@ -147,9 +147,7 @@
   background-color: var(--blue);
 }
 
-.parcours-acheteur .parcours-with-background::after,
-.parcours-acheteur-mise-en-relation .grid-parcours > div::after,
-.parcours-acheteur-refus-entreprise .grid-parcours > div::after {
+.parcours-acheteur .parcours-with-background::after {
   border-left-color: var(--blue);
 }
 
