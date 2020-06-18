@@ -36,3 +36,7 @@ Pour l'acheteur pilote :
 Pour la tutrice pilote, les informations à faire passer sont les mêmes que celles que les tuteurs MLDS vont chercher :
 - Comment mettre en oeuvre ?
 - Ou trouver les offres ?
+
+# Choix technique
+
+On utilise pas https://css.gg/ pour privilégié la mutualisation.

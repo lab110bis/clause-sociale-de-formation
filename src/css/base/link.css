@@ -11,7 +11,7 @@ a:active {
   color: var(--theme-primary);
 }
 
-a[href^="./parcours"]::after,
+a[href^="./parcours"]::before,
 a[href^="http"]::after,
 a[href^="mailto"]::after {
   content: '';
@@ -33,9 +33,11 @@ a[href^="mailto"]::after {
   vertical-align: -2px; /* Référence : milieu de ligne */
 }
 
-a[href^="./parcours"]::after {
+a[href^="./parcours"]::before {
   background-image: url(./images/parcours-symbol.svg);
   vertical-align: -2px; /* Référence : milieu de ligne */
+	 margin-right: 15px;
+  margin-left: 0;
 }
 
 a[href$=".docx"]::after,
