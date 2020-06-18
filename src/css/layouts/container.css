@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: 100%;
+  width: 85%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -39,14 +39,6 @@
 
 @media (--smaller-than-phablet) {
   .container {
-    width: 85%;
     padding: 0;
-  }
-}
-
-@media (--larger-than-phablet) {
-  .container {
-    width: 100%;
-    max-width: 1200px;
   }
 }

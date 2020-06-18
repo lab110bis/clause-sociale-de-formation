@@ -36,7 +36,7 @@ a[href^="mailto"]::after {
 a[href^="./parcours"]::before {
   background-image: url(./images/parcours-symbol.svg);
   vertical-align: -2px; /* Référence : milieu de ligne */
-	 margin-right: 15px;
+  margin-right: 15px;
   margin-left: 0;
 }
 

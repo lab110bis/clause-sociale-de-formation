@@ -2425,7 +2425,7 @@ h2 a::after {
 /* larger components */
 .container {
   position: relative;
-  width: 100%;
+  width: 85%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -2466,15 +2466,7 @@ h2 a::after {
 
 @media (max-width: 549px) {
   .container {
-    width: 85%;
     padding: 0;
-  }
-}
-
-@media (min-width: 550px) {
-  .container {
-    width: 100%;
-    max-width: 1200px;
   }
 }
 
