@@ -2118,45 +2118,41 @@ h2 a::after {
   border-left-color: var(--blue);
 }
 
-.parcours-jeune .grid-parcours > div {
+.parcours-jeune .parcours-with-background {
   color: #26353f;
   color: var(--theme-dark-text);
   background-color: #87d5a6;
   background-color: var(--medium-green);
 }
 
-.parcours-jeune .grid-parcours > div::after {
+.parcours-jeune .parcours-with-background::after {
   border-left-color: #87d5a6;
   border-left-color: var(--medium-green);
 }
 
-.parcours-tuteur-mlds .grid-parcours > div {
+.parcours-tuteur-mlds .parcours-with-background {
   color: #26353f;
   color: var(--theme-dark-text);
   background-color: #87d5a6;
   background-color: var(--medium-green);
 }
 
-.parcours-tuteur-mlds .grid-parcours > div::after {
+.parcours-tuteur-mlds .parcours-with-background::after {
   border-left-color: #87d5a6;
   border-left-color: var(--medium-green);
 }
 
-.parcours-entreprise .grid-parcours > div,
-.parcours-entreprise-detail .grid-parcours > div {
+.parcours-entreprise .parcours-with-background {
   background-color: #cc5c00;
   background-color: var(--dark-orange);
 }
 
-.parcours-entreprise .grid-parcours > div::after,
-.parcours-entreprise-detail .grid-parcours > div::after {
+.parcours-entreprise .parcours-with-background::after {
   border-left-color: #cc5c00;
   border-left-color: var(--dark-orange);
 }
 
-.parcours-coordonateur .grid-parcours > div,
-.parcours-coordonateur-detail .grid-parcours > div,
-.parcours-coordonateur-gere-un-parcours .grid-parcours > div {
+.parcours-coordonateur .parcours-with-background {
   background-color: #ab2b1e;
   background-color: var(--dark-red);
 }
@@ -2166,9 +2162,7 @@ h2 a::after {
   color: var(--dark-red);
 }
 
-.parcours-coordonateur .grid-parcours > div::after,
-.parcours-coordonateur-detail .grid-parcours > div::after,
-.parcours-coordonateur-gere-un-parcours .grid-parcours > div::after {
+.parcours-coordonateur .parcours-with-background::after {
   border-left-color: #ab2b1e;
   border-left-color: var(--dark-red);
 }
@@ -2200,33 +2194,6 @@ h2 a::after {
 
 .grid-parcours-info ul li + li {
   margin-top: 5px;
-}
-
-.parcours-acheteur .grid-parcours-info > div,
-.parcours-acheteur-mise-en-relation .grid-parcours-info > div,
-.parcours-acheteur-refus-entreprise .grid-parcours-info > div,
-.parcours-entreprise-detail .grid-parcours-info > div,
-.parcours-coordonateur-detail .grid-parcours-info > div,
-.parcours-coordonateur-gere-un-parcours .grid-parcours-info > div,
-.parcours-tuteur-mlds .grid-parcours-info > div {
-  background: none;
-}
-
-.parcours-acheteur .grid-parcours-info > div::before,
-.parcours-acheteur .grid-parcours-info > div::after,
-.parcours-acheteur-mise-en-relation .grid-parcours-info > div::before,
-.parcours-acheteur-mise-en-relation .grid-parcours-info > div::after,
-.parcours-acheteur-refus-entreprise .grid-parcours-info > div::before,
-.parcours-acheteur-refus-entreprise .grid-parcours-info > div::after,
-.parcours-entreprise-detail .grid-parcours-info > div::before,
-.parcours-entreprise-detail .grid-parcours-info > div::after,
-.parcours-coordonateur-detail .grid-parcours-info > div::before,
-.parcours-coordonateur-detail .grid-parcours-info > div::after,
-.parcours-coordonateur-gere-un-parcours .grid-parcours-info > div::before,
-.parcours-coordonateur-gere-un-parcours .grid-parcours-info > div::after,
-.parcours-tuteur-mlds .grid-parcours-info > div::before,
-.parcours-tuteur-mlds .grid-parcours-info > div::after {
-  display: none;
 }
 
 @media (max-width: 999px) {
@@ -2452,7 +2419,6 @@ h2 a::after {
 .container-titre {
   padding-bottom: 1em;
   padding-bottom: var(--space-s);
-
 }
 
 .container-cadres {
