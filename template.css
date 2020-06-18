@@ -324,6 +324,7 @@ a:active {
   color: var(--theme-primary);
 }
 
+a[href^="./parcours"]::after,
 a[href^="http"]::after,
 a[href^="mailto"]::after {
   content: '';
@@ -342,6 +343,11 @@ a[href^="http"]::after {
 a[href^="mailto"]::after {
   background-image: url(./images/mail-symbol-white.svg);
   display: none;
+  vertical-align: -2px; /* Référence : milieu de ligne */
+}
+
+a[href^="./parcours"]::after {
+  background-image: url(./images/parcours-symbol.svg);
   vertical-align: -2px; /* Référence : milieu de ligne */
 }
 
