@@ -2443,6 +2443,23 @@ h2 a::after {
   padding: 0 20px;
 }
 
+.container-titre,
+.container-cadres {
+  position: relative;
+  text-align: center;
+}
+
+.container-titre {
+  padding-bottom: 1em;
+  padding-bottom: var(--space-s);
+
+}
+
+.container-cadres {
+  padding-top: 1em;
+  padding-top: var(--space-s);
+}
+
 .container.container-medium {
   max-width: 750px;
 }

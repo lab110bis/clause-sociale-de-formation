@@ -1,7 +1,7 @@
 # CHANGELOG
 
 
-Au 12/06/2020, temps passé : 11 E + 18,5 P
+Au 17/06/2020, temps passé : 11,5 E + 19 P
 
 - Met en forme la page entreprise
 - Met en forme la page coordonateur MLDS

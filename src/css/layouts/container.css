@@ -6,6 +6,21 @@
   padding: 0 20px;
 }
 
+.container-titre,
+.container-cadres {
+  position: relative;
+  text-align: center;
+}
+
+.container-titre {
+  padding-bottom: var(--space-s);
+
+}
+
+.container-cadres {
+  padding-top: var(--space-s);
+}
+
 .container.container-medium {
   max-width: 750px;
 }
