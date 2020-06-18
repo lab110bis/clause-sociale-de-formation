@@ -2410,6 +2410,7 @@ h2 a::after {
   padding: 0 20px;
 }
 
+.container-plateforme,
 .container-titre,
 .container-cadres {
   position: relative;
