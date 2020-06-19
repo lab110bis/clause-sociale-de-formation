@@ -7,6 +7,7 @@
 }
 
 .container-plateforme,
+.container-bouton-action,
 .container-titre,
 .container-cadres {
   position: relative;
@@ -15,6 +16,22 @@
 
 .container-titre {
   padding-bottom: var(--space-s);
+}
+
+.container-bouton-action {
+  padding-bottom: var(--space-xxs);
+}
+
+.container-bouton-action {
+  padding-top: 0;
+}
+
+a.bouton-action {
+  margin-top: 0;
+}
+
+h2.titre-proche {
+  margin-bottom: 0;
 }
 
 .container-cadres {
