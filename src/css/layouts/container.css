@@ -24,11 +24,7 @@
 }
 
 .container-bouton-action {
-  padding-bottom: var(--space-xxs);
-}
-
-.container-bouton-action {
-  padding-top: 0;
+  padding-top: var(--space-m);
 }
 
 a.bouton-action {

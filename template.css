@@ -2057,6 +2057,10 @@ h2 a::after {
   grid-column: 2/3;
 }
 
+.grid-parcours > .start-2_end-4 {
+  grid-column: 2/4;
+}
+
 .grid-parcours > .start-3_end-4 {
   grid-column: 3/4;
 }
@@ -2244,6 +2248,7 @@ h2 a::after {
   .grid-parcours > .start-1_end-3,
   .grid-parcours > .start-1_end-4,
   .grid-parcours > .start-2_end-3,
+  .grid-parcours > .start-2_end-4,
   .grid-parcours > .start-3_end-4,
   .grid-parcours > .start-3_end-5,
   .grid-parcours > .start-3_end-6,
@@ -2279,6 +2284,10 @@ h2 a::after {
 
   .grid-parcours > .start-2_end-3 {
     grid-row: 2/3;
+  }
+
+  .grid-parcours > .start-2_end-4 {
+    grid-row: 2/4;
   }
 
   .grid-parcours > .start-3_end-4 {
@@ -2455,12 +2464,8 @@ h2 a::after {
 }
 
 .container-bouton-action {
-  padding-bottom: 0.25em;
-  padding-bottom: var(--space-xxs);
-}
-
-.container-bouton-action {
-  padding-top: 0;
+  padding-top: 1.5em;
+  padding-top: var(--space-m);
 }
 
 a.bouton-action {
