@@ -1,0 +1,3 @@
+- Groupe SOS
+- Grosse valeur potentielle perçues par le partenaire sur la liste des parcours disponibles
+- Très bonne compréhension de la page entreprise
