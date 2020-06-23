@@ -196,6 +196,10 @@ a.button.secondary {
   background-color: var(--darkest-grey);
 }
 
+.button-outline.secondary + .button-outline.secondary {
+  margin-left: 60px;
+}
+
 @media (--smaller-than-mobile) {
   a.button,
   button.button,
@@ -203,5 +207,12 @@ a.button.secondary {
   input[type="button"] {
     width: 100%;
     margin-right: 0;
+  }
+}
+
+@media (--smaller-than-phablet) {
+  .button-outline.secondary + .button-outline.secondary {
+    margin-left: 0;
+    margin-top: 30px;
   }
 }
