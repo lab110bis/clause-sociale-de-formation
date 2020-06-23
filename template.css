@@ -1285,8 +1285,17 @@ fieldset {
   padding: 10px;
 }
 
+.card__cover h3 {
+  margin: 0;
+  text-align: center;
+}
+
 .card__cover--small {
   height: 150px;
+}
+
+.card__cover--extra-small {
+  height: 80px;
 }
 
 .card__cover img {
