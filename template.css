@@ -2729,8 +2729,8 @@ h2.titre-proche {
   border-radius: 3px;
 }
 
-.nav__item abbr {
-  text-decoration: none;
+.nav__item a {
+  display: block;
 }
 
 .nav__links a::after {
@@ -2748,6 +2748,10 @@ h2.titre-proche {
   background: var(--theme-primary);
   color: #fff;
   color: var(--white);
+}
+
+.nav__item abbr {
+  text-decoration: none;
 }
 
 a.navbar__home {
