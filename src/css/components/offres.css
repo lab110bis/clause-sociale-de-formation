@@ -1,0 +1,17 @@
+.offres {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  text-align: center;
+}
+
+.offres > a[class^=button] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offres .button.primary {
+  margin: 0;
+}
+
