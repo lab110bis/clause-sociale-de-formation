@@ -14,9 +14,11 @@
   transform: scale(1.03);
 }
 
+a.tile-colored,
 .tile-colored {
   background-color: var(--theme-background-color);
   color: var(--theme-light-text);
+  text-decoration: none;
 }
 
 .tile h3 {
