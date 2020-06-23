@@ -22,7 +22,7 @@
               </li>
               <li class="nav__item">
                 <a href="parcours-disponibles.html" 
-                   {% if page.url == "/parcours-disponibles.html" %}
+                   {% if page.url contains "parcours" %}
                      class="active"
                    {% endif %}
                    >
@@ -40,7 +40,7 @@
               </li>
               <li class="nav__item">
                 <a href="mlds.html" 
-                   {% if page.url == "/mlds.html" %}
+                   {% if page.url contains "mlds" %}
                      class="active"
                    {% endif %}
                    >
