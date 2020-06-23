@@ -2074,6 +2074,10 @@ h2 a::after {
   grid-column: 2/4;
 }
 
+.grid-parcours > .start-2_end-5 {
+  grid-column: 2/5;
+}
+
 .grid-parcours > .start-3_end-4 {
   grid-column: 3/4;
 }
@@ -2262,6 +2266,7 @@ h2 a::after {
   .grid-parcours > .start-1_end-4,
   .grid-parcours > .start-2_end-3,
   .grid-parcours > .start-2_end-4,
+  .grid-parcours > .start-2_end-5,
   .grid-parcours > .start-3_end-4,
   .grid-parcours > .start-3_end-5,
   .grid-parcours > .start-3_end-6,
@@ -2301,6 +2306,10 @@ h2 a::after {
 
   .grid-parcours > .start-2_end-4 {
     grid-row: 2/4;
+  }
+
+  .grid-parcours > .start-2_end-5 {
+    grid-row: 2/5;
   }
 
   .grid-parcours > .start-3_end-4 {
