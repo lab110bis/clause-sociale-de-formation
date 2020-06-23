@@ -1,1 +1,3 @@
 - MLDS : qu'est-ce qu'on fait quand l'entreprise est réticente ?
+- On retire la question "l'entreprise peut-elle dépasser les engagments ?" de la FAQ acheteur
+- Url du site ?
