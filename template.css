@@ -324,7 +324,7 @@ a:active {
   color: var(--theme-primary);
 }
 
-a[href^="./parcours"]::before,
+a[href^="./parcours-disponibles"]::before,
 a[href^="http"]::after,
 a[href^="mailto"]::after {
   content: '';
@@ -346,7 +346,7 @@ a[href^="mailto"]::after {
   vertical-align: -2px; /* Référence : milieu de ligne */
 }
 
-a[href^="./parcours"]::before {
+a[href^="./parcours-disponibles"]::before {
   background-image: url(./images/parcours-symbol.svg);
   vertical-align: -2px; /* Référence : milieu de ligne */
   margin-right: 15px;
@@ -2434,9 +2434,15 @@ h2 a::after {
 .container-plateforme,
 .container-bouton-action,
 .container-titre,
+.container-titre-page,
 .container-cadres {
   position: relative;
   text-align: center;
+}
+
+.container-titre-page {
+  padding-bottom: 0.25em;
+  padding-bottom: var(--space-xxs);
 }
 
 .container-titre {
@@ -2461,6 +2467,7 @@ h2.titre-proche {
   margin-bottom: 0;
 }
 
+.container-titre-page,
 .container-cadres {
   padding-top: 1em;
   padding-top: var(--space-s);

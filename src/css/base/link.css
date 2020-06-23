@@ -11,7 +11,7 @@ a:active {
   color: var(--theme-primary);
 }
 
-a[href^="./parcours"]::before,
+a[href^="./parcours-disponibles"]::before,
 a[href^="http"]::after,
 a[href^="mailto"]::after {
   content: '';
@@ -33,7 +33,7 @@ a[href^="mailto"]::after {
   vertical-align: -2px; /* Référence : milieu de ligne */
 }
 
-a[href^="./parcours"]::before {
+a[href^="./parcours-disponibles"]::before {
   background-image: url(./images/parcours-symbol.svg);
   vertical-align: -2px; /* Référence : milieu de ligne */
   margin-right: 15px;

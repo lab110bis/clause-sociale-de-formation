@@ -9,9 +9,14 @@
 .container-plateforme,
 .container-bouton-action,
 .container-titre,
+.container-titre-page,
 .container-cadres {
   position: relative;
   text-align: center;
+}
+
+.container-titre-page {
+  padding-bottom: var(--space-xxs);
 }
 
 .container-titre {
@@ -34,6 +39,7 @@ h2.titre-proche {
   margin-bottom: 0;
 }
 
+.container-titre-page,
 .container-cadres {
   padding-top: var(--space-s);
 }
