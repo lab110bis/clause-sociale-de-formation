@@ -2475,6 +2475,16 @@ h2 a::after {
   margin: 0;
 }
 
+@media (max-width: 749px) {
+  .offres {
+    display: block;
+  }
+
+  .offres > a[class^=button]:not(:first-of-type) {
+    margin-top: 20px;
+  }
+}
+
 /* larger components */
 .container {
   position: relative;
