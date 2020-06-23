@@ -2151,9 +2151,13 @@ h2 a::after {
   border-left-color: var(--medium-green);
 }
 
+.parcours-tuteur-mlds .parcours-with-background a,
 .parcours-tuteur-mlds .parcours-with-background {
   color: #26353f;
   color: var(--theme-dark-text);
+}
+
+.parcours-tuteur-mlds .parcours-with-background {
   background-color: #87d5a6;
   background-color: var(--medium-green);
 }
@@ -2179,8 +2183,8 @@ h2 a::after {
 }
 
 .grid-parcours:not(.grid-parcours-info) > div a:hover {
-  color: #ab2b1e;
-  color: var(--dark-red);
+  color: #26353f;
+  color: var(--theme-dark-text);
 }
 
 .parcours-coordonateur .parcours-with-background::after {

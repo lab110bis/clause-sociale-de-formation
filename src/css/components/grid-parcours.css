@@ -160,8 +160,12 @@
   border-left-color: var(--medium-green);
 }
 
+.parcours-tuteur-mlds .parcours-with-background a,
 .parcours-tuteur-mlds .parcours-with-background {
   color: var(--theme-dark-text);
+}
+
+.parcours-tuteur-mlds .parcours-with-background {
   background-color: var(--medium-green);
 }
 
@@ -182,7 +186,7 @@
 }
 
 .grid-parcours:not(.grid-parcours-info) > div a:hover {
-  color: var(--dark-red);
+  color: var(--theme-dark-text);
 }
 
 .parcours-coordonateur .parcours-with-background::after {
