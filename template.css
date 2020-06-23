@@ -1243,6 +1243,10 @@ fieldset {
   background: url(./images/arrow-right.svg);
 }
 
+.card-text a::after {
+  display: none;
+}
+
 .card h3 {
   display: inline;
   font-size: 1.25em;
@@ -1292,10 +1296,6 @@ fieldset {
 
 .card__cover--small {
   height: 150px;
-}
-
-.card__cover--extra-small {
-  height: 80px;
 }
 
 .card__cover img {
