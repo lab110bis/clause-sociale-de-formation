@@ -2160,18 +2160,6 @@ h2 a::after {
   border-left-color: var(--blue);
 }
 
-.parcours-jeune .parcours-with-background {
-  color: #26353f;
-  color: var(--theme-dark-text);
-  background-color: #87d5a6;
-  background-color: var(--medium-green);
-}
-
-.parcours-jeune .parcours-with-background::after {
-  border-left-color: #87d5a6;
-  border-left-color: var(--medium-green);
-}
-
 .parcours-tuteur-mlds .parcours-with-background a,
 .parcours-tuteur-mlds .parcours-with-background {
   color: #26353f;
@@ -2257,8 +2245,93 @@ h2 a::after {
             align-items: center;
   }
 
+  .grid-parcours > div:not(:first-of-type) {
+    margin-top: 30px;
+  }
+
+  .grid-parcours > div:last-of-type .parcours-with-background::before,
+  .grid-parcours > div:last-of-type .parcours-with-background::after {
+    display: none;
+  }
+
   .parcours-info {
     margin-top: 0;
+  }
+
+  .parcours-with-background::before,
+  .parcours-with-background::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: -20px;
+    display: block;
+    width: 50%;
+    height: 50px;
+    border: none;
+  }
+
+  .parcours-with-background::before {
+    left: 0;
+  }
+
+  .parcours-with-background::after {
+    right: 0;
+  }
+
+  .parcours-acheteur .parcours-with-background::before {
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, #0053b3));
+    background: linear-gradient(to right top, transparent 50%, #0053b3 50%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, var(--blue)));
+    background: linear-gradient(to right top, transparent 50%, var(--blue) 50%);
+  }
+
+  .parcours-acheteur .parcours-with-background::after {
+    background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, #0053b3));
+    background: linear-gradient(to left top, transparent 50%, #0053b3 50%);
+    background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, var(--blue)));
+    background: linear-gradient(to left top, transparent 50%, var(--blue) 50%);
+  }
+
+  .parcours-tuteur-mlds .parcours-with-background::before {
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, #87d5a6));
+    background: linear-gradient(to right top, transparent 50%, #87d5a6 50%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, var(--medium-green)));
+    background: linear-gradient(to right top, transparent 50%, var(--medium-green) 50%);
+  }
+
+  .parcours-tuteur-mlds .parcours-with-background::after {
+    background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, #87d5a6));
+    background: linear-gradient(to left top, transparent 50%, #87d5a6 50%);
+    background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, var(--medium-green)));
+    background: linear-gradient(to left top, transparent 50%, var(--medium-green) 50%);
+  }
+
+  .parcours-entreprise .parcours-with-background::before {
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, #cc5c00));
+    background: linear-gradient(to right top, transparent 50%, #cc5c00 50%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, var(--dark-orange)));
+    background: linear-gradient(to right top, transparent 50%, var(--dark-orange) 50%);
+  }
+
+  .parcours-entreprise .parcours-with-background::after {
+    background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, #cc5c00));
+    background: linear-gradient(to left top, transparent 50%, #cc5c00 50%);
+    background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, var(--dark-orange)));
+    background: linear-gradient(to left top, transparent 50%, var(--dark-orange) 50%);
+  }
+
+  .parcours-coordonateur .parcours-with-background::before {
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, #ab2b1e));
+    background: linear-gradient(to right top, transparent 50%, #ab2b1e 50%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, var(--dark-red)));
+    background: linear-gradient(to right top, transparent 50%, var(--dark-red) 50%);
+  }
+
+  .parcours-coordonateur .parcours-with-background::after {
+    background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, #ab2b1e));
+    background: linear-gradient(to left top, transparent 50%, #ab2b1e 50%);
+    background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, var(--dark-red)));
+    background: linear-gradient(to left top, transparent 50%, var(--dark-red) 50%);
   }
 
   .grid-parcours > .start-1_end-2,
@@ -2394,7 +2467,12 @@ h2 a::after {
     display: block;
   }
 
+
   .parcours-info {
+    margin-top: 30px;
+  }
+
+  .grid-parcours > div:last-child > .parcours-info {
     margin-top: 10px;
   }
 }

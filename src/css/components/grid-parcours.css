@@ -159,15 +159,6 @@
   border-left-color: var(--blue);
 }
 
-.parcours-jeune .parcours-with-background {
-  color: var(--theme-dark-text);
-  background-color: var(--medium-green);
-}
-
-.parcours-jeune .parcours-with-background::after {
-  border-left-color: var(--medium-green);
-}
-
 .parcours-tuteur-mlds .parcours-with-background a,
 .parcours-tuteur-mlds .parcours-with-background {
   color: var(--theme-dark-text);
@@ -242,8 +233,69 @@
     align-items: center;
   }
 
+  .grid-parcours > div:not(:first-of-type) {
+    margin-top: 30px;
+  }
+
+  .grid-parcours > div:last-of-type .parcours-with-background::before,
+  .grid-parcours > div:last-of-type .parcours-with-background::after {
+    display: none;
+  }
+
   .parcours-info {
     margin-top: 0;
+  }
+
+  .parcours-with-background::before,
+  .parcours-with-background::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: -20px;
+    display: block;
+    width: 50%;
+    height: 50px;
+    border: none;
+  }
+
+  .parcours-with-background::before {
+    left: 0;
+  }
+
+  .parcours-with-background::after {
+    right: 0;
+  }
+
+  .parcours-acheteur .parcours-with-background::before {
+    background: linear-gradient(to right top, transparent 50%, var(--blue) 50%);
+  }
+
+  .parcours-acheteur .parcours-with-background::after {
+    background: linear-gradient(to left top, transparent 50%, var(--blue) 50%);
+  }
+
+  .parcours-tuteur-mlds .parcours-with-background::before {
+    background: linear-gradient(to right top, transparent 50%, var(--medium-green) 50%);
+  }
+
+  .parcours-tuteur-mlds .parcours-with-background::after {
+    background: linear-gradient(to left top, transparent 50%, var(--medium-green) 50%);
+  }
+
+  .parcours-entreprise .parcours-with-background::before {
+    background: linear-gradient(to right top, transparent 50%, var(--dark-orange) 50%);
+  }
+
+  .parcours-entreprise .parcours-with-background::after {
+    background: linear-gradient(to left top, transparent 50%, var(--dark-orange) 50%);
+  }
+
+  .parcours-coordonateur .parcours-with-background::before {
+    background: linear-gradient(to right top, transparent 50%, var(--dark-red) 50%);
+  }
+
+  .parcours-coordonateur .parcours-with-background::after {
+    background: linear-gradient(to left top, transparent 50%, var(--dark-red) 50%);
   }
 
   .grid-parcours > .start-1_end-2,
@@ -379,7 +431,12 @@
     display: block;
   }
 
+
   .parcours-info {
+    margin-top: 30px;
+  }
+
+  .grid-parcours > div:last-child > .parcours-info {
     margin-top: 10px;
   }
 }
