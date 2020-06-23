@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.offres + .offres {
+  margin-top: 20px;
+}
+
 .offres > a[class^=button] {
   display: flex;
   align-items: center;

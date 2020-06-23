@@ -2455,6 +2455,10 @@ h2 a::after {
   text-align: center;
 }
 
+.offres + .offres {
+  margin-top: 20px;
+}
+
 .offres > a[class^=button] {
   display: -webkit-box;
   display: -ms-flexbox;
