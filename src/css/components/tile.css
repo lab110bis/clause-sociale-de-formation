@@ -34,3 +34,9 @@ a.tile-colored,
 .tile__icon {
   height: var(--space-l);
 }
+
+@media(--smaller-than-tablet) {
+  .tile:empty {
+    display: none;
+  }
+}
