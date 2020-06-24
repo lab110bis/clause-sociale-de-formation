@@ -1631,7 +1631,7 @@ a.tile-colored,
   height: var(--space-l);
 }
 
-@media(max-width: 749px) {
+@media (max-width: 749px) {
   .tile:empty {
     display: none;
   }
