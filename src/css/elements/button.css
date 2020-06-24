@@ -200,6 +200,11 @@ a.button.secondary {
   margin-left: 60px;
 }
 
+p > a.button {
+  vertical-align: middle;
+  margin: 0 0 0 10px;
+}
+
 @media (--smaller-than-mobile) {
   a.button,
   button.button,
