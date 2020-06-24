@@ -3,17 +3,20 @@
 
 Au 23/06/2020, temps passé : 13 E + 21,5 P
 
+- Présente les informations sous des formes variées, qui correspondent à différents modes de communication :
+  * Graphiques et texte ;
+  * concepts et exemples.
 - 6 tests utilisateurs
 - Adapte les images au logo
-- Créé des Foires aux questions par persona
-- Créé une page partenaires
-- Créé une page entreprise
-- Créé une page coordonateur MLDS
-- Créé une page tuteur MLDS
-- Créé une page jeune
-- Créé une page acheteur
-- Créé une page d'accueil
-- Créé un à-propos
+- Crée des Foires aux questions par persona
+- Crée une page partenaires
+- Crée une page entreprise
+- Crée une page coordonateur MLDS
+- Crée une page tuteur MLDS
+- Crée une page jeune
+- Crée une page acheteur
+- Crée une page d'accueil
+- Crée un à-propos
 - Remplace le contenu existant par le template beta gouv
 - Début de l'intervention d'Erick
 
