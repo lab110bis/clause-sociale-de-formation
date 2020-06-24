@@ -1576,6 +1576,10 @@ fieldset {
   border-color: var(--theme-error-border);
 }
 
+.tiles .grid {
+  margin-top: 0;
+}
+
 .tile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1595,24 +1599,27 @@ fieldset {
   width: 100%;
   padding: 1em;
   padding: var(--space-s);
-  -webkit-transform: none;
-          transform: none;
   -webkit-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
+  font-size: 1.25em;
 }
 
-.tile:hover {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+.tile-colored:hover {
+  color: #26353f;
+  color: var(--darkest-grey);
+  border-color: #26353f;
+  border-color: var(--darkest-grey);
 }
 
 a.tile-colored,
 .tile-colored {
-  background-color: #0053b3;
-  background-color: var(--theme-background-color);
-  color: #fff;
-  color: var(--theme-light-text);
+  background-color: #fff;
+  background-color: var(--theme-background-white);
+  border: 1px solid #53657d;
+  border: 1px solid var(--darker-grey);
   text-decoration: none;
+  color: #53657d;
+  color: var(--darker-grey);
 }
 
 .tile h3 {

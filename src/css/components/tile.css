@@ -1,3 +1,7 @@
+.tiles .grid {
+  margin-top: 0;
+}
+
 .tile {
   display: flex;
   flex-direction: column;
@@ -6,19 +10,21 @@
   background-color: var(--theme-background-white);
   width: 100%;
   padding: var(--space-s);
-  transform: none;
   transition: all 0.1s ease-in;
+  font-size: 1.25em;
 }
 
-.tile:hover {
-  transform: scale(1.03);
+.tile-colored:hover {
+  color: var(--darkest-grey);
+  border-color: var(--darkest-grey);
 }
 
 a.tile-colored,
 .tile-colored {
-  background-color: var(--theme-background-color);
-  color: var(--theme-light-text);
+  background-color: var(--theme-background-white);
+  border: 1px solid var(--darker-grey);
   text-decoration: none;
+  color: var(--darker-grey);
 }
 
 .tile h3 {
