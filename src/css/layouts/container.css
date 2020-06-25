@@ -15,8 +15,12 @@
   text-align: center;
 }
 
+.container-titre-page h1:last-child {
+  margin-bottom: 0;
+}
+
 .container-titre-page {
-  padding-bottom: var(--space-xxs);
+  padding-bottom: var(--space-s);
 }
 
 .container-titre {

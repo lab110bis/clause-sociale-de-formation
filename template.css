@@ -2570,7 +2570,7 @@ h2 a::after {
 
 .offres {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 20px;
   text-align: center;
 }
@@ -2623,9 +2623,13 @@ h2 a::after {
   text-align: center;
 }
 
+.container-titre-page h1:last-child {
+  margin-bottom: 0;
+}
+
 .container-titre-page {
-  padding-bottom: 0.25em;
-  padding-bottom: var(--space-xxs);
+  padding-bottom: 1em;
+  padding-bottom: var(--space-s);
 }
 
 .container-titre {

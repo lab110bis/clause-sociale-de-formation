@@ -1,5 +1,5 @@
-- MLDS : qu'est-ce qu'on fait quand l'entreprise est réticente ?
-- On retire la question "l'entreprise peut-elle dépasser les engagments ?" de la FAQ acheteur
-- Url du site ?
-- MLDS: démarchage acheteur. Proposer de contacter un ambassadeur de Nouvelle Aquitaine ?
+- MLDS : qu'est-ce qu'on fait quand l'entreprise est réticente ? done
+- On retire la question "l'entreprise peut-elle dépasser les engagments ?" de la FAQ acheteur Non:
+- Url du site ? Oui
+- MLDS: démarchage acheteur. Proposer de contacter un ambassadeur de Nouvelle Aquitaine ? Oui
 - Sur quoi sont objectivé les MLDS ?
