@@ -803,6 +803,13 @@ p > a.button {
   margin: 0 0 0 10px;
 }
 
+a.button img,
+a.button-outline img {
+  height: 3em;
+  height: var(--space-xl);
+  margin-right: 20px;
+}
+
 @media (max-width: 399px) {
   a.button,
   button.button,
