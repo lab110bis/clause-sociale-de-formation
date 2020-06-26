@@ -1,7 +1,7 @@
 # CHANGELOG
 
 
-Au 23/06/2020, temps passé : 13,5 E + 22 P
+Au 23/06/2020, temps passé : 13,5 E + 22,5 P
 
 - Présente les informations sous des formes variées, qui correspondent à différents modes de communication :
   * Graphiques et texte ;
