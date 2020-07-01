@@ -42,6 +42,10 @@
   background: url(./images/arrow-right.svg);
 }
 
+.card-text a {
+  text-decoration: underline;
+}
+
 .card-text a::after {
   display: none;
 }
