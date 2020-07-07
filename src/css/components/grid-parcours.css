@@ -180,7 +180,7 @@
   border-left-color: var(--dark-orange);
 }
 
-.parcours-coordonateur .parcours-with-background {
+.parcours-coordonnateur .parcours-with-background {
   background-color: var(--dark-red);
 }
 
@@ -188,7 +188,7 @@
   color: var(--theme-dark-text);
 }
 
-.parcours-coordonateur .parcours-with-background::after {
+.parcours-coordonnateur .parcours-with-background::after {
   border-left-color: var(--dark-red);
 }
 
@@ -290,11 +290,11 @@
     background: linear-gradient(to left top, transparent 50%, var(--dark-orange) 50%);
   }
 
-  .parcours-coordonateur .parcours-with-background::before {
+  .parcours-coordonnateur .parcours-with-background::before {
     background: linear-gradient(to right top, transparent 50%, var(--dark-red) 50%);
   }
 
-  .parcours-coordonateur .parcours-with-background::after {
+  .parcours-coordonnateur .parcours-with-background::after {
     background: linear-gradient(to left top, transparent 50%, var(--dark-red) 50%);
   }
 
