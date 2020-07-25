@@ -2903,8 +2903,8 @@ span.navbar__domain {
 }
 
 .footer {
-  border-top: #1c1c1c 30px solid;
-  border-top: var(--theme-background-dark) 30px solid;
+  border-top: #1c1c1c 15px solid;
+  border-top: var(--theme-background-dark) 15px solid;
   color: #26353f;
   color: var(--theme-dark-text);
   padding: 2em 0;
