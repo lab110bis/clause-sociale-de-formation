@@ -1,7 +1,7 @@
 # Parcours Solidaire de Formation, une clause sociale de formation
 
 
-🚧 Un site vitrine en développement 🚧
+Site vitrine
 
 
 Le template CSS utilisé est template.data.gouv.fr
@@ -13,4 +13,4 @@ Le template CSS utilisé est template.data.gouv.fr
 
 ## Licence
 
-Cette application est publiée sous [licence MIT](LICENSE).
+Ce site est publiée sous [licence MIT](LICENSE).
