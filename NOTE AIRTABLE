@@ -1,0 +1,30 @@
+Petite note d'un stagiaire vis à vis de ce qu'il faut faire pour le airtable. 
+(idée que j'ai eu si besoin contactez moi par mail quentin.treheux@epitech.eu ou voilà mon github LuciferBahamut)
+
+Comme le airtable est un tableau automatique. Le mieux selon moi est de prendre une base de données.
+Ensuite il faudrait faire une requête POST et une requête GET.
+
+La requete POST va simplement ajouter a chaque fois une "ligne".
+Et la requete GET recupérera chaque "ligne".
+
+Une ligne serait un schéma par exemple on a besoin :
+- région
+- lieu de réalisation
+- domaine
+- durée
+- détails des tâches
+- autres remarques
+- date de fin de stage
+- (autres si besoin)
+
+Donc il faudrait faire un tableau en html (ou implémenter du node.js (react.js) ou refaire tout le site en node.js) et avec une boucle implémenter chaque ligne
+
+Dans la BDD il y aurait chaque catégorie et une donnée serait une ligne.
+
+Si besoin d'exmples regardez sur le projet Focus+ dans le dossier "server" puis "model" (pour les schémas) "db" pour la connection avec la BDD et "routes" pour les requetes.
+Sinon pour le tableau dynamique avec les requetes voir dans le dossier "src" puis "components" puis le fichier "Forum.js"
+
+Du coup pour ce boulot je conseillerait d'utiliser du node.js pour le back (IL N'Y A PAS DE BACKEND SUR CE PROJET) et d'utiliser MONGODB pour la base de données.
+Pour l'affichage vu que le site est réaliser en HTML il faudrait suivre, maintenant c'est a vous de décider.
+
+Bonne chance à vous.
